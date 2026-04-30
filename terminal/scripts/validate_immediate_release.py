@@ -47,10 +47,7 @@ def main() -> int:
     immediate_dir = args.immediate_dir.expanduser().resolve()
     rewrites_path = immediate_dir / "immediate_rewrites_267.jsonl"
     categories_path = immediate_dir / "category_definitions.json"
-    summary_path = immediate_dir / "immediate_rewrites_267.summary.json"
-    skipped_path = immediate_dir / "immediate_rewrites_267.skipped.jsonl"
-
-    for path in [rewrites_path, categories_path, summary_path, skipped_path]:
+    for path in [rewrites_path, categories_path]:
         if not path.is_file():
             raise RuntimeError(f"Missing required file: {path}")
 
@@ -63,7 +60,6 @@ def main() -> int:
     if set(categories) != EXPECTED_CATEGORIES:
         raise RuntimeError(f"Unexpected category definitions: {sorted(categories)}")
 
-    skipped_count = sum(1 for line in skipped_path.read_text(encoding="utf-8").splitlines() if line.strip())
     counts = Counter(str(row["instruction_level_category"]) for row in rows)
     print(
         json.dumps(
@@ -71,7 +67,6 @@ def main() -> int:
                 "immediate_dir": str(immediate_dir),
                 "row_count": len(rows),
                 "category_counts": dict(sorted(counts.items())),
-                "skipped_count": skipped_count,
                 "status": "ok",
             },
             ensure_ascii=False,
