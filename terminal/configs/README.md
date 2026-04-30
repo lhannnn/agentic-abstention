@@ -1,17 +1,16 @@
-# Harbor Config Templates
+# Harbor Configs
 
-These configs are templates for reproducing the terminal-environment experiments. They do not contain credentials.
+Templates for TerminalBench abstention runs.
 
-Path assumptions:
+Default benchmark root:
 
-- remote benchmark root: `/workspace/terminalbench`
-- delayed dataset root: `/workspace/terminalbench/datasets/terminalbench_delayed_abstention_10`
-- immediate dataset root: `/workspace/terminalbench/datasets/terminalbench_instruction_level_abstention_267`
+```text
+/workspace/terminalbench
+```
 
-If your root differs, update `jobs_dir` and `datasets[0].path` before launching.
+Update `jobs_dir` and `datasets[0].path` if your root differs.
 
-Provider assumptions:
-
-- direct OpenAI configs use an env file containing `OPENAI_API_KEY`
-- OpenRouter configs use `OPENROUTER_API_KEY` and `api_base=https://openrouter.ai/api/v1`
-- Gemini CLI configs use Vertex ADC, not Gemini API keys
+Provider env files:
+- `.env.openai`: `OPENAI_API_KEY`
+- `.env.openrouter`: `OPENROUTER_API_KEY`
+- `.env.gemini_vertex`: Vertex ADC variables
