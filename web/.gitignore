@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local env / secrets
+.env
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# External raw assets
+external/
+
+# Generated evaluation outputs
+results/
+logs/
+outputs/
+tmp/
+data/webshop/*.png
+data/webshop/*.pdf
+data/webshop/*.tex
+data/webshop/*.md
+!data/webshop/README.md
+!data/webshop/eval_metrics_1000.md
+data/webshop/benchmark_complete_results/
+data/webshop/figures/
+data/webshop/split_metric_figures/
+data/webshop/split_metric_figures_paper8_bright/
+data/webshop/.mplconfig/
+
+# Generated pruned environment payloads
+data/webshop/pruned_missing_target_251/*
+!data/webshop/pruned_missing_target_251/
+!data/webshop/pruned_missing_target_251/removed_target_asins_251.json
+
+# Shard outputs
+data/webshop/shards/
+data/webshop/together_*/
+
+# Misc local artifacts
+.cache/
+download/*.log

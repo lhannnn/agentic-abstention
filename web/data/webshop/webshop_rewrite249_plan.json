@@ -1,0 +1,5047 @@
+{
+  "assignments": [
+    {
+      "asin": "B07FYPSNH8",
+      "base_goal_index": 0,
+      "category": "subjective",
+      "dataset_index": 500,
+      "env_variant": "full",
+      "goal_index": 0,
+      "instruction": "i am looking for a gluten free, 100% vegan plant based protein shake that is soy-free.",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07FYPSNH8:0",
+      "source_rank": 0,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07FYPSNH8"
+    },
+    {
+      "asin": "B09R4RJSFP",
+      "base_goal_index": 1,
+      "category": "subjective",
+      "dataset_index": 501,
+      "env_variant": "full",
+      "goal_index": 1,
+      "instruction": "i need a 120 ml hair mask treatment",
+      "instruction_attributes": [
+        "hair treatment"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "120ml"
+      ],
+      "source_id": "B09R4RJSFP:0",
+      "source_rank": 1,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09R4RJSFP"
+    },
+    {
+      "asin": "B099231V35",
+      "base_goal_index": 2,
+      "category": "subjective",
+      "dataset_index": 502,
+      "env_variant": "full",
+      "goal_index": 2,
+      "instruction": "hello, i'm looking for a pair of cargo pants for everyday casual wear? but also hiking-friendly. also, i want an orange pair please",
+      "instruction_attributes": [
+        "relaxed fit",
+        "everyday wear"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "orange"
+      ],
+      "source_id": "B099231V35:0",
+      "source_rank": 2,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B099231V35"
+    },
+    {
+      "asin": "B09PY89B1S",
+      "base_goal_index": 3,
+      "category": "subjective",
+      "dataset_index": 503,
+      "env_variant": "full",
+      "goal_index": 3,
+      "instruction": "show me an one organic hair growth serum roller set for all hair types.",
+      "instruction_attributes": [
+        "hair growth"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "1pcs"
+      ],
+      "source_id": "B09PY89B1S:0",
+      "source_rank": 3,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PY89B1S"
+    },
+    {
+      "asin": "B08G14B779",
+      "base_goal_index": 4,
+      "category": "subjective",
+      "dataset_index": 504,
+      "env_variant": "full",
+      "goal_index": 4,
+      "instruction": "i want a pink niuta 2 pack hair towel wrap for dry hair.",
+      "instruction_attributes": [
+        "dry hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B08G14B779:0",
+      "source_rank": 4,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08G14B779"
+    },
+    {
+      "asin": "B07S7HDC88",
+      "base_goal_index": 5,
+      "category": "subjective",
+      "dataset_index": 505,
+      "env_variant": "full",
+      "goal_index": 5,
+      "instruction": "i am looking for a pair of men's size 10.5 black loafers with rubber soles.",
+      "instruction_attributes": [
+        "rubber sole"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black1901",
+        "10.5"
+      ],
+      "source_id": "B07S7HDC88:0",
+      "source_rank": 5,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07S7HDC88"
+    },
+    {
+      "asin": "B09NTCCVGX",
+      "base_goal_index": 6,
+      "category": "subjective",
+      "dataset_index": 506,
+      "env_variant": "full",
+      "goal_index": 6,
+      "instruction": "i want to buy a folding storage box ottoman which i can easily install and has faux leather, the size of it should be 60x40x40cm.",
+      "instruction_attributes": [
+        "easy install",
+        "faux leather"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "60x40x40cm"
+      ],
+      "source_id": "B09NTCCVGX:0",
+      "source_rank": 6,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09NTCCVGX"
+    },
+    {
+      "asin": "B09HX5CD2D",
+      "base_goal_index": 7,
+      "category": "subjective",
+      "dataset_index": 507,
+      "env_variant": "full",
+      "goal_index": 7,
+      "instruction": "i need some draw string shorts that are official cleveland university. the need to be small and charcoal along with being machine washable.",
+      "instruction_attributes": [
+        "officially licensed",
+        "machine wash",
+        "drawstring closure"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "heather charcoal",
+        "small"
+      ],
+      "source_id": "B09HX5CD2D:0",
+      "source_rank": 7,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09HX5CD2D"
+    },
+    {
+      "asin": "B09KP78G37",
+      "base_goal_index": 8,
+      "category": "subjective",
+      "dataset_index": 508,
+      "env_variant": "full",
+      "goal_index": 8,
+      "instruction": "i am looking for x-large, red color women faux fur lined winter warm jacket coat",
+      "instruction_attributes": [
+        "winter warm"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "red",
+        "x-large"
+      ],
+      "source_id": "B09KP78G37:0",
+      "source_rank": 8,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09KP78G37"
+    },
+    {
+      "asin": "B003I567W4",
+      "base_goal_index": 9,
+      "category": "subjective",
+      "dataset_index": 509,
+      "env_variant": "full",
+      "goal_index": 9,
+      "instruction": "place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pecan"
+      ],
+      "source_id": "B003I567W4:0",
+      "source_rank": 9,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B003I567W4"
+    },
+    {
+      "asin": "B087Y28XLM",
+      "base_goal_index": 10,
+      "category": "subjective",
+      "dataset_index": 510,
+      "env_variant": "full",
+      "goal_index": 10,
+      "instruction": "i am looking fresh scent body lotion for dry skin.",
+      "instruction_attributes": [
+        "dry skin"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "fresh"
+      ],
+      "source_id": "B087Y28XLM:0",
+      "source_rank": 10,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B087Y28XLM"
+    },
+    {
+      "asin": "B09MW563KN",
+      "base_goal_index": 11,
+      "category": "subjective",
+      "dataset_index": 511,
+      "env_variant": "full",
+      "goal_index": 11,
+      "instruction": "i am looking for blue color toothbrushes that helps to maintain my oral hygiene.",
+      "instruction_attributes": [
+        "oral hygiene"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "blue"
+      ],
+      "source_id": "B09MW563KN:0",
+      "source_rank": 11,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09MW563KN"
+    },
+    {
+      "asin": "B005X7IXTK",
+      "base_goal_index": 12,
+      "category": "subjective",
+      "dataset_index": 512,
+      "env_variant": "full",
+      "goal_index": 12,
+      "instruction": "i need cruelty free deodorant that has a woody scent and is 1.6 oz.",
+      "instruction_attributes": [
+        "cruelty free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "woody scent",
+        "1.6 ounce (pack of 1)"
+      ],
+      "source_id": "B005X7IXTK:0",
+      "source_rank": 12,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B005X7IXTK"
+    },
+    {
+      "asin": "B08CXD2VHG",
+      "base_goal_index": 13,
+      "category": "subjective",
+      "dataset_index": 513,
+      "env_variant": "full",
+      "goal_index": 13,
+      "instruction": "i need a clip set hair extensions with stainless steel.",
+      "instruction_attributes": [
+        "stainless steel"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "clip set"
+      ],
+      "source_id": "B08CXD2VHG:0",
+      "source_rank": 13,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08CXD2VHG"
+    },
+    {
+      "asin": "B003DNL9XI",
+      "base_goal_index": 14,
+      "category": "subjective",
+      "dataset_index": 514,
+      "env_variant": "full",
+      "goal_index": 14,
+      "instruction": "i am looking for a caffeine free raspberry ice flavored drink mix.",
+      "instruction_attributes": [
+        "caffeine free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "raspberry ice"
+      ],
+      "source_id": "B003DNL9XI:0",
+      "source_rank": 14,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B003DNL9XI"
+    },
+    {
+      "asin": "B003DNL9XI",
+      "base_goal_index": 15,
+      "category": "subjective",
+      "dataset_index": 515,
+      "env_variant": "full",
+      "goal_index": 15,
+      "instruction": "i am looking for a caffeine free raspberry ice flavored drink mix.",
+      "instruction_attributes": [
+        "caffeine free"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "raspberry ice"
+      ],
+      "source_id": "B003DNL9XI:1",
+      "source_rank": 15,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B003DNL9XI"
+    },
+    {
+      "asin": "B07QBY4387",
+      "base_goal_index": 16,
+      "category": "subjective",
+      "dataset_index": 516,
+      "env_variant": "full",
+      "goal_index": 16,
+      "instruction": "i am looking for a 6 foot by 4 foot underwater photography backdrop.",
+      "instruction_attributes": [
+        "light weight"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "6x4ft"
+      ],
+      "source_id": "B07QBY4387:0",
+      "source_rank": 16,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07QBY4387"
+    },
+    {
+      "asin": "B075DL8NTG",
+      "base_goal_index": 17,
+      "category": "subjective",
+      "dataset_index": 517,
+      "env_variant": "full",
+      "goal_index": 17,
+      "instruction": "i would like a pair of small blue shorts made of nylon spandex.",
+      "instruction_attributes": [
+        "nylon spandex"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "blue",
+        "small"
+      ],
+      "source_id": "B075DL8NTG:0",
+      "source_rank": 17,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B075DL8NTG"
+    },
+    {
+      "asin": "B07QFL1S9C",
+      "base_goal_index": 18,
+      "category": "subjective",
+      "dataset_index": 518,
+      "env_variant": "full",
+      "goal_index": 18,
+      "instruction": "i need a high quality perfume atomizer bottle that is easy to carry and has 1 color.",
+      "instruction_attributes": [
+        "easy carry",
+        "high quality"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "1"
+      ],
+      "source_id": "B07QFL1S9C:0",
+      "source_rank": 18,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07QFL1S9C"
+    },
+    {
+      "asin": "B07MPTK3GY",
+      "base_goal_index": 19,
+      "category": "subjective",
+      "dataset_index": 519,
+      "env_variant": "full",
+      "goal_index": 19,
+      "instruction": "i'm looking for the pendant lights for ceiling lights for living room.",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "antique"
+      ],
+      "source_id": "B07MPTK3GY:0",
+      "source_rank": 19,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07MPTK3GY"
+    },
+    {
+      "asin": "B01H7ENCMO",
+      "base_goal_index": 20,
+      "category": "subjective",
+      "dataset_index": 520,
+      "env_variant": "full",
+      "goal_index": 20,
+      "instruction": "i am looking for standard sized levi strauss & co. men's carpenter jeans that are machine washable.",
+      "instruction_attributes": [
+        "machine wash"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "standard"
+      ],
+      "source_id": "B01H7ENCMO:0",
+      "source_rank": 20,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01H7ENCMO"
+    },
+    {
+      "asin": "B081SGNY71",
+      "base_goal_index": 21,
+      "category": "subjective",
+      "dataset_index": 521,
+      "env_variant": "full",
+      "goal_index": 21,
+      "instruction": "i  need fluoide free toothpaste for fresh breath.",
+      "instruction_attributes": [
+        "fluoride free",
+        "fresh breath"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B081SGNY71:0",
+      "source_rank": 21,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B081SGNY71"
+    },
+    {
+      "asin": "B096M1D621",
+      "base_goal_index": 22,
+      "category": "subjective",
+      "dataset_index": 522,
+      "env_variant": "full",
+      "goal_index": 22,
+      "instruction": "i want to buy a gray a gray color daybed in twin size with a wooden frame.",
+      "instruction_attributes": [
+        "twin size",
+        "wood frame"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey"
+      ],
+      "source_id": "B096M1D621:0",
+      "source_rank": 22,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B096M1D621"
+    },
+    {
+      "asin": "B07YB4LXM7",
+      "base_goal_index": 23,
+      "category": "subjective",
+      "dataset_index": 523,
+      "env_variant": "full",
+      "goal_index": 23,
+      "instruction": "i am looking for contemporary design privacy protected panel for living room, its size should be 52\" wide by 90\" length",
+      "instruction_attributes": [
+        "contemporary design",
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "52\" w by 90\" l"
+      ],
+      "source_id": "B07YB4LXM7:0",
+      "source_rank": 23,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07YB4LXM7"
+    },
+    {
+      "asin": "B000QSPX58",
+      "base_goal_index": 24,
+      "category": "subjective",
+      "dataset_index": 524,
+      "env_variant": "full",
+      "goal_index": 24,
+      "instruction": "find me a jar of baby food that is certified organic. it should also be non gmo.",
+      "instruction_attributes": [
+        "certified organic",
+        "non gmo"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B000QSPX58:0",
+      "source_rank": 24,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B000QSPX58"
+    },
+    {
+      "asin": "B077S9R9KT",
+      "base_goal_index": 25,
+      "category": "subjective",
+      "dataset_index": 525,
+      "env_variant": "full",
+      "goal_index": 25,
+      "instruction": "i need a variety pack of gmo-free, low carb dessert syrups.",
+      "instruction_attributes": [
+        "sugar free",
+        "gmo free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "variety"
+      ],
+      "source_id": "B077S9R9KT:0",
+      "source_rank": 25,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B077S9R9KT"
+    },
+    {
+      "asin": "B08GBZB5X8",
+      "base_goal_index": 26,
+      "category": "subjective",
+      "dataset_index": 526,
+      "env_variant": "full",
+      "goal_index": 26,
+      "instruction": "i want help getting an open toe, non-slip sandal.  get the ones in blue in women's size 6.",
+      "instruction_attributes": [
+        "open toe",
+        "non slip"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "z1_blue",
+        "6"
+      ],
+      "source_id": "B08GBZB5X8:0",
+      "source_rank": 26,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08GBZB5X8"
+    },
+    {
+      "asin": "B093F94SZK",
+      "base_goal_index": 27,
+      "category": "subjective",
+      "dataset_index": 527,
+      "env_variant": "full",
+      "goal_index": 27,
+      "instruction": "i want a heavy duty fine wood bookcase for living room color white",
+      "instruction_attributes": [
+        "heavy duty",
+        "storage unit",
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white"
+      ],
+      "source_id": "B093F94SZK:0",
+      "source_rank": 27,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B093F94SZK"
+    },
+    {
+      "asin": "B09927SY88",
+      "base_goal_index": 28,
+      "category": "subjective",
+      "dataset_index": 528,
+      "env_variant": "full",
+      "goal_index": 28,
+      "instruction": "i would like a grey 35\"x20\"x29\" home desk that's easy to clean.",
+      "instruction_attributes": [
+        "easy clean"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "35.4\"x19.7\"x29.1\""
+      ],
+      "source_id": "B09927SY88:0",
+      "source_rank": 28,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09927SY88"
+    },
+    {
+      "asin": "B09PD9N2R2",
+      "base_goal_index": 29,
+      "category": "subjective",
+      "dataset_index": 529,
+      "env_variant": "full",
+      "goal_index": 29,
+      "instruction": "i'm looking for a body brush to remove dead skin",
+      "instruction_attributes": [
+        "dead skin"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09PD9N2R2:0",
+      "source_rank": 29,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PD9N2R2"
+    },
+    {
+      "asin": "B00KXDW4EE",
+      "base_goal_index": 30,
+      "category": "subjective",
+      "dataset_index": 530,
+      "env_variant": "full",
+      "goal_index": 30,
+      "instruction": "i need a 35-quart top mount pullout kitchen waste trash container easy install bin for 1.63 inch  wood frame cabinet",
+      "instruction_attributes": [
+        "easy install",
+        "wood frame"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B00KXDW4EE:0",
+      "source_rank": 30,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B00KXDW4EE"
+    },
+    {
+      "asin": "B08R1MJL3H",
+      "base_goal_index": 31,
+      "category": "subjective",
+      "dataset_index": 531,
+      "env_variant": "full",
+      "goal_index": 31,
+      "instruction": "i am looking for a soy wax candle that is white sage and 14 oz.",
+      "instruction_attributes": [
+        "soy wax"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white sage",
+        "14.1 oz-1 pack"
+      ],
+      "source_id": "B08R1MJL3H:0",
+      "source_rank": 31,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08R1MJL3H"
+    },
+    {
+      "asin": "B0009XQPHU",
+      "base_goal_index": 32,
+      "category": "subjective",
+      "dataset_index": 532,
+      "env_variant": "full",
+      "goal_index": 32,
+      "instruction": "please show me a digital camera. my favorite brand is casio, my husnband  told me about model exilim ex-z120 7. is there a batteries included too ? isn't it",
+      "instruction_attributes": [
+        "batteries included",
+        "optical zoom"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0009XQPHU:0",
+      "source_rank": 32,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0009XQPHU"
+    },
+    {
+      "asin": "B08Z8LYMMX",
+      "base_goal_index": 33,
+      "category": "subjective",
+      "dataset_index": 533,
+      "env_variant": "full",
+      "goal_index": 33,
+      "instruction": "i would like a mauve travel size cosmetic bag.",
+      "instruction_attributes": [
+        "travel size"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "mauve"
+      ],
+      "source_id": "B08Z8LYMMX:0",
+      "source_rank": 33,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08Z8LYMMX"
+    },
+    {
+      "asin": "B078N9319K",
+      "base_goal_index": 34,
+      "category": "subjective",
+      "dataset_index": 534,
+      "env_variant": "full",
+      "goal_index": 34,
+      "instruction": "i need to buy a full sized mattress and box spring set. it should come fully assembled. look for style 225zf-4.",
+      "instruction_attributes": [
+        "fully assembled"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "full xl",
+        "225zf-4 | 6xl-2s"
+      ],
+      "source_id": "B078N9319K:0",
+      "source_rank": 34,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B078N9319K"
+    },
+    {
+      "asin": "B09QHR7BZ6",
+      "base_goal_index": 35,
+      "category": "subjective",
+      "dataset_index": 535,
+      "env_variant": "full",
+      "goal_index": 35,
+      "instruction": "i'm looking for a pair of open toe women's sandals with a leather sole.  i want the green ones in size six.",
+      "instruction_attributes": [
+        "open toe",
+        "leather sole"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "green-26#",
+        "6"
+      ],
+      "source_id": "B09QHR7BZ6:0",
+      "source_rank": 35,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09QHR7BZ6"
+    },
+    {
+      "asin": "B000RNNI0O",
+      "base_goal_index": 36,
+      "category": "subjective",
+      "dataset_index": 536,
+      "env_variant": "full",
+      "goal_index": 36,
+      "instruction": "i am interested in a long lasting perfume.",
+      "instruction_attributes": [
+        "long lasting"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B000RNNI0O:0",
+      "source_rank": 36,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B000RNNI0O"
+    },
+    {
+      "asin": "B08SJLZD59",
+      "base_goal_index": 37,
+      "category": "subjective",
+      "dataset_index": 537,
+      "env_variant": "full",
+      "goal_index": 37,
+      "instruction": "i'm looking for a white case for iphone 12 with american flag printed and wireless charging",
+      "instruction_attributes": [
+        "wireless charging"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white"
+      ],
+      "source_id": "B08SJLZD59:0",
+      "source_rank": 37,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08SJLZD59"
+    },
+    {
+      "asin": "B0742C39SB",
+      "base_goal_index": 38,
+      "category": "subjective",
+      "dataset_index": 538,
+      "env_variant": "full",
+      "goal_index": 38,
+      "instruction": "i am looking for some gray living room pillows.",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "gray"
+      ],
+      "source_id": "B0742C39SB:0",
+      "source_rank": 38,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0742C39SB"
+    },
+    {
+      "asin": "B08XJ2PT2C",
+      "base_goal_index": 39,
+      "category": "subjective",
+      "dataset_index": 539,
+      "env_variant": "full",
+      "goal_index": 39,
+      "instruction": "i'm looking for a skull king barber cape with hook sucker.",
+      "instruction_attributes": [
+        "hair cutting"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "starry sky 5"
+      ],
+      "source_id": "B08XJ2PT2C:0",
+      "source_rank": 39,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08XJ2PT2C"
+    },
+    {
+      "asin": "B08G1B3LFJ",
+      "base_goal_index": 40,
+      "category": "subjective",
+      "dataset_index": 540,
+      "env_variant": "full",
+      "goal_index": 40,
+      "instruction": "i'm looking for a flats made of ethylene vinyl. choose the ones in tan color and size 9.5 narrow.",
+      "instruction_attributes": [
+        "ethylene vinyl"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "tan leather metallic synthetic",
+        "9.5 narrow"
+      ],
+      "source_id": "B08G1B3LFJ:0",
+      "source_rank": 40,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08G1B3LFJ"
+    },
+    {
+      "asin": "B09HC7FPDC",
+      "base_goal_index": 41,
+      "category": "subjective",
+      "dataset_index": 541,
+      "env_variant": "full",
+      "goal_index": 41,
+      "instruction": "i am looking for winter warm ankle boots for women. my size is 7.5.",
+      "instruction_attributes": [
+        "winter warm"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "7.5"
+      ],
+      "source_id": "B09HC7FPDC:0",
+      "source_rank": 41,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09HC7FPDC"
+    },
+    {
+      "asin": "B077YSK7SK",
+      "base_goal_index": 42,
+      "category": "subjective",
+      "dataset_index": 542,
+      "env_variant": "full",
+      "goal_index": 42,
+      "instruction": "i am looking for a white item barstools",
+      "instruction_attributes": [
+        "white item"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B077YSK7SK:0",
+      "source_rank": 42,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B077YSK7SK"
+    },
+    {
+      "asin": "B099RPD1Y9",
+      "base_goal_index": 43,
+      "category": "subjective",
+      "dataset_index": 543,
+      "env_variant": "full",
+      "goal_index": 43,
+      "instruction": "i would like a pink body scrub for dry skin.",
+      "instruction_attributes": [
+        "dry skin"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B099RPD1Y9:0",
+      "source_rank": 43,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B099RPD1Y9"
+    },
+    {
+      "asin": "B099RPD1Y9",
+      "base_goal_index": 44,
+      "category": "subjective",
+      "dataset_index": 544,
+      "env_variant": "full",
+      "goal_index": 44,
+      "instruction": "i'm looking for a body scrub for dead and dry skin. also choose black colored one.",
+      "instruction_attributes": [
+        "dead skin",
+        "dry skin"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "black"
+      ],
+      "source_id": "B099RPD1Y9:1",
+      "source_rank": 44,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B099RPD1Y9"
+    },
+    {
+      "asin": "B06XR97NGM",
+      "base_goal_index": 45,
+      "category": "subjective",
+      "dataset_index": 545,
+      "env_variant": "full",
+      "goal_index": 45,
+      "instruction": "i would like a six drawer natural walnut dresser with bronze finishes.",
+      "instruction_attributes": [
+        "bronze finish"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "adler - natural walnut",
+        "6-drawer"
+      ],
+      "source_id": "B06XR97NGM:0",
+      "source_rank": 45,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B06XR97NGM"
+    },
+    {
+      "asin": "B06XR97NGM",
+      "base_goal_index": 46,
+      "category": "subjective",
+      "dataset_index": 546,
+      "env_variant": "full",
+      "goal_index": 46,
+      "instruction": "i am looking for a 9 drawer dresser with a bronze finish.",
+      "instruction_attributes": [
+        "bronze finish"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "9-drawer"
+      ],
+      "source_id": "B06XR97NGM:1",
+      "source_rank": 46,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B06XR97NGM"
+    },
+    {
+      "asin": "B09QCTSSMN",
+      "base_goal_index": 47,
+      "category": "subjective",
+      "dataset_index": 547,
+      "env_variant": "full",
+      "goal_index": 47,
+      "instruction": "i'm looking for a men's red button down casual shirt that is a large slim fit.",
+      "instruction_attributes": [
+        "slim fit"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "red",
+        "large"
+      ],
+      "source_id": "B09QCTSSMN:0",
+      "source_rank": 47,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09QCTSSMN"
+    },
+    {
+      "asin": "B08KGN21R3",
+      "base_goal_index": 48,
+      "category": "subjective",
+      "dataset_index": 548,
+      "env_variant": "full",
+      "goal_index": 48,
+      "instruction": "i want to find a teeth whitening device kit for sensitive teeth.",
+      "instruction_attributes": [
+        "teeth whitening",
+        "sensitive teeth"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08KGN21R3:0",
+      "source_rank": 48,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08KGN21R3"
+    },
+    {
+      "asin": "B01A99GE8I",
+      "base_goal_index": 49,
+      "category": "subjective",
+      "dataset_index": 549,
+      "env_variant": "full",
+      "goal_index": 49,
+      "instruction": "i am looking for kosher certified irish fortune cookies with pattern name :halloween",
+      "instruction_attributes": [
+        "kosher certified"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "halloween"
+      ],
+      "source_id": "B01A99GE8I:0",
+      "source_rank": 49,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01A99GE8I"
+    },
+    {
+      "asin": "B09PJ72WM1",
+      "base_goal_index": 50,
+      "category": "subjective",
+      "dataset_index": 550,
+      "env_variant": "full",
+      "goal_index": 50,
+      "instruction": "i need white womens high waist bell-bottomed pants in size x-large.",
+      "instruction_attributes": [
+        "high waist"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white",
+        "x-large"
+      ],
+      "source_id": "B09PJ72WM1:0",
+      "source_rank": 50,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PJ72WM1"
+    },
+    {
+      "asin": "B07GGXP2FC",
+      "base_goal_index": 51,
+      "category": "subjective",
+      "dataset_index": 551,
+      "env_variant": "full",
+      "goal_index": 51,
+      "instruction": "i want to find a 34x72 inch round table protector that is 2 millimeters thick. it needs to be made of stainless steel.",
+      "instruction_attributes": [
+        "stainless steel"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "round new clear 2mm",
+        "34 x 72 inches"
+      ],
+      "source_id": "B07GGXP2FC:0",
+      "source_rank": 51,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07GGXP2FC"
+    },
+    {
+      "asin": "B07GGXP2FC",
+      "base_goal_index": 52,
+      "category": "subjective",
+      "dataset_index": 552,
+      "env_variant": "full",
+      "goal_index": 52,
+      "instruction": "i'm looking for heavy duty table pads made of stainless steel which is easy to clean. also, choose new version clear 1.5 mm pads with size 39.4* 94.5 inches.",
+      "instruction_attributes": [
+        "heavy duty",
+        "easy clean",
+        "stainless steel"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "new version clear 1.5mm",
+        "39.4 x 94.5 inches"
+      ],
+      "source_id": "B07GGXP2FC:1",
+      "source_rank": 52,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07GGXP2FC"
+    },
+    {
+      "asin": "B08GYF3H6N",
+      "base_goal_index": 53,
+      "category": "subjective",
+      "dataset_index": 553,
+      "env_variant": "full",
+      "goal_index": 53,
+      "instruction": "i need an old fashioned rope sausage without gluten.",
+      "instruction_attributes": [
+        "old fashioned",
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "old world style"
+      ],
+      "source_id": "B08GYF3H6N:0",
+      "source_rank": 53,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08GYF3H6N"
+    },
+    {
+      "asin": "B08GYF3H6N",
+      "base_goal_index": 54,
+      "category": "subjective",
+      "dataset_index": 554,
+      "env_variant": "full",
+      "goal_index": 54,
+      "instruction": "i want keto friendly old world kielbasa rope sausage.",
+      "instruction_attributes": [
+        "keto friendly"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "old world style"
+      ],
+      "source_id": "B08GYF3H6N:1",
+      "source_rank": 54,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08GYF3H6N"
+    },
+    {
+      "asin": "B08Q7RNY1W",
+      "base_goal_index": 55,
+      "category": "subjective",
+      "dataset_index": 555,
+      "env_variant": "full",
+      "goal_index": 55,
+      "instruction": "i need a long lasting organic deodorant.",
+      "instruction_attributes": [
+        "long lasting"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08Q7RNY1W:0",
+      "source_rank": 55,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08Q7RNY1W"
+    },
+    {
+      "asin": "B07RT28DLG",
+      "base_goal_index": 56,
+      "category": "subjective",
+      "dataset_index": 556,
+      "env_variant": "full",
+      "goal_index": 56,
+      "instruction": "i want a super soft jay franco disney minnie mouse twin bed set.",
+      "instruction_attributes": [
+        "super soft"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "twin"
+      ],
+      "source_id": "B07RT28DLG:0",
+      "source_rank": 56,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07RT28DLG"
+    },
+    {
+      "asin": "B01FWM4A2O",
+      "base_goal_index": 57,
+      "category": "subjective",
+      "dataset_index": 557,
+      "env_variant": "full",
+      "goal_index": 57,
+      "instruction": "i would ike a cd player that comes with aaa batteries and is in the model pm6006",
+      "instruction_attributes": [
+        "aaa batteries"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pm6006"
+      ],
+      "source_id": "B01FWM4A2O:0",
+      "source_rank": 57,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01FWM4A2O"
+    },
+    {
+      "asin": "B08G8DY2LH",
+      "base_goal_index": 58,
+      "category": "subjective",
+      "dataset_index": 558,
+      "env_variant": "full",
+      "goal_index": 58,
+      "instruction": "i want a qivynsry filter carrying case.",
+      "instruction_attributes": [
+        "carrying case"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08G8DY2LH:0",
+      "source_rank": 58,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08G8DY2LH"
+    },
+    {
+      "asin": "B01CU5Y0PS",
+      "base_goal_index": 59,
+      "category": "subjective",
+      "dataset_index": 559,
+      "env_variant": "full",
+      "goal_index": 59,
+      "instruction": "i'd like to buy some cotton candy for a baby shower.",
+      "instruction_attributes": [
+        "baby shower"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B01CU5Y0PS:0",
+      "source_rank": 59,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01CU5Y0PS"
+    },
+    {
+      "asin": "B09MCXBFW1",
+      "base_goal_index": 60,
+      "category": "subjective",
+      "dataset_index": 560,
+      "env_variant": "full",
+      "goal_index": 60,
+      "instruction": "i am looking for a multi-colored blackout window film for my living room.",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "multi-13124"
+      ],
+      "source_id": "B09MCXBFW1:0",
+      "source_rank": 60,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09MCXBFW1"
+    },
+    {
+      "asin": "B07V6D1G16",
+      "base_goal_index": 61,
+      "category": "subjective",
+      "dataset_index": 561,
+      "env_variant": "full",
+      "goal_index": 61,
+      "instruction": "i am looking for a women's wine red prom dress with a lace closure.",
+      "instruction_attributes": [
+        "lace closure"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "wine red"
+      ],
+      "source_id": "B07V6D1G16:0",
+      "source_rank": 61,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07V6D1G16"
+    },
+    {
+      "asin": "B09K8D4JRX",
+      "base_goal_index": 62,
+      "category": "subjective",
+      "dataset_index": 562,
+      "env_variant": "full",
+      "goal_index": 62,
+      "instruction": "i am looking  a  hyaluronic acid deep conditioner for hair treatment of dry har to improve smoothness",
+      "instruction_attributes": [
+        "hyaluronic acid",
+        "hair treatment",
+        "dry hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09K8D4JRX:0",
+      "source_rank": 62,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09K8D4JRX"
+    },
+    {
+      "asin": "B08R3FV6P8",
+      "base_goal_index": 63,
+      "category": "subjective",
+      "dataset_index": 563,
+      "env_variant": "full",
+      "goal_index": 63,
+      "instruction": "i need a floral window curtain for my living room . and i choose the 52x72in with skulllop3455",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "skulllop3455",
+        "52x72in"
+      ],
+      "source_id": "B08R3FV6P8:0",
+      "source_rank": 63,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08R3FV6P8"
+    },
+    {
+      "asin": "B08R3FV6P8",
+      "base_goal_index": 64,
+      "category": "subjective",
+      "dataset_index": 564,
+      "env_variant": "full",
+      "goal_index": 64,
+      "instruction": "i want to find a 52 x 84 inch set of living room curtains that are snowman colored.",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "snowmangirl1lop5222",
+        "52x84in"
+      ],
+      "source_id": "B08R3FV6P8:1",
+      "source_rank": 64,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08R3FV6P8"
+    },
+    {
+      "asin": "B073WGFRM1",
+      "base_goal_index": 65,
+      "category": "subjective",
+      "dataset_index": 565,
+      "env_variant": "full",
+      "goal_index": 65,
+      "instruction": "i need a concealer for dark circles that is in the color sassy",
+      "instruction_attributes": [
+        "dark circles"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "sassy"
+      ],
+      "source_id": "B073WGFRM1:0",
+      "source_rank": 65,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B073WGFRM1"
+    },
+    {
+      "asin": "B0746SNMQD",
+      "base_goal_index": 66,
+      "category": "subjective",
+      "dataset_index": 566,
+      "env_variant": "full",
+      "goal_index": 66,
+      "instruction": "i want unscented sunscreen lotion for dry skin.",
+      "instruction_attributes": [
+        "dry skin"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "unscented sunscreen"
+      ],
+      "source_id": "B0746SNMQD:0",
+      "source_rank": 66,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0746SNMQD"
+    },
+    {
+      "asin": "B07KP16BSQ",
+      "base_goal_index": 67,
+      "category": "subjective",
+      "dataset_index": 567,
+      "env_variant": "full",
+      "goal_index": 67,
+      "instruction": "i need a certified refurbished hp laser printer.",
+      "instruction_attributes": [
+        "certified refurbished"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07KP16BSQ:0",
+      "source_rank": 67,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07KP16BSQ"
+    },
+    {
+      "asin": "B08DTJCR5M",
+      "base_goal_index": 68,
+      "category": "subjective",
+      "dataset_index": 568,
+      "env_variant": "full",
+      "goal_index": 68,
+      "instruction": "i need a bag of non-toxic refillable lip gloss tubes.",
+      "instruction_attributes": [
+        "non toxic"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08DTJCR5M:0",
+      "source_rank": 68,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08DTJCR5M"
+    },
+    {
+      "asin": "B09GPJVQNT",
+      "base_goal_index": 69,
+      "category": "subjective",
+      "dataset_index": 569,
+      "env_variant": "full",
+      "goal_index": 69,
+      "instruction": "i need a relaxed fit daily wear gym pants for daily wear. pick an xx-large one.",
+      "instruction_attributes": [
+        "relaxed fit",
+        "daily wear"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "xx-large"
+      ],
+      "source_id": "B09GPJVQNT:0",
+      "source_rank": 69,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09GPJVQNT"
+    },
+    {
+      "asin": "B00THW4ZB2",
+      "base_goal_index": 70,
+      "category": "subjective",
+      "dataset_index": 570,
+      "env_variant": "full",
+      "goal_index": 70,
+      "instruction": "i need a machine wash, red tooloud italian flag the medium size",
+      "instruction_attributes": [
+        "machine wash"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "red",
+        "medium"
+      ],
+      "source_id": "B00THW4ZB2:0",
+      "source_rank": 70,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B00THW4ZB2"
+    },
+    {
+      "asin": "B09FDW71SF",
+      "base_goal_index": 71,
+      "category": "subjective",
+      "dataset_index": 571,
+      "env_variant": "full",
+      "goal_index": 71,
+      "instruction": "i am looking for a black  knee high mid-calf",
+      "instruction_attributes": [
+        "knee high"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09FDW71SF:0",
+      "source_rank": 71,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09FDW71SF"
+    },
+    {
+      "asin": "B09JBL4FQG",
+      "base_goal_index": 72,
+      "category": "subjective",
+      "dataset_index": 572,
+      "env_variant": "full",
+      "goal_index": 72,
+      "instruction": "i am looking for a camera lens protector for iphone 13 made up of aluminum alloy. also choose pink color.",
+      "instruction_attributes": [
+        "aluminum alloy"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B09JBL4FQG:0",
+      "source_rank": 72,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09JBL4FQG"
+    },
+    {
+      "asin": "B0834QQR5F",
+      "base_goal_index": 73,
+      "category": "subjective",
+      "dataset_index": 573,
+      "env_variant": "full",
+      "goal_index": 73,
+      "instruction": "i am looking for a  electric pink zebra mules & clogs of ethylene vinyl.",
+      "instruction_attributes": [
+        "ethylene vinyl"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "electric pink zebra"
+      ],
+      "source_id": "B0834QQR5F:0",
+      "source_rank": 73,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0834QQR5F"
+    },
+    {
+      "asin": "B09BK2WGGX",
+      "base_goal_index": 74,
+      "category": "subjective",
+      "dataset_index": 574,
+      "env_variant": "full",
+      "goal_index": 74,
+      "instruction": "i am looking for heavy duty folding table of black granite color.",
+      "instruction_attributes": [
+        "heavy duty"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black granite"
+      ],
+      "source_id": "B09BK2WGGX:0",
+      "source_rank": 74,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09BK2WGGX"
+    },
+    {
+      "asin": "B09NKV2PYS",
+      "base_goal_index": 75,
+      "category": "subjective",
+      "dataset_index": 575,
+      "env_variant": "full",
+      "goal_index": 75,
+      "instruction": "i need an easy use but high quality beauty ice contour mold skin care tool. pink color will work for me.",
+      "instruction_attributes": [
+        "easy use",
+        "high quality"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B09NKV2PYS:0",
+      "source_rank": 75,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09NKV2PYS"
+    },
+    {
+      "asin": "B08N4T81LQ",
+      "base_goal_index": 76,
+      "category": "subjective",
+      "dataset_index": 576,
+      "env_variant": "full",
+      "goal_index": 76,
+      "instruction": "i am looking for a pink cupcake toppers, cupcake picks for baby shower birthday party party supplies",
+      "instruction_attributes": [
+        "cupcake picks",
+        "baby shower",
+        "birthday party",
+        "party supplies"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B08N4T81LQ:0",
+      "source_rank": 76,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08N4T81LQ"
+    },
+    {
+      "asin": "B07JFRBHB8",
+      "base_goal_index": 77,
+      "category": "subjective",
+      "dataset_index": 577,
+      "env_variant": "full",
+      "goal_index": 77,
+      "instruction": "i'm looking for a black hair styling product that is made from natural ingredients and easy to use.",
+      "instruction_attributes": [
+        "easy use",
+        "natural ingredients",
+        "hair styling"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black"
+      ],
+      "source_id": "B07JFRBHB8:0",
+      "source_rank": 77,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07JFRBHB8"
+    },
+    {
+      "asin": "B09RV2KXB4",
+      "base_goal_index": 78,
+      "category": "subjective",
+      "dataset_index": 578,
+      "env_variant": "full",
+      "goal_index": 78,
+      "instruction": "i want to buy long sleeve daily wear clothing of 95% cotton, 5% polyester particularly in black color.",
+      "instruction_attributes": [
+        "long sleeve",
+        "daily wear"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black_c008",
+        "xx-large"
+      ],
+      "source_id": "B09RV2KXB4:0",
+      "source_rank": 78,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09RV2KXB4"
+    },
+    {
+      "asin": "B095TWK6H7",
+      "base_goal_index": 79,
+      "category": "subjective",
+      "dataset_index": 579,
+      "env_variant": "full",
+      "goal_index": 79,
+      "instruction": "i'm looking for a set of makeup brushes in the color peaceful purple to help me with my eyeshadow makeup.",
+      "instruction_attributes": [
+        "eye shadow"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "peaceful purple"
+      ],
+      "source_id": "B095TWK6H7:0",
+      "source_rank": 79,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B095TWK6H7"
+    },
+    {
+      "asin": "B095TWK6H7",
+      "base_goal_index": 80,
+      "category": "subjective",
+      "dataset_index": 580,
+      "env_variant": "full",
+      "goal_index": 80,
+      "instruction": "i'm looking for a set of makeup brushes in the color peaceful purple to help me with my eyeshadow makeup.",
+      "instruction_attributes": [
+        "eye shadow"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "peaceful purple"
+      ],
+      "source_id": "B095TWK6H7:1",
+      "source_rank": 80,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B095TWK6H7"
+    },
+    {
+      "asin": "B09P4WGX3Z",
+      "base_goal_index": 81,
+      "category": "subjective",
+      "dataset_index": 581,
+      "env_variant": "full",
+      "goal_index": 81,
+      "instruction": "i am looking for cimota pu leather dining chairs in a set of 2.",
+      "instruction_attributes": [
+        "dining room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "set of 4"
+      ],
+      "source_id": "B09P4WGX3Z:0",
+      "source_rank": 81,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09P4WGX3Z"
+    },
+    {
+      "asin": "B09FQ19M1N",
+      "base_goal_index": 82,
+      "category": "subjective",
+      "dataset_index": 582,
+      "env_variant": "full",
+      "goal_index": 82,
+      "instruction": "i'm looking for brown color upholstered faux leather footrest stool for living room, its size should be 100x42x45cm",
+      "instruction_attributes": [
+        "faux leather",
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "brown",
+        "100x42x45cm"
+      ],
+      "source_id": "B09FQ19M1N:0",
+      "source_rank": 82,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09FQ19M1N"
+    },
+    {
+      "asin": "B07R9M1GJM",
+      "base_goal_index": 83,
+      "category": "underspecified_intent",
+      "dataset_index": 583,
+      "env_variant": "full",
+      "goal_index": 83,
+      "instruction": "i need basic nylon high waist pants that are xx-large with a 37 inch inseam.",
+      "instruction_attributes": [
+        "high waist"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "basic nylon_heathernavy",
+        "xx-large | 37\" inseam"
+      ],
+      "source_id": "B07R9M1GJM:0",
+      "source_rank": 83,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07R9M1GJM"
+    },
+    {
+      "asin": "B07R9M1GJM",
+      "base_goal_index": 84,
+      "category": "underspecified_intent",
+      "dataset_index": 584,
+      "env_variant": "full",
+      "goal_index": 84,
+      "instruction": "i would like a large heather gray pair of high waisted yoga pants.",
+      "instruction_attributes": [
+        "high waist"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "basic cotton_heathergray(1)",
+        "large | 37\" inseam"
+      ],
+      "source_id": "B07R9M1GJM:1",
+      "source_rank": 84,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07R9M1GJM"
+    },
+    {
+      "asin": "B091SV7HJ7",
+      "base_goal_index": 85,
+      "category": "underspecified_intent",
+      "dataset_index": 585,
+      "env_variant": "full",
+      "goal_index": 85,
+      "instruction": "i want a grey 3-piece faux leather tufted sectional sofa.",
+      "instruction_attributes": [
+        "faux leather"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey"
+      ],
+      "source_id": "B091SV7HJ7:0",
+      "source_rank": 85,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B091SV7HJ7"
+    },
+    {
+      "asin": "B09KGJQQ4B",
+      "base_goal_index": 86,
+      "category": "underspecified_intent",
+      "dataset_index": 586,
+      "env_variant": "full",
+      "goal_index": 86,
+      "instruction": "i would like to buy cell phone signal booster which has high speed",
+      "instruction_attributes": [
+        "high speed"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09KGJQQ4B:0",
+      "source_rank": 86,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09KGJQQ4B"
+    },
+    {
+      "asin": "B07WTW4X4R",
+      "base_goal_index": 87,
+      "category": "underspecified_intent",
+      "dataset_index": 587,
+      "env_variant": "full",
+      "goal_index": 87,
+      "instruction": "i am looking for dual band computers",
+      "instruction_attributes": [
+        "dual band"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07WTW4X4R:0",
+      "source_rank": 87,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07WTW4X4R"
+    },
+    {
+      "asin": "B07WTW4X4R",
+      "base_goal_index": 88,
+      "category": "underspecified_intent",
+      "dataset_index": 588,
+      "env_variant": "full",
+      "goal_index": 88,
+      "instruction": "i need dual band computer accessories.",
+      "instruction_attributes": [
+        "dual band"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [],
+      "source_id": "B07WTW4X4R:1",
+      "source_rank": 88,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07WTW4X4R"
+    },
+    {
+      "asin": "B0983BYQ5B",
+      "base_goal_index": 89,
+      "category": "underspecified_intent",
+      "dataset_index": 589,
+      "env_variant": "full",
+      "goal_index": 89,
+      "instruction": "i am looking for height adjustable, mid century crystal chandelier lighting for living room, gold color, size 23.6\"",
+      "instruction_attributes": [
+        "height adjustable",
+        "mid century",
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0983BYQ5B:0",
+      "source_rank": 89,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0983BYQ5B"
+    },
+    {
+      "asin": "B09NRFQLRJ",
+      "base_goal_index": 90,
+      "category": "underspecified_intent",
+      "dataset_index": 590,
+      "env_variant": "full",
+      "goal_index": 90,
+      "instruction": "i am looking for a wireless fast charger that goes with my iphone.",
+      "instruction_attributes": [
+        "fast charging",
+        "wireless charging"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09NRFQLRJ:0",
+      "source_rank": 90,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09NRFQLRJ"
+    },
+    {
+      "asin": "B07K125KWT",
+      "base_goal_index": 91,
+      "category": "underspecified_intent",
+      "dataset_index": 591,
+      "env_variant": "full",
+      "goal_index": 91,
+      "instruction": "i want a bookshelf for my living room.",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "bookshelf"
+      ],
+      "source_id": "B07K125KWT:0",
+      "source_rank": 91,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07K125KWT"
+    },
+    {
+      "asin": "B085VP8ZDB",
+      "base_goal_index": 92,
+      "category": "underspecified_intent",
+      "dataset_index": 592,
+      "env_variant": "full",
+      "goal_index": 92,
+      "instruction": "i am looking for men's slippers of size 8 that are long lasting.",
+      "instruction_attributes": [
+        "long lasting"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "8"
+      ],
+      "source_id": "B085VP8ZDB:0",
+      "source_rank": 92,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B085VP8ZDB"
+    },
+    {
+      "asin": "B07TTC374M",
+      "base_goal_index": 93,
+      "category": "underspecified_intent",
+      "dataset_index": 593,
+      "env_variant": "full",
+      "goal_index": 93,
+      "instruction": "i'm looking for double sided hair extensions for hair care accessories.",
+      "instruction_attributes": [
+        "double sided",
+        "hair extensions"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "#ba2 | 60"
+      ],
+      "source_id": "B07TTC374M:0",
+      "source_rank": 93,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07TTC374M"
+    },
+    {
+      "asin": "B078VDBGJK",
+      "base_goal_index": 94,
+      "category": "underspecified_intent",
+      "dataset_index": 594,
+      "env_variant": "full",
+      "goal_index": 94,
+      "instruction": "i want to find a pair of purple women's boots in a size 8. the boots need to have rubber soles.",
+      "instruction_attributes": [
+        "rubber sole"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "purple sage",
+        "8"
+      ],
+      "source_id": "B078VDBGJK:0",
+      "source_rank": 94,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B078VDBGJK"
+    },
+    {
+      "asin": "B07GVB34N6",
+      "base_goal_index": 95,
+      "category": "underspecified_intent",
+      "dataset_index": 595,
+      "env_variant": "full",
+      "goal_index": 95,
+      "instruction": "i am looking for  22”x 22 double  sided throw pillow cases for my living room. choose multi 02 color.",
+      "instruction_attributes": [
+        "double sided",
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "multi 02",
+        "22\"x22\""
+      ],
+      "source_id": "B07GVB34N6:0",
+      "source_rank": 95,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07GVB34N6"
+    },
+    {
+      "asin": "B07FTC477C",
+      "base_goal_index": 96,
+      "category": "underspecified_intent",
+      "dataset_index": 596,
+      "env_variant": "full",
+      "goal_index": 96,
+      "instruction": "i need the yongquiang 26\" set of 4 metal bar height stools in black.  i want the ones for a dining room.",
+      "instruction_attributes": [
+        "dining room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black",
+        "26 inch"
+      ],
+      "source_id": "B07FTC477C:0",
+      "source_rank": 96,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07FTC477C"
+    },
+    {
+      "asin": "B08LDY73WQ",
+      "base_goal_index": 97,
+      "category": "underspecified_intent",
+      "dataset_index": 597,
+      "env_variant": "full",
+      "goal_index": 97,
+      "instruction": "i want some low fat orange mousse cookies.",
+      "instruction_attributes": [
+        "low fat"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "orange mousse"
+      ],
+      "source_id": "B08LDY73WQ:0",
+      "source_rank": 97,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08LDY73WQ"
+    },
+    {
+      "asin": "B004PFUQR8",
+      "base_goal_index": 98,
+      "category": "underspecified_intent",
+      "dataset_index": 598,
+      "env_variant": "full",
+      "goal_index": 98,
+      "instruction": "i'm looking for a certified organic lip balm that is plant based. please find a green tea flavor.",
+      "instruction_attributes": [
+        "certified organic",
+        "plant based"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "green tea"
+      ],
+      "source_id": "B004PFUQR8:0",
+      "source_rank": 98,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B004PFUQR8"
+    },
+    {
+      "asin": "B083JJVQVX",
+      "base_goal_index": 99,
+      "category": "underspecified_intent",
+      "dataset_index": 599,
+      "env_variant": "full",
+      "goal_index": 99,
+      "instruction": "find gluten-free nori flakes.",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B083JJVQVX:0",
+      "source_rank": 99,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B083JJVQVX"
+    },
+    {
+      "asin": "B07KQ4X112",
+      "base_goal_index": 100,
+      "category": "underspecified_intent",
+      "dataset_index": 600,
+      "env_variant": "full",
+      "goal_index": 100,
+      "instruction": "i'd love some help finding some organic beard growth oil that can treat hair loss.",
+      "instruction_attributes": [
+        "hair loss"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07KQ4X112:0",
+      "source_rank": 100,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07KQ4X112"
+    },
+    {
+      "asin": "B09T78TGBM",
+      "base_goal_index": 101,
+      "category": "underspecified_intent",
+      "dataset_index": 601,
+      "env_variant": "full",
+      "goal_index": 101,
+      "instruction": "i am looking for a high speed 12v ac/dc adapter with output protection.",
+      "instruction_attributes": [
+        "output protection",
+        "high speed"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09T78TGBM:0",
+      "source_rank": 101,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09T78TGBM"
+    },
+    {
+      "asin": "B08ZSDCQ3N",
+      "base_goal_index": 102,
+      "category": "underspecified_intent",
+      "dataset_index": 602,
+      "env_variant": "full",
+      "goal_index": 102,
+      "instruction": "i would like a 2xl multicolor vest that can be machine washed.",
+      "instruction_attributes": [
+        "machine wash"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "multi8",
+        "xx-large"
+      ],
+      "source_id": "B08ZSDCQ3N:0",
+      "source_rank": 102,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08ZSDCQ3N"
+    },
+    {
+      "asin": "B08N424KPN",
+      "base_goal_index": 103,
+      "category": "underspecified_intent",
+      "dataset_index": 603,
+      "env_variant": "full",
+      "goal_index": 103,
+      "instruction": "i want to buy a birthday cake topper.",
+      "instruction_attributes": [
+        "birthday cake"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08N424KPN:0",
+      "source_rank": 103,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08N424KPN"
+    },
+    {
+      "asin": "B00WFDKDIO",
+      "base_goal_index": 104,
+      "category": "underspecified_intent",
+      "dataset_index": 604,
+      "env_variant": "full",
+      "goal_index": 104,
+      "instruction": "i am looking for a gluten free non gmo fig bar packet of 7. and i choose the variety pack",
+      "instruction_attributes": [
+        "gluten free",
+        "non gmo"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "variety pack",
+        "12 count (pack of 7)"
+      ],
+      "source_id": "B00WFDKDIO:0",
+      "source_rank": 104,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B00WFDKDIO"
+    },
+    {
+      "asin": "B01M7TXD6R",
+      "base_goal_index": 105,
+      "category": "underspecified_intent",
+      "dataset_index": 605,
+      "env_variant": "full",
+      "goal_index": 105,
+      "instruction": "i am looking for a 25 pack of micellar makeup remover wipes that are sulfate free.",
+      "instruction_attributes": [
+        "sulfate free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "25 count (pack of 2)"
+      ],
+      "source_id": "B01M7TXD6R:0",
+      "source_rank": 105,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01M7TXD6R"
+    },
+    {
+      "asin": "B005GP9ECE",
+      "base_goal_index": 106,
+      "category": "underspecified_intent",
+      "dataset_index": 606,
+      "env_variant": "full",
+      "goal_index": 106,
+      "instruction": "i m looking for a 8 no. vinyl acetate man's sandals",
+      "instruction_attributes": [
+        "vinyl acetate"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "8"
+      ],
+      "source_id": "B005GP9ECE:0",
+      "source_rank": 106,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B005GP9ECE"
+    },
+    {
+      "asin": "B07J3Y6LVY",
+      "base_goal_index": 107,
+      "category": "underspecified_intent",
+      "dataset_index": 607,
+      "env_variant": "full",
+      "goal_index": 107,
+      "instruction": "i'm looking for a tempered glass cell phone case.",
+      "instruction_attributes": [
+        "tempered glass"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "crystal ab-12 pro max"
+      ],
+      "source_id": "B07J3Y6LVY:0",
+      "source_rank": 107,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07J3Y6LVY"
+    },
+    {
+      "asin": "B093VQSY12",
+      "base_goal_index": 108,
+      "category": "underspecified_intent",
+      "dataset_index": 608,
+      "env_variant": "full",
+      "goal_index": 108,
+      "instruction": "i am looking for a high definition 24 inch tv",
+      "instruction_attributes": [
+        "high definition"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "24in"
+      ],
+      "source_id": "B093VQSY12:0",
+      "source_rank": 108,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B093VQSY12"
+    },
+    {
+      "asin": "B096NJ89C2",
+      "base_goal_index": 109,
+      "category": "underspecified_intent",
+      "dataset_index": 609,
+      "env_variant": "full",
+      "goal_index": 109,
+      "instruction": "i'm looking for  home decor products for home accessories.",
+      "instruction_attributes": [
+        "eco friendly",
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B096NJ89C2:0",
+      "source_rank": 109,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B096NJ89C2"
+    },
+    {
+      "asin": "B096NJ89C2",
+      "base_goal_index": 110,
+      "category": "underspecified_intent",
+      "dataset_index": 610,
+      "env_variant": "full",
+      "goal_index": 110,
+      "instruction": "i am looking for multi colored glass window film that is eco friendly. the installation process should be easy as well.",
+      "instruction_attributes": [
+        "eco friendly",
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "multi-07022"
+      ],
+      "source_id": "B096NJ89C2:1",
+      "source_rank": 110,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B096NJ89C2"
+    },
+    {
+      "asin": "B085W67P7L",
+      "base_goal_index": 111,
+      "category": "underspecified_intent",
+      "dataset_index": 611,
+      "env_variant": "full",
+      "goal_index": 111,
+      "instruction": "i am looking for travel foaming dispenser for hand soap. please choose rose gold and silver pump head.",
+      "instruction_attributes": [
+        "rose gold"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "silver pump head"
+      ],
+      "source_id": "B085W67P7L:0",
+      "source_rank": 111,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B085W67P7L"
+    },
+    {
+      "asin": "B074Q2C6ZP",
+      "base_goal_index": 112,
+      "category": "underspecified_intent",
+      "dataset_index": 612,
+      "env_variant": "full",
+      "goal_index": 112,
+      "instruction": "i am looking for anti aging cream with green tea and hyaluronic acid. i want it to be effective for dark circles",
+      "instruction_attributes": [
+        "anti aging",
+        "hyaluronic acid",
+        "green tea",
+        "dark circles"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B074Q2C6ZP:0",
+      "source_rank": 112,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B074Q2C6ZP"
+    },
+    {
+      "asin": "B07692PMHF",
+      "base_goal_index": 113,
+      "category": "underspecified_intent",
+      "dataset_index": 613,
+      "env_variant": "full",
+      "goal_index": 113,
+      "instruction": "i'm looking for a high quality plant based vitamin c serum that contains hyaluronic acid and made of natural ingredients for treating dark circles and fine lines.",
+      "instruction_attributes": [
+        "plant based",
+        "high quality",
+        "hyaluronic acid",
+        "natural ingredients",
+        "dark circles",
+        "fine lines"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07692PMHF:0",
+      "source_rank": 113,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07692PMHF"
+    },
+    {
+      "asin": "B09N9YQZZ3",
+      "base_goal_index": 114,
+      "category": "underspecified_intent",
+      "dataset_index": 614,
+      "env_variant": "full",
+      "goal_index": 114,
+      "instruction": "i am looking for white pull-out organizers with nickel finish and size must be 15\" wide.",
+      "instruction_attributes": [
+        "nickel finish"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09N9YQZZ3:0",
+      "source_rank": 114,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09N9YQZZ3"
+    },
+    {
+      "asin": "B09FPTTJ3X",
+      "base_goal_index": 115,
+      "category": "underspecified_intent",
+      "dataset_index": 615,
+      "env_variant": "full",
+      "goal_index": 115,
+      "instruction": "i'm looking for wireless bluetooth car stereo audio receiver.",
+      "instruction_attributes": [
+        "wireless bluetooth"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black"
+      ],
+      "source_id": "B09FPTTJ3X:0",
+      "source_rank": 115,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09FPTTJ3X"
+    },
+    {
+      "asin": "B07VSZG1W3",
+      "base_goal_index": 116,
+      "category": "underspecified_intent",
+      "dataset_index": 616,
+      "env_variant": "full",
+      "goal_index": 116,
+      "instruction": "i need an indoor ultra hd antenna with an amplifier.",
+      "instruction_attributes": [
+        "ultra hd"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "indoor smartpass amplified antenna6"
+      ],
+      "source_id": "B07VSZG1W3:0",
+      "source_rank": 116,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07VSZG1W3"
+    },
+    {
+      "asin": "B07VSZG1W3",
+      "base_goal_index": 117,
+      "category": "underspecified_intent",
+      "dataset_index": 617,
+      "env_variant": "full",
+      "goal_index": 117,
+      "instruction": "i need an indoor ultra hd antenna with an amplifier.",
+      "instruction_attributes": [
+        "ultra hd"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "indoor smartpass amplified antenna6"
+      ],
+      "source_id": "B07VSZG1W3:1",
+      "source_rank": 117,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07VSZG1W3"
+    },
+    {
+      "asin": "B08LDM11F4",
+      "base_goal_index": 118,
+      "category": "underspecified_intent",
+      "dataset_index": 618,
+      "env_variant": "full",
+      "goal_index": 118,
+      "instruction": "i need a wall mounted mirror in the color d.",
+      "instruction_attributes": [
+        "wall mounted"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "d"
+      ],
+      "source_id": "B08LDM11F4:0",
+      "source_rank": 118,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08LDM11F4"
+    },
+    {
+      "asin": "B00IPQ54KM",
+      "base_goal_index": 119,
+      "category": "underspecified_intent",
+      "dataset_index": 619,
+      "env_variant": "full",
+      "goal_index": 119,
+      "instruction": "i'm looking for a gift covered with chocolate and should be in a gift basket.",
+      "instruction_attributes": [
+        "chocolate covered",
+        "gift basket"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B00IPQ54KM:0",
+      "source_rank": 119,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B00IPQ54KM"
+    },
+    {
+      "asin": "B096L8CY62",
+      "base_goal_index": 120,
+      "category": "underspecified_intent",
+      "dataset_index": 620,
+      "env_variant": "full",
+      "goal_index": 120,
+      "instruction": "i am looking for a black fast wireless universal charging stand.",
+      "instruction_attributes": [
+        "fast charging",
+        "wireless charging"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black"
+      ],
+      "source_id": "B096L8CY62:0",
+      "source_rank": 120,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B096L8CY62"
+    },
+    {
+      "asin": "B07R6W51S5",
+      "base_goal_index": 121,
+      "category": "underspecified_intent",
+      "dataset_index": 621,
+      "env_variant": "full",
+      "goal_index": 121,
+      "instruction": "i am interested in a dual colored headset that is noise cancelling.",
+      "instruction_attributes": [
+        "noise cancelling"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "duo 510dsp"
+      ],
+      "source_id": "B07R6W51S5:0",
+      "source_rank": 121,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07R6W51S5"
+    },
+    {
+      "asin": "B07MHGDC71",
+      "base_goal_index": 122,
+      "category": "underspecified_intent",
+      "dataset_index": 622,
+      "env_variant": "full",
+      "goal_index": 122,
+      "instruction": "i would like a resealable bag of peanut brittle.",
+      "instruction_attributes": [
+        "resealable bag"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07MHGDC71:0",
+      "source_rank": 122,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07MHGDC71"
+    },
+    {
+      "asin": "B09NR629D2",
+      "base_goal_index": 123,
+      "category": "underspecified_intent",
+      "dataset_index": 623,
+      "env_variant": "full",
+      "goal_index": 123,
+      "instruction": "i am looking for a wallet case with tempered glass protection. please select the rose gold color",
+      "instruction_attributes": [
+        "tempered glass"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "rose gold"
+      ],
+      "source_id": "B09NR629D2:0",
+      "source_rank": 123,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09NR629D2"
+    },
+    {
+      "asin": "B078WTG2RC",
+      "base_goal_index": 124,
+      "category": "underspecified_intent",
+      "dataset_index": 624,
+      "env_variant": "full",
+      "goal_index": 124,
+      "instruction": "i need to buy some green sandals with arch support. look for uk size nine medium.",
+      "instruction_attributes": [
+        "arch support"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "green green black green xgkg",
+        "9 m uk"
+      ],
+      "source_id": "B078WTG2RC:0",
+      "source_rank": 124,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B078WTG2RC"
+    },
+    {
+      "asin": "B08MJ7Q4LM",
+      "base_goal_index": 125,
+      "category": "underspecified_intent",
+      "dataset_index": 625,
+      "env_variant": "full",
+      "goal_index": 125,
+      "instruction": "i need an easy to carry background that is 7 by 5 ft",
+      "instruction_attributes": [
+        "easy carry"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "7x5ft"
+      ],
+      "source_id": "B08MJ7Q4LM:0",
+      "source_rank": 125,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08MJ7Q4LM"
+    },
+    {
+      "asin": "B09PYVG834",
+      "base_goal_index": 126,
+      "category": "underspecified_intent",
+      "dataset_index": 626,
+      "env_variant": "full",
+      "goal_index": 126,
+      "instruction": "i am interested in a console table that is made out of solid wood and is espresso colored.",
+      "instruction_attributes": [
+        "solid wood"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "espresso"
+      ],
+      "source_id": "B09PYVG834:0",
+      "source_rank": 126,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PYVG834"
+    },
+    {
+      "asin": "B09KTVWQ5V",
+      "base_goal_index": 127,
+      "category": "underspecified_intent",
+      "dataset_index": 627,
+      "env_variant": "full",
+      "goal_index": 127,
+      "instruction": "i need to buy some slim fit yoga pants. get the ones that are multicolered in xx large.",
+      "instruction_attributes": [
+        "slim fit"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "multicolor",
+        "xx-large"
+      ],
+      "source_id": "B09KTVWQ5V:0",
+      "source_rank": 127,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09KTVWQ5V"
+    },
+    {
+      "asin": "B005Z6LGYS",
+      "base_goal_index": 128,
+      "category": "underspecified_intent",
+      "dataset_index": 628,
+      "env_variant": "full",
+      "goal_index": 128,
+      "instruction": "i need some high fructose citrus tonic water.",
+      "instruction_attributes": [
+        "high fructose"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "citrus"
+      ],
+      "source_id": "B005Z6LGYS:0",
+      "source_rank": 128,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B005Z6LGYS"
+    },
+    {
+      "asin": "B0848BNQFD",
+      "base_goal_index": 129,
+      "category": "underspecified_intent",
+      "dataset_index": 629,
+      "env_variant": "full",
+      "goal_index": 129,
+      "instruction": "i am looking for black magic seasoning that is gluten free and 1.37 pounds.",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black magic",
+        "1.37 pound (pack of 1)"
+      ],
+      "source_id": "B0848BNQFD:0",
+      "source_rank": 129,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0848BNQFD"
+    },
+    {
+      "asin": "B0848BNQFD",
+      "base_goal_index": 130,
+      "category": "underspecified_intent",
+      "dataset_index": 630,
+      "env_variant": "full",
+      "goal_index": 130,
+      "instruction": "i want  variety pack  gluten free meat seasoning spices gift set size :5.5 ounce (pack of 4)",
+      "instruction_attributes": [
+        "gluten free",
+        "gift set"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "variety pack",
+        "5.5 ounce (pack of 4)"
+      ],
+      "source_id": "B0848BNQFD:1",
+      "source_rank": 130,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0848BNQFD"
+    },
+    {
+      "asin": "B0848BNQFD",
+      "base_goal_index": 131,
+      "category": "underspecified_intent",
+      "dataset_index": 631,
+      "env_variant": "full",
+      "goal_index": 131,
+      "instruction": "variety pack seasoning, gluten free 5.5oz gift set (pack of 4.)i'm cooking for friends, need to gift the couple something gourmet. mis rubins magic seems to be ideal.",
+      "instruction_attributes": [
+        "gluten free",
+        "gift set"
+      ],
+      "instruction_idx_within_asin": 2,
+      "instruction_options": [
+        "5.5 ounce (pack of 4)"
+      ],
+      "source_id": "B0848BNQFD:2",
+      "source_rank": 131,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0848BNQFD"
+    },
+    {
+      "asin": "B07669T46Z",
+      "base_goal_index": 132,
+      "category": "underspecified_intent",
+      "dataset_index": 632,
+      "env_variant": "full",
+      "goal_index": 132,
+      "instruction": "i'm looking for lumbar support for home office desk chairs.",
+      "instruction_attributes": [
+        "heavy duty"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "bonded leather gray",
+        "microfiber"
+      ],
+      "source_id": "B07669T46Z:0",
+      "source_rank": 132,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07669T46Z"
+    },
+    {
+      "asin": "B091DCQXM6",
+      "base_goal_index": 133,
+      "category": "underspecified_intent",
+      "dataset_index": 633,
+      "env_variant": "full",
+      "goal_index": 133,
+      "instruction": "i am looking for x-large size socks that contain cotton spandex.",
+      "instruction_attributes": [
+        "cotton spandex"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "x-large"
+      ],
+      "source_id": "B091DCQXM6:0",
+      "source_rank": 133,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B091DCQXM6"
+    },
+    {
+      "asin": "B07N33D4TH",
+      "base_goal_index": 134,
+      "category": "underspecified_intent",
+      "dataset_index": 634,
+      "env_variant": "full",
+      "goal_index": 134,
+      "instruction": "i am looking for a pack of 5 dark blonde hair dye touch up spray.",
+      "instruction_attributes": [
+        "hair dye"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "dark blonde",
+        "pack of 5"
+      ],
+      "source_id": "B07N33D4TH:0",
+      "source_rank": 134,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07N33D4TH"
+    },
+    {
+      "asin": "B0767DXJST",
+      "base_goal_index": 135,
+      "category": "underspecified_intent",
+      "dataset_index": 635,
+      "env_variant": "full",
+      "goal_index": 135,
+      "instruction": "toroton dummy security camera in red colour.",
+      "instruction_attributes": [
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0767DXJST:0",
+      "source_rank": 135,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0767DXJST"
+    },
+    {
+      "asin": "B08C7GB6YW",
+      "base_goal_index": 136,
+      "category": "underspecified_intent",
+      "dataset_index": 636,
+      "env_variant": "full",
+      "goal_index": 136,
+      "instruction": "i am finding a eco friendly and leak proof plastic refillable bottle container with  protective case - style 1 color",
+      "instruction_attributes": [
+        "leak proof",
+        "eco friendly"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "style 1"
+      ],
+      "source_id": "B08C7GB6YW:0",
+      "source_rank": 136,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08C7GB6YW"
+    },
+    {
+      "asin": "B093HJBHVX",
+      "base_goal_index": 137,
+      "category": "underspecified_intent",
+      "dataset_index": 637,
+      "env_variant": "full",
+      "goal_index": 137,
+      "instruction": "i am looking for a 2 pack of pendant ceiling lights for my dining room.",
+      "instruction_attributes": [
+        "dining room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "2 pack"
+      ],
+      "source_id": "B093HJBHVX:0",
+      "source_rank": 137,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B093HJBHVX"
+    },
+    {
+      "asin": "B097J3P249",
+      "base_goal_index": 138,
+      "category": "underspecified_intent",
+      "dataset_index": 638,
+      "env_variant": "full",
+      "goal_index": 138,
+      "instruction": "i need a height adjustable standing desk with steel frame. make it gray in color with an antique oak top.",
+      "instruction_attributes": [
+        "height adjustable",
+        "steel frame"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey frame | antique oak top"
+      ],
+      "source_id": "B097J3P249:0",
+      "source_rank": 138,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B097J3P249"
+    },
+    {
+      "asin": "B008QZZ88K",
+      "base_goal_index": 139,
+      "category": "underspecified_intent",
+      "dataset_index": 639,
+      "env_variant": "full",
+      "goal_index": 139,
+      "instruction": "i'm looking for 67.5 ounce cheez-it snack pack.",
+      "instruction_attributes": [
+        "ready eat"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B008QZZ88K:0",
+      "source_rank": 139,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B008QZZ88K"
+    },
+    {
+      "asin": "B082WS53GT",
+      "base_goal_index": 140,
+      "category": "underspecified_intent",
+      "dataset_index": 640,
+      "env_variant": "full",
+      "goal_index": 140,
+      "instruction": "i would like a 3xl black broken cover long sleeve sweatshirt.",
+      "instruction_attributes": [
+        "long sleeve"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black broken clover",
+        "3x-large"
+      ],
+      "source_id": "B082WS53GT:0",
+      "source_rank": 140,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082WS53GT"
+    },
+    {
+      "asin": "B0734ZVZHP",
+      "base_goal_index": 141,
+      "category": "underspecified_intent",
+      "dataset_index": 641,
+      "env_variant": "full",
+      "goal_index": 141,
+      "instruction": "i would like a quad core desktop processor tower.",
+      "instruction_attributes": [
+        "quad core"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0734ZVZHP:0",
+      "source_rank": 141,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0734ZVZHP"
+    },
+    {
+      "asin": "B09PRGZM4D",
+      "base_goal_index": 142,
+      "category": "underspecified_intent",
+      "dataset_index": 642,
+      "env_variant": "full",
+      "goal_index": 142,
+      "instruction": "i need a fashionable zdfer polo with a slim fit in the green color.",
+      "instruction_attributes": [
+        "slim fit",
+        "fashion design"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "112-green"
+      ],
+      "source_id": "B09PRGZM4D:0",
+      "source_rank": 142,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PRGZM4D"
+    },
+    {
+      "asin": "B09PRGZM4D",
+      "base_goal_index": 143,
+      "category": "underspecified_intent",
+      "dataset_index": 643,
+      "env_variant": "full",
+      "goal_index": 143,
+      "instruction": "i need a fashionable zdfer polo with a slim fit in the green color.",
+      "instruction_attributes": [
+        "slim fit",
+        "fashion design"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "112-green"
+      ],
+      "source_id": "B09PRGZM4D:1",
+      "source_rank": 143,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PRGZM4D"
+    },
+    {
+      "asin": "B07VS875WL",
+      "base_goal_index": 144,
+      "category": "underspecified_intent",
+      "dataset_index": 644,
+      "env_variant": "full",
+      "goal_index": 144,
+      "instruction": "i'm looking for farmhouse window curtain set of grey color for living room , w 52 x l 90 | pair",
+      "instruction_attributes": [
+        "living room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey",
+        "w 52 x l 90 | pair"
+      ],
+      "source_id": "B07VS875WL:0",
+      "source_rank": 144,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07VS875WL"
+    },
+    {
+      "asin": "B0744MQDVZ",
+      "base_goal_index": 145,
+      "category": "underspecified_intent",
+      "dataset_index": 645,
+      "env_variant": "full",
+      "goal_index": 145,
+      "instruction": "i am looking for high quality bathing accessories in white color",
+      "instruction_attributes": [
+        "high quality"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white"
+      ],
+      "source_id": "B0744MQDVZ:0",
+      "source_rank": 145,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0744MQDVZ"
+    },
+    {
+      "asin": "B07G6124N1",
+      "base_goal_index": 146,
+      "category": "underspecified_intent",
+      "dataset_index": 646,
+      "env_variant": "full",
+      "goal_index": 146,
+      "instruction": "i need some cute heart-shaped glittery cupcake picks as a gift to bring to a baby shower.",
+      "instruction_attributes": [
+        "cupcake picks",
+        "baby shower"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07G6124N1:0",
+      "source_rank": 146,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07G6124N1"
+    },
+    {
+      "asin": "B09LQSSBZ6",
+      "base_goal_index": 147,
+      "category": "underspecified_intent",
+      "dataset_index": 647,
+      "env_variant": "full",
+      "goal_index": 147,
+      "instruction": "i would like a day rifle scope with a optical zoom.",
+      "instruction_attributes": [
+        "optical zoom"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "day scope"
+      ],
+      "source_id": "B09LQSSBZ6:0",
+      "source_rank": 147,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09LQSSBZ6"
+    },
+    {
+      "asin": "B08QGPCZDS",
+      "base_goal_index": 148,
+      "category": "underspecified_intent",
+      "dataset_index": 648,
+      "env_variant": "full",
+      "goal_index": 148,
+      "instruction": "i am looking for a 9.5 sized men's running shoes with synthetic sole . and i choose the 7-black red color",
+      "instruction_attributes": [
+        "synthetic sole"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "7-black red",
+        "9.5"
+      ],
+      "source_id": "B08QGPCZDS:0",
+      "source_rank": 148,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08QGPCZDS"
+    },
+    {
+      "asin": "B09M968ZCM",
+      "base_goal_index": 149,
+      "category": "underspecified_intent",
+      "dataset_index": 649,
+      "env_variant": "full",
+      "goal_index": 149,
+      "instruction": "i am looking for a high protein energy bar with low sugar and low carb.",
+      "instruction_attributes": [
+        "high protein",
+        "low sugar",
+        "low carb"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09M968ZCM:0",
+      "source_rank": 149,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09M968ZCM"
+    },
+    {
+      "asin": "B08F2QT47F",
+      "base_goal_index": 150,
+      "category": "underspecified_intent",
+      "dataset_index": 650,
+      "env_variant": "full",
+      "goal_index": 150,
+      "instruction": "i am looking for a low sugar granola bar that is soy and diary free. pick the pack of 3 weighing 10 ounces.",
+      "instruction_attributes": [
+        "low sugar",
+        "soy free",
+        "dairy free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "10 ounce (pack of 3)"
+      ],
+      "source_id": "B08F2QT47F:0",
+      "source_rank": 150,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08F2QT47F"
+    },
+    {
+      "asin": "B08DJB4MS5",
+      "base_goal_index": 151,
+      "category": "underspecified_intent",
+      "dataset_index": 651,
+      "env_variant": "full",
+      "goal_index": 151,
+      "instruction": "i am looking for a 3'x5' size of contemporary style  area rugs",
+      "instruction_attributes": [
+        "contemporary style"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08DJB4MS5:0",
+      "source_rank": 151,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08DJB4MS5"
+    },
+    {
+      "asin": "B07KFBHJR9",
+      "base_goal_index": 152,
+      "category": "underspecified_intent",
+      "dataset_index": 652,
+      "env_variant": "full",
+      "goal_index": 152,
+      "instruction": "i need some navy button down shirts that are long sleeved and in a size medium",
+      "instruction_attributes": [
+        "long sleeve"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "solid3-navy",
+        "medium"
+      ],
+      "source_id": "B07KFBHJR9:0",
+      "source_rank": 152,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07KFBHJR9"
+    },
+    {
+      "asin": "B09MFDPHZM",
+      "base_goal_index": 153,
+      "category": "underspecified_intent",
+      "dataset_index": 653,
+      "env_variant": "full",
+      "goal_index": 153,
+      "instruction": "i need an easy to install shower caddy tension pole.",
+      "instruction_attributes": [
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09MFDPHZM:0",
+      "source_rank": 153,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09MFDPHZM"
+    },
+    {
+      "asin": "B0017J22OK",
+      "base_goal_index": 154,
+      "category": "underspecified_intent",
+      "dataset_index": 654,
+      "env_variant": "full",
+      "goal_index": 154,
+      "instruction": "i'm looking for a dermatologist tested hair remover that comes in a spray and is size large.",
+      "instruction_attributes": [
+        "dermatologist tested"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0017J22OK:0",
+      "source_rank": 154,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0017J22OK"
+    },
+    {
+      "asin": "B011M8UDA0",
+      "base_goal_index": 155,
+      "category": "underspecified_intent",
+      "dataset_index": 655,
+      "env_variant": "full",
+      "goal_index": 155,
+      "instruction": "i am looking for an exfoliating and soothing skin cream for keratosis pilaris and would like a two pack of four oz containers",
+      "instruction_attributes": [
+        "dermatologist tested"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "two pack"
+      ],
+      "source_id": "B011M8UDA0:0",
+      "source_rank": 155,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B011M8UDA0"
+    },
+    {
+      "asin": "B09N3J4LB9",
+      "base_goal_index": 156,
+      "category": "underspecified_intent",
+      "dataset_index": 656,
+      "env_variant": "full",
+      "goal_index": 156,
+      "instruction": "i'm looking for a mini display port adapter with ultra hd high resolution feature. also, choose 0.65 ft one.",
+      "instruction_attributes": [
+        "high resolution",
+        "ultra hd"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "0.65ft"
+      ],
+      "source_id": "B09N3J4LB9:0",
+      "source_rank": 156,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09N3J4LB9"
+    },
+    {
+      "asin": "B08ZQC14PN",
+      "base_goal_index": 157,
+      "category": "underspecified_intent",
+      "dataset_index": 657,
+      "env_variant": "full",
+      "goal_index": 157,
+      "instruction": "i'm looking for a portable wireless bluetooth speakers made of carbon fiber with long lasting battery.",
+      "instruction_attributes": [
+        "long lasting",
+        "carbon fiber",
+        "wireless bluetooth"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08ZQC14PN:0",
+      "source_rank": 157,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08ZQC14PN"
+    },
+    {
+      "asin": "B07SKN25VL",
+      "base_goal_index": 158,
+      "category": "underspecified_intent",
+      "dataset_index": 658,
+      "env_variant": "full",
+      "goal_index": 158,
+      "instruction": "i'm looking for hair extensions for natural hair and straight hair so need to buy it.",
+      "instruction_attributes": [
+        "hair extensions",
+        "natural hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "ash blonde-straight(new)"
+      ],
+      "source_id": "B07SKN25VL:0",
+      "source_rank": 158,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07SKN25VL"
+    },
+    {
+      "asin": "B09FQ7W2G3",
+      "base_goal_index": 159,
+      "category": "underspecified_intent",
+      "dataset_index": 659,
+      "env_variant": "full",
+      "goal_index": 159,
+      "instruction": "i would like a pattern 21 cake topper for a birthday party.",
+      "instruction_attributes": [
+        "birthday party"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "21"
+      ],
+      "source_id": "B09FQ7W2G3:0",
+      "source_rank": 159,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09FQ7W2G3"
+    },
+    {
+      "asin": "B09SV5Z81W",
+      "base_goal_index": 160,
+      "category": "underspecified_intent",
+      "dataset_index": 660,
+      "env_variant": "full",
+      "goal_index": 160,
+      "instruction": "i am looking for a antiperspirant deodorant.",
+      "instruction_attributes": [
+        "anti perspirant"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09SV5Z81W:0",
+      "source_rank": 160,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09SV5Z81W"
+    },
+    {
+      "asin": "B082NWZD2B",
+      "base_goal_index": 161,
+      "category": "underspecified_intent",
+      "dataset_index": 661,
+      "env_variant": "full",
+      "goal_index": 161,
+      "instruction": "i need a cosmetic bag for my nail polish.",
+      "instruction_attributes": [
+        "nail polish"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B082NWZD2B:0",
+      "source_rank": 161,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082NWZD2B"
+    },
+    {
+      "asin": "B08QDR81K6",
+      "base_goal_index": 162,
+      "category": "underspecified_intent",
+      "dataset_index": 662,
+      "env_variant": "full",
+      "goal_index": 162,
+      "instruction": "i'm looking for a high power sound bar.",
+      "instruction_attributes": [
+        "high power"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08QDR81K6:0",
+      "source_rank": 162,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08QDR81K6"
+    },
+    {
+      "asin": "B016OPV3GO",
+      "base_goal_index": 163,
+      "category": "underspecified_intent",
+      "dataset_index": 663,
+      "env_variant": "full",
+      "goal_index": 163,
+      "instruction": "i need a soap that is for sensitive skin and that comes in a pack of two.",
+      "instruction_attributes": [
+        "sensitive skin"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "5 ounce (pack of 2)"
+      ],
+      "source_id": "B016OPV3GO:0",
+      "source_rank": 163,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B016OPV3GO"
+    },
+    {
+      "asin": "B08NJF2PFP",
+      "base_goal_index": 164,
+      "category": "underspecified_intent",
+      "dataset_index": 664,
+      "env_variant": "full",
+      "goal_index": 164,
+      "instruction": "i want a light gray and machine washable 100% blackout window curtain panel.",
+      "instruction_attributes": [
+        "machine washable"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "light gray"
+      ],
+      "source_id": "B08NJF2PFP:0",
+      "source_rank": 164,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08NJF2PFP"
+    },
+    {
+      "asin": "B08M6FCPH2",
+      "base_goal_index": 165,
+      "category": "underspecified_intent",
+      "dataset_index": 665,
+      "env_variant": "full",
+      "goal_index": 165,
+      "instruction": "find for gift: comfortable women's pink drawstring sweatpants high waist with pockets aragone my friend's favorite brand to train at the gym workout.",
+      "instruction_attributes": [
+        "gym workout"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B08M6FCPH2:0",
+      "source_rank": 165,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08M6FCPH2"
+    },
+    {
+      "asin": "B09NL6VC77",
+      "base_goal_index": 166,
+      "category": "false_premises",
+      "dataset_index": 666,
+      "env_variant": "full",
+      "goal_index": 166,
+      "instruction": "i am looking for men's ripped jeans denim pants with an elastic waist. pick a navy color and get x-large.",
+      "instruction_attributes": [
+        "machine washable",
+        "elastic waist"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "navy",
+        "x-large"
+      ],
+      "source_id": "B09NL6VC77:0",
+      "source_rank": 166,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09NL6VC77"
+    },
+    {
+      "asin": "B01KUTWRY2",
+      "base_goal_index": 167,
+      "category": "false_premises",
+      "dataset_index": 667,
+      "env_variant": "full",
+      "goal_index": 167,
+      "instruction": "i'm looking for a 12 pack pepper jack gluten free cheese.",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pepper jack",
+        "12 pack"
+      ],
+      "source_id": "B01KUTWRY2:0",
+      "source_rank": 167,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01KUTWRY2"
+    },
+    {
+      "asin": "B087TP51X9",
+      "base_goal_index": 168,
+      "category": "false_premises",
+      "dataset_index": 668,
+      "env_variant": "full",
+      "goal_index": 168,
+      "instruction": "encontrar uma linda é a sandália de cristal haoricu para mulher. preciso comprar para presente. ache o tamanho 8,5 na cor preta.",
+      "instruction_attributes": [
+        "open toe"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "01-black",
+        "8.5"
+      ],
+      "source_id": "B087TP51X9:0",
+      "source_rank": 168,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B087TP51X9"
+    },
+    {
+      "asin": "B07HMVN5HZ",
+      "base_goal_index": 169,
+      "category": "false_premises",
+      "dataset_index": 669,
+      "env_variant": "full",
+      "goal_index": 169,
+      "instruction": "i want a 2-in-one shampoo and conditioner for damaged hair.",
+      "instruction_attributes": [
+        "damaged hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "shampoo+conditioner"
+      ],
+      "source_id": "B07HMVN5HZ:0",
+      "source_rank": 169,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07HMVN5HZ"
+    },
+    {
+      "asin": "B0851GZM55",
+      "base_goal_index": 170,
+      "category": "false_premises",
+      "dataset_index": 670,
+      "env_variant": "full",
+      "goal_index": 170,
+      "instruction": "i am looking for a  counter height size barstools of faux leather",
+      "instruction_attributes": [
+        "faux leather"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "counter height"
+      ],
+      "source_id": "B0851GZM55:0",
+      "source_rank": 170,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0851GZM55"
+    },
+    {
+      "asin": "B07TGBYGL3",
+      "base_goal_index": 171,
+      "category": "false_premises",
+      "dataset_index": 671,
+      "env_variant": "full",
+      "goal_index": 171,
+      "instruction": "i'm looking for a actloe women hoodie  sweatshirt .",
+      "instruction_attributes": [
+        "long sleeve"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "coffee",
+        "large"
+      ],
+      "source_id": "B07TGBYGL3:0",
+      "source_rank": 171,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07TGBYGL3"
+    },
+    {
+      "asin": "B0199WNJXY",
+      "base_goal_index": 172,
+      "category": "false_premises",
+      "dataset_index": 672,
+      "env_variant": "full",
+      "goal_index": 172,
+      "instruction": "i would like a 4.2 fluid ounce bottle of coconut oil shampoo.",
+      "instruction_attributes": [
+        "coconut oil"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "4.2 fl oz (pack of 1)",
+        "oil, damage recovery"
+      ],
+      "source_id": "B0199WNJXY:0",
+      "source_rank": 172,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0199WNJXY"
+    },
+    {
+      "asin": "B08CCT3JN2",
+      "base_goal_index": 173,
+      "category": "false_premises",
+      "dataset_index": 673,
+      "env_variant": "full",
+      "goal_index": 173,
+      "instruction": "i need red sneakers that have a leather sole and are a size 7 x-wide",
+      "instruction_attributes": [
+        "leather sole"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "dark red",
+        "7 x-wide"
+      ],
+      "source_id": "B08CCT3JN2:0",
+      "source_rank": 173,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08CCT3JN2"
+    },
+    {
+      "asin": "B088LGSRTG",
+      "base_goal_index": 174,
+      "category": "false_premises",
+      "dataset_index": 674,
+      "env_variant": "full",
+      "goal_index": 174,
+      "instruction": "i am looking for a conditioner that comes in a pack of three for natural hair.",
+      "instruction_attributes": [
+        "natural hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "7 fl oz (pack of 3)",
+        "conditioner"
+      ],
+      "source_id": "B088LGSRTG:0",
+      "source_rank": 174,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B088LGSRTG"
+    },
+    {
+      "asin": "B09HC1X1N2",
+      "base_goal_index": 175,
+      "category": "false_premises",
+      "dataset_index": 675,
+      "env_variant": "full",
+      "goal_index": 175,
+      "instruction": "i am looking for a hidden camera for surveillance. i want something hd with at least 1080p",
+      "instruction_attributes": [
+        "1080p hd",
+        "motion detection"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09HC1X1N2:0",
+      "source_rank": 175,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09HC1X1N2"
+    },
+    {
+      "asin": "B09J2RZ26Q",
+      "base_goal_index": 176,
+      "category": "false_premises",
+      "dataset_index": 676,
+      "env_variant": "full",
+      "goal_index": 176,
+      "instruction": "i looking a super soft fleece throw for  small pets size;40*30 inch",
+      "instruction_attributes": [
+        "super soft",
+        "fleece throw"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "40\"x30\" extra small for pet"
+      ],
+      "source_id": "B09J2RZ26Q:0",
+      "source_rank": 176,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09J2RZ26Q"
+    },
+    {
+      "asin": "B099K1KP3N",
+      "base_goal_index": 177,
+      "category": "false_premises",
+      "dataset_index": 677,
+      "env_variant": "full",
+      "goal_index": 177,
+      "instruction": "looking for one bed for kids in grey color, size twin and of easy assemble in wood.",
+      "instruction_attributes": [
+        "easy assemble"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey(triangle)",
+        "twin"
+      ],
+      "source_id": "B099K1KP3N:0",
+      "source_rank": 177,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B099K1KP3N"
+    },
+    {
+      "asin": "B099K1KP3N",
+      "base_goal_index": 178,
+      "category": "false_premises",
+      "dataset_index": 678,
+      "env_variant": "full",
+      "goal_index": 178,
+      "instruction": "looking for one bed for kids in grey color, size twin and of easy assemble in wood.",
+      "instruction_attributes": [
+        "easy assemble"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "grey(triangle)",
+        "twin"
+      ],
+      "source_id": "B099K1KP3N:1",
+      "source_rank": 178,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B099K1KP3N"
+    },
+    {
+      "asin": "B004QQ9LVS",
+      "base_goal_index": 179,
+      "category": "false_premises",
+      "dataset_index": 679,
+      "env_variant": "full",
+      "goal_index": 179,
+      "instruction": "i would like to buy vitamins which are non gmo, and gluten free, and they should be organic womens gummy kind.",
+      "instruction_attributes": [
+        "non gmo",
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "organic womens gummy"
+      ],
+      "source_id": "B004QQ9LVS:0",
+      "source_rank": 179,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B004QQ9LVS"
+    },
+    {
+      "asin": "B08M62Q3JC",
+      "base_goal_index": 180,
+      "category": "false_premises",
+      "dataset_index": 680,
+      "env_variant": "full",
+      "goal_index": 180,
+      "instruction": "i'm looking for binocular for bird watching.",
+      "instruction_attributes": [
+        "easy use",
+        "bird watching"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08M62Q3JC:0",
+      "source_rank": 180,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08M62Q3JC"
+    },
+    {
+      "asin": "B07T7399JK",
+      "base_goal_index": 181,
+      "category": "false_premises",
+      "dataset_index": 681,
+      "env_variant": "full",
+      "goal_index": 181,
+      "instruction": "i'm looking for a ultra hd digital camera with optical zoom lens.",
+      "instruction_attributes": [
+        "ultra hd",
+        "optical zoom"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B07T7399JK:0",
+      "source_rank": 181,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07T7399JK"
+    },
+    {
+      "asin": "B09JF3D6D3",
+      "base_goal_index": 182,
+      "category": "false_premises",
+      "dataset_index": 682,
+      "env_variant": "full",
+      "goal_index": 182,
+      "instruction": "i need grey memory foam slippers with open toes.",
+      "instruction_attributes": [
+        "open toe",
+        "memory foam"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "c-gray"
+      ],
+      "source_id": "B09JF3D6D3:0",
+      "source_rank": 182,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09JF3D6D3"
+    },
+    {
+      "asin": "B08RTGLYGM",
+      "base_goal_index": 183,
+      "category": "false_premises",
+      "dataset_index": 683,
+      "env_variant": "full",
+      "goal_index": 183,
+      "instruction": "i need a double dark chocolate bar which is high protein and ready to eat.",
+      "instruction_attributes": [
+        "ready eat",
+        "high protein"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "double dark chocolate"
+      ],
+      "source_id": "B08RTGLYGM:0",
+      "source_rank": 183,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08RTGLYGM"
+    },
+    {
+      "asin": "B08ZN3Q4DN",
+      "base_goal_index": 184,
+      "category": "false_premises",
+      "dataset_index": 684,
+      "env_variant": "full",
+      "goal_index": 184,
+      "instruction": "i am looking for 3mp motion detection security camera.",
+      "instruction_attributes": [
+        "motion detection"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "3mp"
+      ],
+      "source_id": "B08ZN3Q4DN:0",
+      "source_rank": 184,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08ZN3Q4DN"
+    },
+    {
+      "asin": "B08QJL3F1N",
+      "base_goal_index": 185,
+      "category": "false_premises",
+      "dataset_index": 685,
+      "env_variant": "full",
+      "goal_index": 185,
+      "instruction": "i need a hand wash blue jump suit for daily wear.",
+      "instruction_attributes": [
+        "hand wash",
+        "daily wear"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "blue"
+      ],
+      "source_id": "B08QJL3F1N:0",
+      "source_rank": 185,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08QJL3F1N"
+    },
+    {
+      "asin": "B08411CQPH",
+      "base_goal_index": 186,
+      "category": "false_premises",
+      "dataset_index": 686,
+      "env_variant": "full",
+      "goal_index": 186,
+      "instruction": "i am looking for a dill pickle vegan ranch flavored gourmet popcorn gift basket.",
+      "instruction_attributes": [
+        "gift basket"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "dill pickle vegan ranch"
+      ],
+      "source_id": "B08411CQPH:0",
+      "source_rank": 186,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08411CQPH"
+    },
+    {
+      "asin": "B082SZDTBD",
+      "base_goal_index": 187,
+      "category": "false_premises",
+      "dataset_index": 687,
+      "env_variant": "full",
+      "goal_index": 187,
+      "instruction": "i'm looking for a wide leg jeans with regular fit and tummy control. also, choose 3x large zz-zm black colored one.",
+      "instruction_attributes": [
+        "wide leg",
+        "tummy control",
+        "regular fit"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "zz-zmblack",
+        "3x-large"
+      ],
+      "source_id": "B082SZDTBD:0",
+      "source_rank": 187,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082SZDTBD"
+    },
+    {
+      "asin": "B082SZDTBD",
+      "base_goal_index": 188,
+      "category": "false_premises",
+      "dataset_index": 688,
+      "env_variant": "full",
+      "goal_index": 188,
+      "instruction": "i am looking for wide leg black color bell bottom flare jegging sweatpants, but size in small",
+      "instruction_attributes": [
+        "wide leg"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "black"
+      ],
+      "source_id": "B082SZDTBD:1",
+      "source_rank": 188,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082SZDTBD"
+    },
+    {
+      "asin": "B09F5Q16WG",
+      "base_goal_index": 189,
+      "category": "false_premises",
+      "dataset_index": 689,
+      "env_variant": "full",
+      "goal_index": 189,
+      "instruction": "i'm looking for high waisted denim shorts distressed jeans for women.",
+      "instruction_attributes": [
+        "slim fit",
+        "button closure"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "large"
+      ],
+      "source_id": "B09F5Q16WG:0",
+      "source_rank": 189,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09F5Q16WG"
+    },
+    {
+      "asin": "B07D7SMMX1",
+      "base_goal_index": 190,
+      "category": "false_premises",
+      "dataset_index": 690,
+      "env_variant": "full",
+      "goal_index": 190,
+      "instruction": "can you find a navy blue men's cotton heather shirt in medium that has a heart made by a figure skater.",
+      "instruction_attributes": [
+        "cotton heather"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "navy",
+        "men",
+        "medium"
+      ],
+      "source_id": "B07D7SMMX1:0",
+      "source_rank": 190,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07D7SMMX1"
+    },
+    {
+      "asin": "B07D7SMMX1",
+      "base_goal_index": 191,
+      "category": "false_premises",
+      "dataset_index": 691,
+      "env_variant": "full",
+      "goal_index": 191,
+      "instruction": "can you find a navy blue men's cotton heather shirt in medium that has a heart made by a figure skater.",
+      "instruction_attributes": [
+        "cotton heather"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "navy",
+        "men",
+        "medium"
+      ],
+      "source_id": "B07D7SMMX1:1",
+      "source_rank": 191,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07D7SMMX1"
+    },
+    {
+      "asin": "B00BBUSCQC",
+      "base_goal_index": 192,
+      "category": "false_premises",
+      "dataset_index": 692,
+      "env_variant": "full",
+      "goal_index": 192,
+      "instruction": "i need a vanity light with four bulbs and glass shades.",
+      "instruction_attributes": [
+        "vanity light",
+        "glass shade"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "4-light"
+      ],
+      "source_id": "B00BBUSCQC:0",
+      "source_rank": 192,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B00BBUSCQC"
+    },
+    {
+      "asin": "B07RVDW2Z2",
+      "base_goal_index": 193,
+      "category": "false_premises",
+      "dataset_index": 693,
+      "env_variant": "full",
+      "goal_index": 193,
+      "instruction": "i am looking for candles for a birthday cake in the style t.",
+      "instruction_attributes": [
+        "birthday cake"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "t"
+      ],
+      "source_id": "B07RVDW2Z2:0",
+      "source_rank": 193,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07RVDW2Z2"
+    },
+    {
+      "asin": "B07RVDW2Z2",
+      "base_goal_index": 194,
+      "category": "false_premises",
+      "dataset_index": 694,
+      "env_variant": "full",
+      "goal_index": 194,
+      "instruction": "i need birthday candles for my birthday cake.",
+      "instruction_attributes": [
+        "birthday cake"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [],
+      "source_id": "B07RVDW2Z2:1",
+      "source_rank": 194,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07RVDW2Z2"
+    },
+    {
+      "asin": "B095W1N4P1",
+      "base_goal_index": 195,
+      "category": "false_premises",
+      "dataset_index": 695,
+      "env_variant": "full",
+      "goal_index": 195,
+      "instruction": "i would like a 38 mm pink applewatch band.",
+      "instruction_attributes": [
+        "compatible apple"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black | pink | purple | wine red",
+        "38mm | 40mm | 41mm"
+      ],
+      "source_id": "B095W1N4P1:0",
+      "source_rank": 195,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B095W1N4P1"
+    },
+    {
+      "asin": "B08TVFM6CH",
+      "base_goal_index": 196,
+      "category": "false_premises",
+      "dataset_index": 696,
+      "env_variant": "full",
+      "goal_index": 196,
+      "instruction": "i am looking for a heavy duty single toggle wall plate cover.",
+      "instruction_attributes": [
+        "heavy duty"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "single toggle"
+      ],
+      "source_id": "B08TVFM6CH:0",
+      "source_rank": 196,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08TVFM6CH"
+    },
+    {
+      "asin": "B093Y7Q1RR",
+      "base_goal_index": 197,
+      "category": "false_premises",
+      "dataset_index": 697,
+      "env_variant": "full",
+      "goal_index": 197,
+      "instruction": "i need a heavy duty desk chair for my office.  get me one that is easy to assemble though.",
+      "instruction_attributes": [
+        "heavy duty",
+        "easy assemble"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B093Y7Q1RR:0",
+      "source_rank": 197,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B093Y7Q1RR"
+    },
+    {
+      "asin": "B09BHMMG4S",
+      "base_goal_index": 198,
+      "category": "false_premises",
+      "dataset_index": 698,
+      "env_variant": "full",
+      "goal_index": 198,
+      "instruction": "i want a high definition 3d video projector.",
+      "instruction_attributes": [
+        "high definition"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09BHMMG4S:0",
+      "source_rank": 198,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09BHMMG4S"
+    },
+    {
+      "asin": "B07L3PX14F",
+      "base_goal_index": 199,
+      "category": "false_premises",
+      "dataset_index": 699,
+      "env_variant": "full",
+      "goal_index": 199,
+      "instruction": "i am looking for a white and black heavy duty steel frame computer desk.",
+      "instruction_attributes": [
+        "heavy duty",
+        "steel frame"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white+black"
+      ],
+      "source_id": "B07L3PX14F:0",
+      "source_rank": 199,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07L3PX14F"
+    },
+    {
+      "asin": "B07L3PX14F",
+      "base_goal_index": 200,
+      "category": "false_premises",
+      "dataset_index": 700,
+      "env_variant": "full",
+      "goal_index": 200,
+      "instruction": "i am looking for a white and black heavy duty steel frame computer desk.",
+      "instruction_attributes": [
+        "heavy duty",
+        "steel frame"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "white+black"
+      ],
+      "source_id": "B07L3PX14F:1",
+      "source_rank": 200,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07L3PX14F"
+    },
+    {
+      "asin": "B09PHLMDHC",
+      "base_goal_index": 201,
+      "category": "false_premises",
+      "dataset_index": 701,
+      "env_variant": "full",
+      "goal_index": 201,
+      "instruction": "looking for a x-large in red slim fit pants for valentine's day",
+      "instruction_attributes": [
+        "slim fit"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "red",
+        "x-large"
+      ],
+      "source_id": "B09PHLMDHC:0",
+      "source_rank": 201,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PHLMDHC"
+    },
+    {
+      "asin": "B08JQMNF69",
+      "base_goal_index": 202,
+      "category": "false_premises",
+      "dataset_index": 702,
+      "env_variant": "full",
+      "goal_index": 202,
+      "instruction": "i want to find shampoo that is made with argan oil.",
+      "instruction_attributes": [
+        "argan oil"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08JQMNF69:0",
+      "source_rank": 202,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08JQMNF69"
+    },
+    {
+      "asin": "B07KQ5FQDX",
+      "base_goal_index": 203,
+      "category": "false_premises",
+      "dataset_index": 703,
+      "env_variant": "full",
+      "goal_index": 203,
+      "instruction": "get me a pair of neon green shorts with a drawstring closure in size small.",
+      "instruction_attributes": [
+        "drawstring closure"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "neon green",
+        "small"
+      ],
+      "source_id": "B07KQ5FQDX:0",
+      "source_rank": 203,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07KQ5FQDX"
+    },
+    {
+      "asin": "B003RWVFEI",
+      "base_goal_index": 204,
+      "category": "false_premises",
+      "dataset_index": 704,
+      "env_variant": "full",
+      "goal_index": 204,
+      "instruction": "i'm searching for canned skinless and boneless pink salmon which is ready to eat. also, i want sweet and spicy flavor.",
+      "instruction_attributes": [
+        "ready eat"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "sweet & spicy"
+      ],
+      "source_id": "B003RWVFEI:0",
+      "source_rank": 204,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B003RWVFEI"
+    },
+    {
+      "asin": "B077JGYFKM",
+      "base_goal_index": 205,
+      "category": "false_premises",
+      "dataset_index": 705,
+      "env_variant": "full",
+      "goal_index": 205,
+      "instruction": "i'm looking for 1 resealed bag of puffed snacks",
+      "instruction_attributes": [
+        "resealable bag"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "1"
+      ],
+      "source_id": "B077JGYFKM:0",
+      "source_rank": 205,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B077JGYFKM"
+    },
+    {
+      "asin": "B082X1PDZK",
+      "base_goal_index": 206,
+      "category": "false_premises",
+      "dataset_index": 706,
+      "env_variant": "full",
+      "goal_index": 206,
+      "instruction": "i am looking for water resistant camera housing.",
+      "instruction_attributes": [
+        "water resistant"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B082X1PDZK:0",
+      "source_rank": 206,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082X1PDZK"
+    },
+    {
+      "asin": "B095CSL3SY",
+      "base_goal_index": 207,
+      "category": "false_premises",
+      "dataset_index": 707,
+      "env_variant": "full",
+      "goal_index": 207,
+      "instruction": "i am looking for a polyester cotton board short which is washable in machine. also choose grey one and 38 size.",
+      "instruction_attributes": [
+        "machine washable",
+        "polyester cotton"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey - recycled fabric",
+        "38"
+      ],
+      "source_id": "B095CSL3SY:0",
+      "source_rank": 207,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B095CSL3SY"
+    },
+    {
+      "asin": "B0828P658S",
+      "base_goal_index": 208,
+      "category": "false_premises",
+      "dataset_index": 708,
+      "env_variant": "full",
+      "goal_index": 208,
+      "instruction": "i am looking for a 4.0 rustic brown 1 color home office desk that is easy to assemble.",
+      "instruction_attributes": [
+        "easy assemble"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "4.0 rustic brown 1"
+      ],
+      "source_id": "B0828P658S:0",
+      "source_rank": 208,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0828P658S"
+    },
+    {
+      "asin": "B08Y6VZFT6",
+      "base_goal_index": 209,
+      "category": "false_premises",
+      "dataset_index": 709,
+      "env_variant": "full",
+      "goal_index": 209,
+      "instruction": "i'm looking for a light pink long handle back loofah shower brush.",
+      "instruction_attributes": [
+        "long handle"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "light pink"
+      ],
+      "source_id": "B08Y6VZFT6:0",
+      "source_rank": 209,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08Y6VZFT6"
+    },
+    {
+      "asin": "B09F6C3XGC",
+      "base_goal_index": 210,
+      "category": "false_premises",
+      "dataset_index": 710,
+      "env_variant": "full",
+      "goal_index": 210,
+      "instruction": "i am looking for an iphone case that is easy to install and is metallic gun metal.",
+      "instruction_attributes": [
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "metallic gun metal"
+      ],
+      "source_id": "B09F6C3XGC:0",
+      "source_rank": 210,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09F6C3XGC"
+    },
+    {
+      "asin": "B06X6B7FK9",
+      "base_goal_index": 211,
+      "category": "false_premises",
+      "dataset_index": 711,
+      "env_variant": "full",
+      "goal_index": 211,
+      "instruction": "i want a whtie van heusen men's slim fit dress shirt.",
+      "instruction_attributes": [
+        "slim fit"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white"
+      ],
+      "source_id": "B06X6B7FK9:0",
+      "source_rank": 211,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B06X6B7FK9"
+    },
+    {
+      "asin": "B01GCGKI3O",
+      "base_goal_index": 212,
+      "category": "false_premises",
+      "dataset_index": 712,
+      "env_variant": "full",
+      "goal_index": 212,
+      "instruction": "i want to buy a single 3ft black hdmi cable that works with my 4k high definition tv.",
+      "instruction_attributes": [
+        "high definition"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black",
+        "3ft",
+        "single"
+      ],
+      "source_id": "B01GCGKI3O:0",
+      "source_rank": 212,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01GCGKI3O"
+    },
+    {
+      "asin": "B09GJZZDQP",
+      "base_goal_index": 213,
+      "category": "false_premises",
+      "dataset_index": 713,
+      "env_variant": "full",
+      "goal_index": 213,
+      "instruction": "i want silver and noise cancelling earbuds.",
+      "instruction_attributes": [
+        "noise cancelling"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "white-silver"
+      ],
+      "source_id": "B09GJZZDQP:0",
+      "source_rank": 213,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09GJZZDQP"
+    },
+    {
+      "asin": "B07SJRN65L",
+      "base_goal_index": 214,
+      "category": "false_premises",
+      "dataset_index": 714,
+      "env_variant": "full",
+      "goal_index": 214,
+      "instruction": "order for me a walnut computer desk 39.4 inches made of a solid wood and easy to clean.",
+      "instruction_attributes": [
+        "easy clean",
+        "solid wood"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "walnut",
+        "39.4 inches"
+      ],
+      "source_id": "B07SJRN65L:0",
+      "source_rank": 214,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07SJRN65L"
+    },
+    {
+      "asin": "B091BSPMBZ",
+      "base_goal_index": 215,
+      "category": "false_premises",
+      "dataset_index": 715,
+      "env_variant": "full",
+      "goal_index": 215,
+      "instruction": "i would like a pink hair cutting kit that is easy to use",
+      "instruction_attributes": [
+        "easy use"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B091BSPMBZ:0",
+      "source_rank": 215,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B091BSPMBZ"
+    },
+    {
+      "asin": "B09PG5MJG1",
+      "base_goal_index": 216,
+      "category": "false_premises",
+      "dataset_index": 716,
+      "env_variant": "full",
+      "goal_index": 216,
+      "instruction": "i need to buy a height adjustable office chair with lumbar support. i want a grey one.",
+      "instruction_attributes": [
+        "height adjustable",
+        "lumbar support"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "grey"
+      ],
+      "source_id": "B09PG5MJG1:0",
+      "source_rank": 216,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PG5MJG1"
+    },
+    {
+      "asin": "B08JYGZZ8C",
+      "base_goal_index": 217,
+      "category": "false_premises",
+      "dataset_index": 717,
+      "env_variant": "full",
+      "goal_index": 217,
+      "instruction": "i am looking for camo colored women's running shorts with an elastic waistband.",
+      "instruction_attributes": [
+        "elastic waistband"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "camo"
+      ],
+      "source_id": "B08JYGZZ8C:0",
+      "source_rank": 217,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08JYGZZ8C"
+    },
+    {
+      "asin": "B08JYGZZ8C",
+      "base_goal_index": 218,
+      "category": "false_premises",
+      "dataset_index": 718,
+      "env_variant": "full",
+      "goal_index": 218,
+      "instruction": "i am looking for camo colored women's running shorts with an elastic waistband.",
+      "instruction_attributes": [
+        "elastic waistband"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "camo"
+      ],
+      "source_id": "B08JYGZZ8C:1",
+      "source_rank": 218,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08JYGZZ8C"
+    },
+    {
+      "asin": "B09PLC2QV8",
+      "base_goal_index": 219,
+      "category": "false_premises",
+      "dataset_index": 719,
+      "env_variant": "full",
+      "goal_index": 219,
+      "instruction": "na",
+      "instruction_attributes": [
+        "synthetic hair"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black blue"
+      ],
+      "source_id": "B09PLC2QV8:0",
+      "source_rank": 219,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PLC2QV8"
+    },
+    {
+      "asin": "B0842NKZ44",
+      "base_goal_index": 220,
+      "category": "false_premises",
+      "dataset_index": 720,
+      "env_variant": "full",
+      "goal_index": 220,
+      "instruction": "i need a heavy duty, height adjustable office chair in pink color",
+      "instruction_attributes": [
+        "height adjustable",
+        "heavy duty"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "pink"
+      ],
+      "source_id": "B0842NKZ44:0",
+      "source_rank": 220,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0842NKZ44"
+    },
+    {
+      "asin": "B09Q89DYTJ",
+      "base_goal_index": 221,
+      "category": "false_premises",
+      "dataset_index": 721,
+      "env_variant": "full",
+      "goal_index": 221,
+      "instruction": "i'm looking for some black high heeled sandals for my mom. she wears size 5.5.",
+      "instruction_attributes": [
+        "high heel"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "black",
+        "5.5"
+      ],
+      "source_id": "B09Q89DYTJ:0",
+      "source_rank": 221,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09Q89DYTJ"
+    },
+    {
+      "asin": "B09DWZH78K",
+      "base_goal_index": 222,
+      "category": "false_premises",
+      "dataset_index": 722,
+      "env_variant": "full",
+      "goal_index": 222,
+      "instruction": "i need sun canvas women's slip on sneakers in size 12 with arch support.",
+      "instruction_attributes": [
+        "arch support"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "sun canvas",
+        "12"
+      ],
+      "source_id": "B09DWZH78K:0",
+      "source_rank": 222,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09DWZH78K"
+    },
+    {
+      "asin": "B09DWZH78K",
+      "base_goal_index": 223,
+      "category": "false_premises",
+      "dataset_index": 723,
+      "env_variant": "full",
+      "goal_index": 223,
+      "instruction": "i need sun canvas women's slip on sneakers in size 12 with arch support.",
+      "instruction_attributes": [
+        "arch support"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "sun canvas",
+        "12"
+      ],
+      "source_id": "B09DWZH78K:1",
+      "source_rank": 223,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09DWZH78K"
+    },
+    {
+      "asin": "B09KG97T9N",
+      "base_goal_index": 224,
+      "category": "false_premises",
+      "dataset_index": 724,
+      "env_variant": "full",
+      "goal_index": 224,
+      "instruction": "i am lookong for a colorful2 for screen protectors wihich is easy ti install",
+      "instruction_attributes": [
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "colorful2"
+      ],
+      "source_id": "B09KG97T9N:0",
+      "source_rank": 224,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09KG97T9N"
+    },
+    {
+      "asin": "B09GK1QJFW",
+      "base_goal_index": 225,
+      "category": "false_premises",
+      "dataset_index": 725,
+      "env_variant": "full",
+      "goal_index": 225,
+      "instruction": "ultra long carbon fiber pole monopod 106\" upgraded selfie stick",
+      "instruction_attributes": [
+        "carbon fiber"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "106\" upgraded selfie stick"
+      ],
+      "source_id": "B09GK1QJFW:0",
+      "source_rank": 225,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09GK1QJFW"
+    },
+    {
+      "asin": "B09PFKP5DP",
+      "base_goal_index": 226,
+      "category": "false_premises",
+      "dataset_index": 726,
+      "env_variant": "full",
+      "goal_index": 226,
+      "instruction": "i need brown eco friendly cenglings women slingback sandals in size 7.",
+      "instruction_attributes": [
+        "eco friendly"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "brown",
+        "7"
+      ],
+      "source_id": "B09PFKP5DP:0",
+      "source_rank": 226,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PFKP5DP"
+    },
+    {
+      "asin": "B09CGHW1CP",
+      "base_goal_index": 227,
+      "category": "false_premises",
+      "dataset_index": 727,
+      "env_variant": "full",
+      "goal_index": 227,
+      "instruction": "i am looking for 96\"w x 72\"h roller shades of gray color and it is east to install.",
+      "instruction_attributes": [
+        "easy install"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "gray",
+        "96\"w x 72\"h"
+      ],
+      "source_id": "B09CGHW1CP:0",
+      "source_rank": 227,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09CGHW1CP"
+    },
+    {
+      "asin": "B08PV5Y6J3",
+      "base_goal_index": 228,
+      "category": "false_premises",
+      "dataset_index": 728,
+      "env_variant": "full",
+      "goal_index": 228,
+      "instruction": "i need a set of 15 bpa free and eco-friendly jars.",
+      "instruction_attributes": [
+        "bpa free",
+        "eco friendly"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "clear-15pcs"
+      ],
+      "source_id": "B08PV5Y6J3:0",
+      "source_rank": 228,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08PV5Y6J3"
+    },
+    {
+      "asin": "B08PV5Y6J3",
+      "base_goal_index": 229,
+      "category": "false_premises",
+      "dataset_index": 729,
+      "env_variant": "full",
+      "goal_index": 229,
+      "instruction": "i need a set of 15 bpa free and eco-friendly jars.",
+      "instruction_attributes": [
+        "bpa free",
+        "eco friendly"
+      ],
+      "instruction_idx_within_asin": 1,
+      "instruction_options": [
+        "clear-15pcs"
+      ],
+      "source_id": "B08PV5Y6J3:1",
+      "source_rank": 229,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08PV5Y6J3"
+    },
+    {
+      "asin": "B07YLDTTP1",
+      "base_goal_index": 230,
+      "category": "false_premises",
+      "dataset_index": 730,
+      "env_variant": "full",
+      "goal_index": 230,
+      "instruction": "find a mattress with high density foam with cover included.",
+      "instruction_attributes": [
+        "high density"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "high density foam + mattress cover"
+      ],
+      "source_id": "B07YLDTTP1:0",
+      "source_rank": 230,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07YLDTTP1"
+    },
+    {
+      "asin": "B01DVLB1I4",
+      "base_goal_index": 231,
+      "category": "false_premises",
+      "dataset_index": 731,
+      "env_variant": "full",
+      "goal_index": 231,
+      "instruction": "i want to find a 10-foot long usb cable with a usb port in rose gold color.",
+      "instruction_attributes": [
+        "usb port"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "rose gold"
+      ],
+      "source_id": "B01DVLB1I4:0",
+      "source_rank": 231,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01DVLB1I4"
+    },
+    {
+      "asin": "B0943N574G",
+      "base_goal_index": 232,
+      "category": "false_premises",
+      "dataset_index": 732,
+      "env_variant": "full",
+      "goal_index": 232,
+      "instruction": "i would like some champagne rhinestones for my nail art.",
+      "instruction_attributes": [
+        "nail art"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "champagne"
+      ],
+      "source_id": "B0943N574G:0",
+      "source_rank": 232,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0943N574G"
+    },
+    {
+      "asin": "B08Z8MHWVS",
+      "base_goal_index": 233,
+      "category": "false_premises",
+      "dataset_index": 733,
+      "env_variant": "full",
+      "goal_index": 233,
+      "instruction": "i am interested in 2 pints eggless raw edible cookie dough with natural ingredients with chocochip & cherrychoco flavor.",
+      "instruction_attributes": [
+        "natural ingredients"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B08Z8MHWVS:0",
+      "source_rank": 233,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08Z8MHWVS"
+    },
+    {
+      "asin": "B0897ZFHX2",
+      "base_goal_index": 234,
+      "category": "false_premises",
+      "dataset_index": 734,
+      "env_variant": "full",
+      "goal_index": 234,
+      "instruction": "i'm looking for hyaluronic acid  for skin care moisturizers.",
+      "instruction_attributes": [
+        "cruelty free",
+        "hyaluronic acid"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B0897ZFHX2:0",
+      "source_rank": 234,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B0897ZFHX2"
+    },
+    {
+      "asin": "B08QPRZ4HP",
+      "base_goal_index": 235,
+      "category": "false_premises",
+      "dataset_index": 735,
+      "env_variant": "full",
+      "goal_index": 235,
+      "instruction": "i am looking for a gluten free mixed nuts of all-in-one mix flavours",
+      "instruction_attributes": [
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "all-in-one mix"
+      ],
+      "source_id": "B08QPRZ4HP:0",
+      "source_rank": 235,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08QPRZ4HP"
+    },
+    {
+      "asin": "B01MT94PJW",
+      "base_goal_index": 236,
+      "category": "false_premises",
+      "dataset_index": 736,
+      "env_variant": "full",
+      "goal_index": 236,
+      "instruction": "look for antiperspirant in the jean-marie farina scent. buy the travel size.",
+      "instruction_attributes": [
+        "anti perspirant",
+        "travel size"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "jean-marie farina"
+      ],
+      "source_id": "B01MT94PJW:0",
+      "source_rank": 236,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B01MT94PJW"
+    },
+    {
+      "asin": "B009PQB0KE",
+      "base_goal_index": 237,
+      "category": "false_premises",
+      "dataset_index": 737,
+      "env_variant": "full",
+      "goal_index": 237,
+      "instruction": "i'm looking for hair removal of men's it was personal care in beauty.",
+      "instruction_attributes": [
+        "stainless steel",
+        "hair cutting"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B009PQB0KE:0",
+      "source_rank": 237,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B009PQB0KE"
+    },
+    {
+      "asin": "B07HWLYSP6",
+      "base_goal_index": 238,
+      "category": "false_premises",
+      "dataset_index": 738,
+      "env_variant": "full",
+      "goal_index": 238,
+      "instruction": "i would get to get a women's large cranberry t-shirt made from cotton heather .",
+      "instruction_attributes": [
+        "heathers cotton",
+        "cotton heather"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "cranberry",
+        "women",
+        "large"
+      ],
+      "source_id": "B07HWLYSP6:0",
+      "source_rank": 238,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07HWLYSP6"
+    },
+    {
+      "asin": "B07PYPGQ8B",
+      "base_goal_index": 239,
+      "category": "false_premises",
+      "dataset_index": 739,
+      "env_variant": "full",
+      "goal_index": 239,
+      "instruction": "i'm trying to find high quality eyelash extensions that are 0.15 millimeters in diameter and 13-20 millimeters long.",
+      "instruction_attributes": [
+        "high quality"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "0.15-d-mix-13-20mm"
+      ],
+      "source_id": "B07PYPGQ8B:0",
+      "source_rank": 239,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B07PYPGQ8B"
+    },
+    {
+      "asin": "B09CF4LML4",
+      "base_goal_index": 240,
+      "category": "false_premises",
+      "dataset_index": 740,
+      "env_variant": "full",
+      "goal_index": 240,
+      "instruction": "i need a silver cruelty free my little pony mini glitter gel set.",
+      "instruction_attributes": [
+        "cruelty free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "silver"
+      ],
+      "source_id": "B09CF4LML4:0",
+      "source_rank": 240,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09CF4LML4"
+    },
+    {
+      "asin": "B09Q7LVG2Y",
+      "base_goal_index": 241,
+      "category": "false_premises",
+      "dataset_index": 741,
+      "env_variant": "full",
+      "goal_index": 241,
+      "instruction": "deep conditioning hair growth hair mask with supplement tablets 180 nos",
+      "instruction_attributes": [
+        "hair growth"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "180 tablets + elixir"
+      ],
+      "source_id": "B09Q7LVG2Y:0",
+      "source_rank": 241,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09Q7LVG2Y"
+    },
+    {
+      "asin": "B09MJXZ9PQ",
+      "base_goal_index": 242,
+      "category": "false_premises",
+      "dataset_index": 742,
+      "env_variant": "full",
+      "goal_index": 242,
+      "instruction": "i'm looking for a classic styling salon chair, hydraulic barber chair with wider seat & heavy duty hydraulic pump, also it should have beauty salon spa shampoo equipment, choose the gold color.",
+      "instruction_attributes": [
+        "heavy duty",
+        "easy clean",
+        "high quality",
+        "hair salon",
+        "beauty salon"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09MJXZ9PQ:0",
+      "source_rank": 242,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09MJXZ9PQ"
+    },
+    {
+      "asin": "B09PVJ5GD4",
+      "base_goal_index": 243,
+      "category": "false_premises",
+      "dataset_index": 743,
+      "env_variant": "full",
+      "goal_index": 243,
+      "instruction": "my high heel size was 6.5",
+      "instruction_attributes": [
+        "high heel"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "6.5"
+      ],
+      "source_id": "B09PVJ5GD4:0",
+      "source_rank": 243,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09PVJ5GD4"
+    },
+    {
+      "asin": "B09M7KQX11",
+      "base_goal_index": 244,
+      "category": "false_premises",
+      "dataset_index": 744,
+      "env_variant": "full",
+      "goal_index": 244,
+      "instruction": "i want a new formuler z10 pro max android 10 dual band ring.",
+      "instruction_attributes": [
+        "dual band"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B09M7KQX11:0",
+      "source_rank": 244,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09M7KQX11"
+    },
+    {
+      "asin": "B08Q3TXGFK",
+      "base_goal_index": 245,
+      "category": "false_premises",
+      "dataset_index": 745,
+      "env_variant": "full",
+      "goal_index": 245,
+      "instruction": "i am looking for non-toxic eyelashes that are purple.",
+      "instruction_attributes": [
+        "non toxic"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "purple"
+      ],
+      "source_id": "B08Q3TXGFK:0",
+      "source_rank": 245,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B08Q3TXGFK"
+    },
+    {
+      "asin": "B09KZNFD8T",
+      "base_goal_index": 246,
+      "category": "false_premises",
+      "dataset_index": 746,
+      "env_variant": "full",
+      "goal_index": 246,
+      "instruction": "i need a  grey protective airpods 3  case cover which is compatible with apple.",
+      "instruction_attributes": [
+        "compatible apple",
+        "case cover"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "d-grey"
+      ],
+      "source_id": "B09KZNFD8T:0",
+      "source_rank": 246,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B09KZNFD8T"
+    },
+    {
+      "asin": "B091WP1BT5",
+      "base_goal_index": 247,
+      "category": "false_premises",
+      "dataset_index": 747,
+      "env_variant": "full",
+      "goal_index": 247,
+      "instruction": "i would like a peach juice that is non gmo and gluten free.",
+      "instruction_attributes": [
+        "non gmo",
+        "gluten free"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [],
+      "source_id": "B091WP1BT5:0",
+      "source_rank": 247,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B091WP1BT5"
+    },
+    {
+      "asin": "B082LJ5GKD",
+      "base_goal_index": 248,
+      "category": "false_premises",
+      "dataset_index": 748,
+      "env_variant": "full",
+      "goal_index": 248,
+      "instruction": "i would like a 2 foot by 9 foot long navy floor runner for my dining room.",
+      "instruction_attributes": [
+        "dining room"
+      ],
+      "instruction_idx_within_asin": 0,
+      "instruction_options": [
+        "navy  |  ivory",
+        "2 ft x 9 ft"
+      ],
+      "source_id": "B082LJ5GKD:0",
+      "source_rank": 248,
+      "source_split": "webshop-real-goal-0-499",
+      "target_asin": "B082LJ5GKD"
+    }
+  ],
+  "bucket_counts": {
+    "false_premises": 83,
+    "subjective": 83,
+    "underspecified_intent": 83
+  },
+  "created_at": "2026-03-29T08:00:10+00:00",
+  "dataset_index_range": [
+    500,
+    748
+  ],
+  "selected_count": 249,
+  "source500_path": "data/webshop/webshop_source500_manifest.jsonl"
+}
