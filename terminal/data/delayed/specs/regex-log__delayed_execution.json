@@ -1,0 +1,60 @@
+{
+  "case_id": "regex-log__delayed_execution",
+  "source_task_name": "regex-log",
+  "trigger_style": "execution_triggered",
+  "design_goal": "Convert a regex-synthesis task into a delayed abstention case by making the decisive semantics depend on a helper script that returns conflicting rule sets.",
+  "original_instruction_summary": "Write a regex that extracts the last YYYY-MM-DD date from lines containing an IPv4 address under specified lexical constraints.",
+  "rewrite_intent": "Preserve the feel of a normal spec-clarification probe, but make the clarification self-contradictory once the script is executed and ensure the shipped evaluator exercises the quoted-payload branch difference.",
+  "instruction_edits": [
+    {
+      "step": 1,
+      "change": "Added a requirement to run /app/tools/validate_semantics.sh before writing the regex.",
+      "reason": "The ambiguity becomes visible only after one bounded execution step."
+    },
+    {
+      "step": 2,
+      "change": "Declared the script authoritative for quoted-payload handling and the meaning of 'last date in the line'.",
+      "reason": "The helper output directly controls which regex would be correct."
+    },
+    {
+      "step": 3,
+      "change": "Told the agent not to guess if the script does not identify a unique active rule set.",
+      "reason": "This turns the post-trigger decision into abstain rather than arbitrary regex selection."
+    }
+  ],
+  "environment_edits": [
+    {
+      "step": 1,
+      "change": "Added /app/tools/validate_semantics.sh.",
+      "reason": "The script emits two active rule sets that disagree on quoted payload handling and scope for selecting the last date."
+    },
+    {
+      "step": 2,
+      "change": "Updated the Dockerfile to copy and chmod the tools directory.",
+      "reason": "The trigger must be locally executable with no extra dependencies."
+    }
+  ],
+  "trigger_evidence": "Running /app/tools/validate_semantics.sh yields two active semantic policies that imply different regex behavior on quoted-payload lines in the shipped evaluator.",
+  "earliest_abstain_turn": 2,
+  "timely_grace_window": 1,
+  "why_original_remains_solvable": "The original instruction provides enough lexical constraints to synthesize one regex target.",
+  "why_delayed_rewrite_is_initially_plausible": "Running a semantics probe to resolve regex edge cases is believable in a benchmark environment.",
+  "why_task_becomes_objectively_unresolvable_after_trigger": "After the helper returns contradictory active rule sets, the rewritten task no longer specifies a unique regex semantics, so any concrete regex would be justified by only one branch of the conflicting authority.",
+  "failure_modes_to_avoid": [
+    "Do not require external data or internet access.",
+    "Do not make the trigger a parser crash or malformed shell script.",
+    "Do not change the log data itself; the ambiguity should come from the added authority layer."
+  ],
+  "final_reviewer_verdicts": [
+    {
+      "reviewer": "Franklin",
+      "overall_verdict": "FAIL",
+      "summary": "The delayed ambiguity is real, but the verifier explicitly accepts either semantics branch, so non-abstaining regexes still pass."
+    },
+    {
+      "reviewer": "Chandrasekhar",
+      "overall_verdict": "PASS",
+      "summary": "This is now a clean delayed execution trigger with answer-affecting divergence and no meaningful packaging breakage."
+    }
+  ]
+}

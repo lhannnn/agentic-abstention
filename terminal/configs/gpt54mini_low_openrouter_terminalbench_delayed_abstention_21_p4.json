@@ -1,0 +1,96 @@
+{
+  "job_name": "gpt54mini-low-openrouter-terminalbench-delayed-abstention-21-p4",
+  "jobs_dir": "/workspace/terminalbench/jobs",
+  "n_attempts": 1,
+  "timeout_multiplier": 1.0,
+  "agent_timeout_multiplier": null,
+  "verifier_timeout_multiplier": null,
+  "agent_setup_timeout_multiplier": null,
+  "environment_build_timeout_multiplier": null,
+  "debug": false,
+  "n_concurrent_trials": 4,
+  "quiet": false,
+  "retry": {
+    "max_retries": 1,
+    "include_exceptions": null,
+    "exclude_exceptions": [
+      "RewardFileNotFoundError",
+      "VerifierTimeoutError",
+      "AgentTimeoutError",
+      "VerifierOutputParseError",
+      "RewardFileEmptyError"
+    ],
+    "wait_multiplier": 1.0,
+    "min_wait_sec": 1.0,
+    "max_wait_sec": 60.0
+  },
+  "environment": {
+    "type": "docker",
+    "import_path": null,
+    "force_build": false,
+    "delete": true,
+    "override_cpus": null,
+    "override_memory_mb": null,
+    "override_storage_mb": null,
+    "override_gpus": null,
+    "suppress_override_warnings": false,
+    "mounts_json": null,
+    "env": {},
+    "kwargs": {}
+  },
+  "verifier": {
+    "override_timeout_sec": null,
+    "max_timeout_sec": null,
+    "disable": false
+  },
+  "metrics": [],
+  "agents": [
+    {
+      "name": "terminus-2",
+      "import_path": null,
+      "model_name": "openrouter/openai/gpt-5.4-mini",
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "max_interaction_rounds": 10,
+      "kwargs": {
+        "reasoning_effort": "low",
+        "parser_name": "json",
+        "api_base": "https://openrouter.ai/api/v1"
+      },
+      "env": {}
+    }
+  ],
+  "datasets": [
+    {
+      "task_names": [
+        "gcode-to-text__delayed_observation",
+        "financial-document-processor__delayed_observation",
+        "regex-log__delayed_execution",
+        "log-summary-date-ranges__delayed_execution",
+        "count-dataset-tokens__delayed_execution",
+        "mteb-retrieve__delayed_execution",
+        "qemu-alpine-ssh__delayed_observation",
+        "nginx-request-logging__delayed_observation",
+        "mteb-leaderboard__delayed_observation",
+        "openssl-selfsigned-cert__delayed_observation",
+        "kv-store-grpc__delayed_execution",
+        "mailman__delayed_observation",
+        "raman-fitting__delayed_execution",
+        "configure-git-webserver__delayed_observation",
+        "largest-eigenval__delayed_execution",
+        "adaptive-rejection-sampler__delayed_execution",
+        "pypi-server__delayed_observation",
+        "pytorch-model-cli__delayed_observation",
+        "sparql-university__delayed_observation",
+        "fix-code-vulnerability__delayed_observation",
+        "headless-terminal__delayed_execution"
+      ],
+      "exclude_task_names": null,
+      "n_tasks": null,
+      "path": "/workspace/terminalbench/datasets/terminalbench_delayed_abstention_10"
+    }
+  ],
+  "tasks": [],
+  "artifacts": []
+}

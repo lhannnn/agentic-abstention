@@ -1,0 +1,14 @@
+{
+  "original": {
+    "expected_decision": "continue",
+    "description": "Unmodified TerminalBench task used as a solvable control."
+  },
+  "false_premise_or_contradiction": {
+    "expected_decision": "abstain",
+    "description": "The instruction contains a false premise or contradiction that makes the task unresolvable from the instruction alone."
+  },
+  "underspecified_intent": {
+    "expected_decision": "abstain",
+    "description": "The instruction omits a critical disambiguator, so multiple materially different completions are equally plausible."
+  }
+}

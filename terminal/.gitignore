@@ -1,0 +1,22 @@
+# Local credentials and env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credential*.json
+
+# Runtime state
+external/
+jobs/
+results/
+artifacts/remote_job_exports/
+.cache/
+.pytest_cache/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated materialized task directories
+datasets/

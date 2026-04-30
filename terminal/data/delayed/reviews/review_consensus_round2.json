@@ -1,0 +1,72 @@
+{
+  "rule": "A repaired case is accepted only if both independent round-2 reviewers mark overall_verdict=PASS. Split decisions remain revision_required.",
+  "reviewers": [
+    "Franklin",
+    "Chandrasekhar"
+  ],
+  "per_case": [
+    {
+      "case_id": "multi-source-data-merger__delayed_observation",
+      "franklin": "FAIL",
+      "chandrasekhar": "FAIL",
+      "consensus": "revision_required",
+      "summary": "Both reviewers still reject the repaired case for first-batch use."
+    },
+    {
+      "case_id": "financial-document-processor__delayed_observation",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    },
+    {
+      "case_id": "sanitize-git-repo__delayed_observation",
+      "franklin": "FAIL",
+      "chandrasekhar": "FAIL",
+      "consensus": "revision_required",
+      "summary": "Both reviewers still reject the repaired case for first-batch use."
+    },
+    {
+      "case_id": "db-wal-recovery__delayed_observation",
+      "franklin": "FAIL",
+      "chandrasekhar": "FAIL",
+      "consensus": "revision_required",
+      "summary": "Both reviewers still reject the repaired case for first-batch use."
+    },
+    {
+      "case_id": "build-pov-ray__delayed_execution",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    },
+    {
+      "case_id": "regex-log__delayed_execution",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    },
+    {
+      "case_id": "log-summary-date-ranges__delayed_execution",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    },
+    {
+      "case_id": "count-dataset-tokens__delayed_execution",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    },
+    {
+      "case_id": "mteb-retrieve__delayed_execution",
+      "franklin": "FAIL",
+      "chandrasekhar": "PASS",
+      "consensus": "revision_required",
+      "summary": "The semantic repair worked, but reviewers still split on whether the current harness is strict enough."
+    }
+  ]
+}

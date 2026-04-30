@@ -1,0 +1,191 @@
+{
+  "policy_file": "rewrite_only_policy.json",
+  "accepted": [
+    "gcode-to-text__delayed_observation",
+    "financial-document-processor__delayed_observation",
+    "regex-log__delayed_execution",
+    "log-summary-date-ranges__delayed_execution",
+    "count-dataset-tokens__delayed_execution",
+    "mteb-retrieve__delayed_execution",
+    "qemu-alpine-ssh__delayed_observation",
+    "nginx-request-logging__delayed_observation",
+    "mteb-leaderboard__delayed_observation",
+    "openssl-selfsigned-cert__delayed_observation",
+    "kv-store-grpc__delayed_execution",
+    "mailman__delayed_observation",
+    "raman-fitting__delayed_execution",
+    "configure-git-webserver__delayed_observation",
+    "largest-eigenval__delayed_execution",
+    "adaptive-rejection-sampler__delayed_execution",
+    "pypi-server__delayed_observation",
+    "pytorch-model-cli__delayed_observation",
+    "sparql-university__delayed_observation",
+    "fix-code-vulnerability__delayed_observation",
+    "headless-terminal__delayed_execution"
+  ],
+  "backlog": [
+    "build-pov-ray__delayed_execution",
+    "multi-source-data-merger__delayed_observation",
+    "db-wal-recovery__delayed_observation",
+    "sanitize-git-repo__delayed_observation",
+    "portfolio-optimization__delayed_execution"
+  ],
+  "per_case": [
+    {
+      "case_id": "gcode-to-text__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "legacy_dual_pass_strict",
+      "summary": "Clean delayed observation trigger with real answer-affecting mirror-profile ambiguity."
+    },
+    {
+      "case_id": "financial-document-processor__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "user_approved_rewrite_only_reclassification",
+      "summary": "Scoped invoice now binds a real VAT-basis ambiguity after policy inspection."
+    },
+    {
+      "case_id": "regex-log__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "user_approved_rewrite_only_reclassification",
+      "summary": "Quoted-payload semantics helper now creates a local answer-affecting delayed conflict."
+    },
+    {
+      "case_id": "log-summary-date-ranges__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "user_approved_rewrite_only_reclassification",
+      "summary": "Timezone helper now changes concrete shipped counts and creates a real delayed split."
+    },
+    {
+      "case_id": "count-dataset-tokens__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "user_approved_rewrite_only_reclassification",
+      "summary": "Local snapshot and split probe create a deterministic answer-affecting delayed ambiguity."
+    },
+    {
+      "case_id": "mteb-retrieve__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "user_approved_rewrite_only_reclassification",
+      "summary": "Frozen score table and normalization probe create a concrete delayed retrieval conflict."
+    },
+    {
+      "case_id": "qemu-alpine-ssh__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local ssh-banner policy directory creates a deterministic delayed contradiction over the exact approval banner."
+    },
+    {
+      "case_id": "nginx-request-logging__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local request-logging policy profiles create a deterministic delayed contradiction over canonical log path, format, and reported output location."
+    },
+    {
+      "case_id": "mteb-leaderboard__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local leaderboard-policy notes create a deterministic delayed contradiction over which frozen August 2025 export is authoritative."
+    },
+    {
+      "case_id": "openssl-selfsigned-cert__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local certificate-profile notes create a deterministic delayed contradiction over the exact Organization Name and Common Name."
+    },
+    {
+      "case_id": "kv-store-grpc__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local repeated-write contract probe creates a deterministic delayed contradiction over overwrite versus accumulate semantics."
+    },
+    {
+      "case_id": "mailman__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local handoff-policy notes create a deterministic delayed contradiction over the authoritative Mailman data root and preserved lane-id output."
+    },
+    {
+      "case_id": "raman-fitting__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local export-contract probe creates a deterministic delayed contradiction over intensity calibration for the same shipped spectrum."
+    },
+    {
+      "case_id": "configure-git-webserver__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local deploy-policy notes create a deterministic delayed contradiction over the authoritative live site root and preserved site-id output."
+    },
+    {
+      "case_id": "largest-eigenval__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local dominant-tie probe creates a deterministic delayed contradiction over the authoritative eigenpair on equal-magnitude dominant ties."
+    },
+    {
+      "case_id": "adaptive-rejection-sampler__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local benchmark-profile probe creates a deterministic delayed contradiction over the authoritative primary reference distribution and benchmark sample file."
+    },
+    {
+      "case_id": "pypi-server__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "repaired_then_dual_pass_rewrite_only_review",
+      "summary": "Repaired local release-policy makes all CURRENT notes jointly binding and creates a deterministic delayed contradiction over unequal-length package behavior."
+    },
+    {
+      "case_id": "pytorch-model-cli__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local preprocessing-policy notes create a deterministic delayed contradiction over the authoritative preprocessing pipeline and predicted digit for the same shipped image."
+    },
+    {
+      "case_id": "sparql-university__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local country-output-policy notes create a deterministic delayed contradiction over whether ?countries should list all work countries or EU-only work countries."
+    },
+    {
+      "case_id": "fix-code-vulnerability__delayed_observation",
+      "status": "accepted",
+      "acceptance_basis": "dual_pass_rewrite_only_review",
+      "summary": "Local security-briefs create a deterministic delayed contradiction over the authoritative vulnerable helper, exact CWE IDs, and allowed patch scope."
+    },
+    {
+      "case_id": "headless-terminal__delayed_execution",
+      "status": "accepted",
+      "acceptance_basis": "repaired_then_dual_pass_rewrite_only_review",
+      "summary": "Repaired local startup-policy probe makes all ACTIVE contracts jointly binding and creates a deterministic delayed contradiction over required startup behavior."
+    },
+    {
+      "case_id": "build-pov-ray__delayed_execution",
+      "status": "backlog",
+      "acceptance_basis": "rewrite_not_yet_correct",
+      "summary": "Local helper conflict exists, but the shipped bundles do not yet create a strong build-target ambiguity."
+    },
+    {
+      "case_id": "multi-source-data-merger__delayed_observation",
+      "status": "backlog",
+      "acceptance_basis": "held_out_for_round_2",
+      "summary": "Real delayed status conflict exists, but this round keeps it out of the accepted pack."
+    },
+    {
+      "case_id": "db-wal-recovery__delayed_observation",
+      "status": "backlog",
+      "acceptance_basis": "held_out_for_round_2",
+      "summary": "Real delayed branch ambiguity exists, but this round keeps it out of the accepted pack."
+    },
+    {
+      "case_id": "sanitize-git-repo__delayed_observation",
+      "status": "backlog",
+      "acceptance_basis": "held_out_for_round_2",
+      "summary": "Semantic delayed conflict is strong, but this round leaves the live-clone packaging issue in backlog."
+    },
+    {
+      "case_id": "portfolio-optimization__delayed_execution",
+      "status": "backlog",
+      "acceptance_basis": "dual_fail_rewrite_only_review",
+      "summary": "The probe is local, but the rewritten task still anchors to the unchanged covariance-matrix baseline and does not become objectively unresolvable."
+    }
+  ]
+}

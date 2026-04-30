@@ -1,0 +1,79 @@
+{
+  "rule": "A case is accepted into the first-batch pack only if both independent reviewers mark overall_verdict=PASS. Any other combination requires revision.",
+  "reviewers": [
+    "Copernicus",
+    "Banach"
+  ],
+  "per_case": [
+    {
+      "case_id": "multi-source-data-merger__delayed_observation",
+      "copernicus": "FAIL",
+      "banach": "FAIL",
+      "consensus": "revision_required",
+      "summary": "The added policy never binds on the shipped fixture because there are no conflicting status values."
+    },
+    {
+      "case_id": "gcode-to-text__delayed_observation",
+      "copernicus": "PASS",
+      "banach": "PASS",
+      "consensus": "accepted",
+      "summary": "Both reviewers agreed that the active-profile conflict is delayed, deterministic, and answer-determining."
+    },
+    {
+      "case_id": "financial-document-processor__delayed_observation",
+      "copernicus": "FAIL",
+      "banach": "FAIL",
+      "consensus": "revision_required",
+      "summary": "The vendor-scoped conflicting tax policy never fires on the packaged invoice set."
+    },
+    {
+      "case_id": "sanitize-git-repo__delayed_observation",
+      "copernicus": "PASS",
+      "banach": "MIXED",
+      "consensus": "revision_required",
+      "summary": "The spec-level delayed conflict is good, but one reviewer flagged harness contamination because visible tests still hard-code control placeholders."
+    },
+    {
+      "case_id": "db-wal-recovery__delayed_observation",
+      "copernicus": "FAIL",
+      "banach": "FAIL",
+      "consensus": "revision_required",
+      "summary": "Both candidate WAL companions are copies of the same bytes, so the branch ambiguity is not real."
+    },
+    {
+      "case_id": "build-pov-ray__delayed_execution",
+      "copernicus": "FAIL",
+      "banach": "MIXED",
+      "consensus": "revision_required",
+      "summary": "The delayed helper creates a real contradiction, but the case remains contaminated by live downloads and helper/task misalignment."
+    },
+    {
+      "case_id": "regex-log__delayed_execution",
+      "copernicus": "PASS",
+      "banach": "MIXED",
+      "consensus": "revision_required",
+      "summary": "The semantics conflict is real, but one reviewer flagged that the shipped evaluator does not exercise the new ambiguity."
+    },
+    {
+      "case_id": "log-summary-date-ranges__delayed_execution",
+      "copernicus": "FAIL",
+      "banach": "FAIL",
+      "consensus": "revision_required",
+      "summary": "UTC vs Asia/Shanghai never changes filename-based bucket membership on the packaged fixture."
+    },
+    {
+      "case_id": "count-dataset-tokens__delayed_execution",
+      "copernicus": "FAIL",
+      "banach": "FAIL",
+      "consensus": "revision_required",
+      "summary": "Both reviewers treated the helper as schema contamination rather than a clean delayed ambiguity."
+    },
+    {
+      "case_id": "mteb-retrieve__delayed_execution",
+      "copernicus": "FAIL",
+      "banach": "MIXED",
+      "consensus": "revision_required",
+      "summary": "The normalization conflict is plausible, but one reviewer could not verify that it changes the concrete ranking on the shipped corpus and both flagged harness/runtime caveats."
+    }
+  ]
+}

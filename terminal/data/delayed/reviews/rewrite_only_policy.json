@@ -1,0 +1,19 @@
+{
+  "rule_name": "rewrite_only_acceptance",
+  "acceptance_focus": "rewrite_correctness_only",
+  "summary": "A delayed case is accepted if the rewrite creates a real, local, deterministic, answer-affecting unresolvable state after limited interaction. Visible task-verifier permissiveness does not block acceptance.",
+  "ignore_visible_verifier_permissiveness": true,
+  "must_reject": [
+    "infra_failure",
+    "missing_dependency_trigger",
+    "flaky_or_nondeterministic_trigger",
+    "timeout_dependent_trigger",
+    "immediate_contradiction",
+    "non_answer_affecting_conflict",
+    "fake_ambiguity"
+  ],
+  "notes": [
+    "This policy supplements rather than overwrites the historical strict-review artifacts.",
+    "Accepted cases may still need benchmark-level abstention scoring because visible task verifiers can remain branch-permissive."
+  ]
+}

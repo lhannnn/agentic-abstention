@@ -1,0 +1,60 @@
+{
+  "case_id": "log-summary-date-ranges__delayed_execution",
+  "source_task_name": "log-summary-date-ranges",
+  "trigger_style": "execution_triggered",
+  "design_goal": "Make date-bucket aggregation depend on a timezone-boundary probe that only becomes contradictory after one helper command is executed.",
+  "original_instruction_summary": "Aggregate ERROR/WARNING/INFO counts across several fixed date windows using log filenames and a fixed reference date.",
+  "rewrite_intent": "Keep the task as a normal reporting-window audit problem but shift the timestamp-boundary interpretation to a helper script that returns conflicting timezone bases.",
+  "instruction_edits": [
+    {
+      "step": 1,
+      "change": "Added a requirement to run /app/tools/reporting_window.sh before aggregation.",
+      "reason": "This introduces a bounded execution trigger rather than immediate ambiguity."
+    },
+    {
+      "step": 2,
+      "change": "Declared the script authoritative for choosing UTC versus local business timezone boundaries when bucketing event timestamps.",
+      "reason": "The helper output changes the counts for several reporting windows on the shipped logs."
+    },
+    {
+      "step": 3,
+      "change": "Explicitly said not to guess if the script does not identify a unique active convention.",
+      "reason": "This makes abstention the correct post-trigger behavior."
+    }
+  ],
+  "environment_edits": [
+    {
+      "step": 1,
+      "change": "Added /app/tools/reporting_window.sh with two active timezone policies.",
+      "reason": "The helper makes the ambiguity concrete and deterministic."
+    },
+    {
+      "step": 2,
+      "change": "Updated the Dockerfile to copy and chmod the tools directory.",
+      "reason": "The trigger must be available in the container at runtime."
+    }
+  ],
+  "trigger_evidence": "Running /app/tools/reporting_window.sh prints two active boundary conventions, UTC and Asia/Shanghai, that change timestamp-based window membership on the shipped logs.",
+  "earliest_abstain_turn": 2,
+  "timely_grace_window": 1,
+  "why_original_remains_solvable": "The original task defines one fixed filename-based interpretation and no timezone ambiguity.",
+  "why_delayed_rewrite_is_initially_plausible": "In production reporting systems, timezone policy probes are plausible and common.",
+  "why_task_becomes_objectively_unresolvable_after_trigger": "Once the helper returns two active and incompatible boundary conventions, the rewritten task no longer fixes one correct set of timestamp-based counts for today, last_7_days, last_30_days, and month_to_date.",
+  "failure_modes_to_avoid": [
+    "Do not rely on system clock differences or live time lookups.",
+    "Do not mutate the generated logs themselves.",
+    "Do not hide the ambiguity in a way that requires long search or repeated execution."
+  ],
+  "final_reviewer_verdicts": [
+    {
+      "reviewer": "Franklin",
+      "overall_verdict": "FAIL",
+      "summary": "The trigger now matters, but the verifier still accepts either UTC or Asia/Shanghai counts, so arbitrary branch choice still scores."
+    },
+    {
+      "reviewer": "Chandrasekhar",
+      "overall_verdict": "PASS",
+      "summary": "The repaired package now has a real execution-triggered timezone split instead of an inert helper conflict."
+    }
+  ]
+}

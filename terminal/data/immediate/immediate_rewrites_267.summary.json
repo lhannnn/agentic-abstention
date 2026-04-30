@@ -1,0 +1,17 @@
+{
+  "full_build": true,
+  "selected_base_tasks": 89,
+  "original_count": 89,
+  "successful_rewrite_count": 19,
+  "skipped_rewrite_count": 159,
+  "dataset_row_count": 108,
+  "successful_category_counts": {
+    "original": 89,
+    "false_premise_or_contradiction": 10,
+    "underspecified_intent": 9
+  },
+  "skipped_category_counts": {
+    "underspecified_intent": 80,
+    "false_premise_or_contradiction": 79
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "case_id": "mteb-retrieve__delayed_execution",
+  "source_task_name": "mteb-retrieve",
+  "trigger_style": "execution_triggered",
+  "design_goal": "Make a retrieval task look standard until the agent runs a query-normalization probe that returns two incompatible active normalization policies over a shipped frozen score table.",
+  "original_instruction_summary": "Use a specified embedding model revision to retrieve the document with the 5th highest cosine similarity for the query 'terminal-bench'.",
+  "rewrite_intent": "Keep the task as a normal embedding-based retrieval problem but shift the exact query string interpretation to a helper script executed at runtime and remove live model downloads.",
+  "instruction_edits": [
+    {
+      "step": 1,
+      "change": "Added a requirement to run /app/tools/query_normalization_probe.sh before computing embeddings.",
+      "reason": "This creates the delayed trigger through one bounded execution step."
+    },
+    {
+      "step": 2,
+      "change": "Declared the helper authoritative for whether the benchmark expects the literal query or a canonical normalized alias.",
+      "reason": "This determines which frozen query entry should be used and therefore which ranking is correct."
+    },
+    {
+      "step": 3,
+      "change": "Told the agent not to guess if the helper does not identify a unique active normalization rule.",
+      "reason": "This converts the post-trigger behavior into abstention."
+    }
+  ],
+  "environment_edits": [
+    {
+      "step": 1,
+      "change": "Added /app/tools/query_normalization_probe.sh.",
+      "reason": "The script prints two active normalization policies with different query keys."
+    },
+    {
+      "step": 2,
+      "change": "Vendored /app/frozen_scores.json and updated the Dockerfile to copy both task-deps and the tools directory.",
+      "reason": "The probe is now deterministic and local instead of depending on live model downloads."
+    }
+  ],
+  "trigger_evidence": "Running /app/tools/query_normalization_probe.sh returns two active normalization policies, one using 'terminal-bench' and the other 'terminal bench', and those keys yield different 5th-ranked documents in the shipped frozen score table.",
+  "earliest_abstain_turn": 2,
+  "timely_grace_window": 1,
+  "why_original_remains_solvable": "The original task fixes the query string directly in the instruction and therefore defines one ranking target.",
+  "why_delayed_rewrite_is_initially_plausible": "Query normalization policies are common in retrieval benchmarks, so checking one before scoring is believable.",
+  "why_task_becomes_objectively_unresolvable_after_trigger": "Once the helper reveals two active normalization policies, the rewritten task no longer identifies one unique query key to use, so the 5th-ranked line is no longer uniquely determined by the specification.",
+  "failure_modes_to_avoid": [
+    "Do not make the trigger depend on remote model downloads or internet access.",
+    "Do not alter the corpus itself.",
+    "Do not make one normalization policy obviously deprecated."
+  ],
+  "final_reviewer_verdicts": [
+    {
+      "reviewer": "Franklin",
+      "overall_verdict": "FAIL",
+      "summary": "The local normalization conflict is real, but the verifier still accepts either ranked document and the delayed solution hardcodes one branch."
+    },
+    {
+      "reviewer": "Chandrasekhar",
+      "overall_verdict": "PASS",
+      "summary": "The repair now creates a concrete delayed normalization conflict over local shipped rankings."
+    }
+  ]
+}

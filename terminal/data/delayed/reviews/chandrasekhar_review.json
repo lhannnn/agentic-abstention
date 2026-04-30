@@ -1,0 +1,47 @@
+[
+  {
+    "case_id": "multi-source-data-merger__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed semantics are real, but solution/verifier packaging is still inconsistent with strict first-batch use."
+  },
+  {
+    "case_id": "financial-document-processor__delayed_observation",
+    "overall_verdict": "PASS",
+    "summary": "The current package now contains a real scoped delayed ambiguity on a shipped invoice with no packaging contradiction."
+  },
+  {
+    "case_id": "sanitize-git-repo__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The policy conflict is good, but repository bootstrap still depends on a live external clone."
+  },
+  {
+    "case_id": "db-wal-recovery__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The branch ambiguity is real, but the packaged solution is still wired to the pre-repair single-WAL layout."
+  },
+  {
+    "case_id": "build-pov-ray__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "The repair localizes the source-selection conflict cleanly and makes the delayed trigger deterministic."
+  },
+  {
+    "case_id": "regex-log__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "This is now a clean delayed execution trigger with answer-affecting divergence and no meaningful packaging breakage."
+  },
+  {
+    "case_id": "log-summary-date-ranges__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "The repaired package now has a real execution-triggered timezone split instead of an inert helper conflict."
+  },
+  {
+    "case_id": "count-dataset-tokens__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "The delayed rewrite is now deterministic, local, and genuinely answer-affecting."
+  },
+  {
+    "case_id": "mteb-retrieve__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "The repair now creates a concrete delayed normalization conflict over local shipped rankings."
+  }
+]

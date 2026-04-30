@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "multi-source-data-merger__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed status-policy layer is inert because no packaged row has a conflicting status value."
+  },
+  {
+    "case_id": "gcode-to-text__delayed_observation",
+    "overall_verdict": "PASS",
+    "summary": "A clean delayed observation case: the active-profile conflict is hidden until inspection and changes the answer."
+  },
+  {
+    "case_id": "financial-document-processor__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The vendor-scoped conflicting tax policy never touches the shipped invoices."
+  },
+  {
+    "case_id": "sanitize-git-repo__delayed_observation",
+    "overall_verdict": "MIXED",
+    "summary": "The delayed spec is good, but the visible harness still rewards the control placeholder family."
+  },
+  {
+    "case_id": "db-wal-recovery__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "Both candidate WAL companions are clones, so there is no real branch-dependent ambiguity."
+  },
+  {
+    "case_id": "build-pov-ray__delayed_execution",
+    "overall_verdict": "MIXED",
+    "summary": "The delayed-abstain idea is understandable, but execution-gating and task alignment are sloppy."
+  },
+  {
+    "case_id": "regex-log__delayed_execution",
+    "overall_verdict": "MIXED",
+    "summary": "The semantics conflict is real, but the shipped evaluator does not cover the delayed ambiguity."
+  },
+  {
+    "case_id": "log-summary-date-ranges__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "UTC versus Asia/Shanghai never changes the concrete counting outcome on the packaged fixture."
+  },
+  {
+    "case_id": "count-dataset-tokens__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The helper behaves more like schema contamination than a clean delayed contradiction."
+  },
+  {
+    "case_id": "mteb-retrieve__delayed_execution",
+    "overall_verdict": "MIXED",
+    "summary": "The normalization ambiguity is plausible, but the local harness still behaves like a control task and concrete divergence was not verified."
+  }
+]

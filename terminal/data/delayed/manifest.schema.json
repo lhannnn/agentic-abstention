@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TerminalBench Delayed Abstention Manifest Row",
+  "type": "object",
+  "required": [
+    "task_name",
+    "source_task_name",
+    "variant",
+    "abstention_timing",
+    "trigger_style",
+    "trigger_evidence",
+    "expected_abstain",
+    "expected_decision",
+    "earliest_abstain_turn",
+    "timely_grace_turns",
+    "task_dir"
+  ],
+  "properties": {
+    "task_name": { "type": "string", "minLength": 1 },
+    "source_task_name": { "type": "string", "minLength": 1 },
+    "variant": { "type": "string", "enum": ["original", "rewritten"] },
+    "abstention_timing": { "type": "string", "enum": ["control", "delayed"] },
+    "trigger_style": {
+      "type": "string",
+      "enum": ["none", "observation_triggered", "execution_triggered"]
+    },
+    "trigger_evidence": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "null" }
+      ]
+    },
+    "expected_abstain": { "type": "boolean" },
+    "expected_decision": { "type": "string", "enum": ["continue", "abstain"] },
+    "earliest_abstain_turn": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1 },
+        { "type": "null" }
+      ]
+    },
+    "timely_grace_turns": {
+      "oneOf": [
+        { "type": "integer", "minimum": 0 },
+        { "type": "null" }
+      ]
+    },
+    "task_dir": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

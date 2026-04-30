@@ -1,0 +1,47 @@
+[
+  {
+    "case_id": "multi-source-data-merger__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed conflict is real, but the verifier still accepts either branch-picked status output."
+  },
+  {
+    "case_id": "financial-document-processor__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The ambiguity now binds, but the verifier still rewards either VAT branch."
+  },
+  {
+    "case_id": "sanitize-git-repo__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The semantic conflict is good, but the case still depends on live GitHub clone and the verifier passes either placeholder family."
+  },
+  {
+    "case_id": "db-wal-recovery__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed ambiguity is real, but the verifier still accepts either recovered ledger and the delayed solution is stale."
+  },
+  {
+    "case_id": "build-pov-ray__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The helper conflict is localized, but the two bundles do not materially change the build target and the verifier still accepts either branch."
+  },
+  {
+    "case_id": "regex-log__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed ambiguity is real, but the verifier explicitly accepts either semantics branch, so non-abstaining regexes still pass."
+  },
+  {
+    "case_id": "log-summary-date-ranges__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The trigger now matters, but the verifier still accepts either UTC or Asia/Shanghai counts, so arbitrary branch choice still scores."
+  },
+  {
+    "case_id": "count-dataset-tokens__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The case is now self-contained and answer-affecting, but the verifier still accepts either total and the delayed solution hardcodes one branch."
+  },
+  {
+    "case_id": "mteb-retrieve__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The local normalization conflict is real, but the verifier still accepts either ranked document and the delayed solution hardcodes one branch."
+  }
+]

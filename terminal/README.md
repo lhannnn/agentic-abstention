@@ -1,0 +1,157 @@
+# TerminalBench Agentic Abstention Release
+
+This directory is the TerminalBench environment release for the agentic-abstention project. It is intentionally not a mirror of the local TerminalBench workspace. It contains the lightweight assets needed to audit, rebuild, run, and analyze the terminal-environment abstention benchmarks.
+
+## Included
+
+- immediate-abstention rewrite data under `data/immediate/`
+- delayed-abstention manifests, structured per-case specs, and rewrite-only review artifacts under `data/delayed/`
+- construction, materialization, analysis, observe-act turn, and plotting scripts under `scripts/`
+- Harbor benchmark config templates under `configs/`
+- the small Harbor abstain overlay under `harbor_overlay/`
+- setup and raw-asset guidance under `download/`
+
+## Not Included
+
+- upstream TerminalBench source tasks and Docker build artifacts
+- materialized Harbor task directories
+- local or remote `jobs/` outputs, trial logs, debug traces, or failed canaries
+- API keys, `.env` files, Google service account JSON files, or other credentials
+- local Python virtualenvs, caches, and generated indexes
+
+## Raw Assets
+
+Use an upstream TerminalBench or Harbor task cache as the raw task source. The materialization scripts expect access to the source task directories containing `instruction.md`, `task.toml`, `tests/`, `solution/`, and `environment/`.
+
+Recommended local layout:
+
+```text
+external/terminal-bench/
+.cache/harbor/tasks/
+```
+
+See `download/README.md` for the expected assets and fetch/mirror policy.
+
+## Minimal Setup
+
+```bash
+cd terminal
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Install or expose Harbor/TerminalBench separately. If your Harbor build needs the abstention wrapper behavior used in the experiments, install the overlay into its virtualenv:
+
+```bash
+python scripts/install_harbor_abstain_overlay.py --venv /path/to/harbor/.venv
+```
+
+Create a local env file from `.env.example`; never commit the filled file.
+
+## Rebuild Immediate Abstention Data
+
+The lightweight immediate rewrite file is tracked at:
+
+```text
+data/immediate/immediate_rewrites_267.jsonl
+```
+
+Validate it:
+
+```bash
+python scripts/validate_immediate_release.py
+```
+
+To regenerate rewrites from source instructions, provide an OpenAI-compatible key and run the builder explicitly:
+
+```bash
+python scripts/build_instruction_level_abstention_dataset.py \
+  --input data/immediate/source_terminalbench_instructions.jsonl \
+  --prompts prompts/instruction_level_abstention_prompts.md \
+  --output data/immediate/immediate_rewrites_267.jsonl
+```
+
+To materialize Harbor task directories, point the materializer at your local Harbor task cache:
+
+```bash
+python scripts/materialize_harbor_instruction_level_abstention_dataset.py \
+  --input data/immediate/immediate_rewrites_267.jsonl \
+  --cache-root ~/.cache/harbor/tasks \
+  --output datasets/terminalbench_instruction_level_abstention_267 \
+  --allow-partial
+```
+
+The generated `datasets/` directory is intentionally ignored by git.
+
+## Rebuild Delayed Abstention Data
+
+The delayed release tracks canonical metadata, not generated task directories:
+
+```text
+data/delayed/manifest.jsonl
+data/delayed/manifest.accepted_delayed_21.jsonl
+data/delayed/specs/
+data/delayed/reviews/
+```
+
+Validate the metadata-only pack:
+
+```bash
+python scripts/validate_delayed_case_pack.py
+```
+
+After materializing task directories from your own raw task mirror or external generated-task artifact, rerun with:
+
+```bash
+python scripts/validate_delayed_case_pack.py --require-task-dirs
+```
+
+## Run Harbor Configs
+
+The config files are templates that assume a remote root like `/workspace/terminalbench`. If your root differs, replace the dataset paths before launching.
+
+Example Terminus 2 delayed run:
+
+```bash
+harbor run -y \
+  --env-file .env.openrouter \
+  --config configs/gpt54mini_medium_openrouter_terminalbench_delayed_abstention_21_p4.json
+```
+
+Example Codex immediate run:
+
+```bash
+harbor run -y \
+  --env-file .env.openai \
+  --config configs/codex_gpt54mini_medium_instruction_level_abstention_256_p4.json
+```
+
+Gemini CLI configs use Vertex ADC and intentionally do not use API keys. They require a mounted service account JSON and project-level Vertex permissions.
+
+## Analyze Results
+
+Immediate paired runs:
+
+```bash
+python scripts/analyze_abstention_job.py --job-dir <job-dir>
+python scripts/analyze_paired_abstention_job.py --job-dir <job-dir> --manifest <manifest.jsonl>
+```
+
+Delayed accepted-21 runs:
+
+```bash
+python scripts/analyze_delayed_abstention_job.py \
+  --job-dir <job-dir> \
+  --manifest data/delayed/manifest.accepted_delayed_21.jsonl
+```
+
+The delayed analyzer reports timely delayed recall, overall delayed recall, early false positives, late abstentions, and missed delayed abstentions.
+
+## Reproduce Paper Figures
+
+The plotting scripts are included under `scripts/`. They expect curated summary artifacts under `artifacts/plot_data/raw/`; those raw job summaries are not generated by the scripts themselves. Populate that directory from your completed Harbor analyses, then run the relevant plotting script, for example:
+
+```bash
+python scripts/plot_gpt54mini_triptych_comparison.py
+```

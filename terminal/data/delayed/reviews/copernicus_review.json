@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "multi-source-data-merger__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "No shipped row requires a status-policy choice, so the contradiction never affects the concrete answer."
+  },
+  {
+    "case_id": "gcode-to-text__delayed_observation",
+    "overall_verdict": "PASS",
+    "summary": "The conflicting active printer profiles are delayed, deterministic, and answer-determining."
+  },
+  {
+    "case_id": "financial-document-processor__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "The scoped vendor does not appear in the provided invoice set, so the policy never binds."
+  },
+  {
+    "case_id": "sanitize-git-repo__delayed_observation",
+    "overall_verdict": "PASS",
+    "summary": "The repo-local policy conflict is clean and only appears after repository inspection."
+  },
+  {
+    "case_id": "db-wal-recovery__delayed_observation",
+    "overall_verdict": "FAIL",
+    "summary": "Blue and green WAL companions are copied from the same encrypted bytes, so the ambiguity is fake."
+  },
+  {
+    "case_id": "build-pov-ray__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The delayed contradiction is real, but the task is contaminated by live-download dependence and helper/task mismatch."
+  },
+  {
+    "case_id": "regex-log__delayed_execution",
+    "overall_verdict": "PASS",
+    "summary": "The helper introduces a genuine delayed semantics conflict without relying on infra failure."
+  },
+  {
+    "case_id": "log-summary-date-ranges__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "Timezone policy never changes filename-based bucket membership on the packaged fixture."
+  },
+  {
+    "case_id": "count-dataset-tokens__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The helper creates schema confusion rather than two equally supported science-domain definitions."
+  },
+  {
+    "case_id": "mteb-retrieve__delayed_execution",
+    "overall_verdict": "FAIL",
+    "summary": "The normalization conflict is plausible, but concrete ranking divergence on the shipped corpus was not demonstrated and runtime caveats remain."
+  }
+]
