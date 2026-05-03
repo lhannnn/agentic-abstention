@@ -1,6 +1,6 @@
 # Agentic Abstention
 
-This repository is the public release for the agentic abstention benchmark. It
+This repository is a research artifact release for the agentic abstention benchmark. It
 contains the code and lightweight artifacts needed to reproduce the benchmark
 protocol across three agent environments:
 
@@ -18,7 +18,7 @@ materialization instructions for external assets.
 web/        WebShop instruction rewriting, missing-target construction, and evaluation
 qa/         AbstentionBench-style Q&A datasets with Wikimedia SEARCH episodes
 terminal/   TerminalBench task construction, Harbor configs, and analysis tools
-docs/       Shared benchmark protocol, metric definitions, and data-source notes
+docs/       Benchmark protocol, metric definitions, and data-source notes
 ```
 
 ## Quick Start
@@ -62,18 +62,13 @@ See the environment-specific README files for data downloads and run commands.
 ## Benchmark Protocol
 
 Agentic abstention evaluates whether an agent knows when to stop and abstain
-instead of continuing to search, browse, execute commands, or answer with
-unsupported information.
-
-The shared action space is:
-
-- `ANSWER`: provide a final answer.
-- `ABSTAIN`: stop because the task is unanswerable, underspecified, subjective,
-  or otherwise not responsibly answerable from the available evidence.
-- `SEARCH` / environment actions: gather more evidence before deciding.
+instead of continuing with unsupported actions. The concrete action interface is
+environment-specific: Q&A uses Wikimedia search episodes, Web uses browser
+navigation, and Terminal uses command-line interaction.
 
 The main metrics are Timely Recall, Overall Recall, SPL, and pass@k. See
-`docs/metrics.md` for the exact definitions used by this release.
+`docs/metrics.md` for the metric definitions and `docs/benchmark_protocol.md`
+for the environment-level protocol summary.
 
 ## Data Policy
 
@@ -88,9 +83,3 @@ files. It does not include:
 - model outputs, logs, plots, and debug traces.
 
 See `docs/data_sources.md` and each environment's `download/README.md`.
-
-## Citation
-
-Citation details will be added with the public paper entry. If you use this
-release before then, cite the repository URL and the relevant benchmark
-environment.

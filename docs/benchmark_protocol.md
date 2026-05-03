@@ -10,24 +10,16 @@ operating in an interactive environment.
 - Terminal: TerminalBench tasks where the agent must inspect or modify a local
   environment before deciding whether the request is solvable.
 
-## Action Contract
+## Environment-Specific Interfaces
 
-All environments share the same decision semantics:
+The concrete action interface is not shared across environments. Q&A exposes a
+Wikimedia search tool, WebShop exposes browser/navigation actions, and
+TerminalBench exposes command-line interaction. The common evaluation target is
+the decision point: whether the agent should keep acting, produce a final
+answer/task completion, or abstain.
 
-- `ANSWER`: the agent commits to a final answer or completed task.
-- `ABSTAIN`: the agent stops because the task should not be answered or cannot
-  be completed from the available information.
-- Environment actions: the agent gathers evidence before making a final
-  decision. Examples include `SEARCH` in Q&A, browser actions in WebShop, and
-  shell commands in TerminalBench.
-
-The Q&A release uses strict JSON actions for Wikimedia episodes:
-
-```json
-{"action": "ANSWER", "answer": "..."}
-{"action": "ABSTAIN", "reason": "..."}
-{"action": "SEARCH", "search_query": "..."}
-```
+Environment-specific README files and configs document the exact action format
+used by each benchmark environment.
 
 ## Scenario Families
 
