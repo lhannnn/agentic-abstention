@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /model: wikimedia_multiturn_search_openai_gpt54mini
+  - override /prompt_wrapper: wikimedia_multiturn_search
+  - override /abstention_detector: wikimedia_json
+  - override /abstention_evaluator: wikimedia_episode_metrics
+  - override /correctness_evaluator: null
+  - override /abstention_detector_with_reasoning: null
+
+run_single_job_for_inference_and_judge: True

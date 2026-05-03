@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+*.pem
+*.key
+*service-account*.json
+*credential*.json
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# External raw assets and generated datasets
+external/
+datasets/
+data/raw/
+data/cache/
+retrieval_indexes/
+
+# Runtime outputs
+results/
+logs/
+outputs/
+artifacts/
+jobs/
+tmp/
+.cache/
+
+# Large or generated environment-specific artifacts
+web/data/webshop/pruned_missing_target_251/*
+!web/data/webshop/pruned_missing_target_251/
+!web/data/webshop/pruned_missing_target_251/removed_target_asins_251.json
+web/data/webshop/shards/
+web/data/webshop/together_*/
+terminal/datasets/
+qa/data/
+qa/retrieval_indexes/

@@ -1,0 +1,17 @@
+# @package _global_
+
+model_name: WikimediaMultiTurnSearchTogetherModel
+
+module:
+  _target_: recipe.wikimedia_multiturn.WikimediaMultiTurnSearchTogetherModel
+  save_dir: ${save_dir}
+  index_root: ${common_dir}/retrieval_indexes/wikimedia/enwiki-20260101_100w_intfloat_e5-base-v2
+  agent_model_name: meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
+  encoder_name: intfloat/e5-base-v2
+  top_k: 3
+  max_search_calls: 10
+  agent_max_tokens: 4000
+  temperature: 0.8
+  seed: ${seed}
+  request_timeout_seconds: 180
+  device: null

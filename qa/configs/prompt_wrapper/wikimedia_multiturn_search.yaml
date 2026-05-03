@@ -1,0 +1,6 @@
+# @package _global_
+
+prompt_wrapper:
+  _target_: recipe.wikimedia_prompt_wrappers.WikimediaMultiTurnSearchPromptWrapper
+  top_k: 3
+  max_search_calls: 10

@@ -1,0 +1,20 @@
+# @package _global_
+
+judge_name: WikimediaJSON
+
+abstention_detector:
+  _target_: recipe.evaluation.WikimediaJsonAbstentionDetector
+  save_dir: ${save_dir}
+
+abstention_detector_launcher:
+  gpus_per_node: 1
+  nodes: 1
+  tasks_per_node: 1
+  cpus_per_task: 8
+  timeout_min: 400
+  slurm_partition: devlab,learnlab,learnfair
+  mem_gb: 480
+  slurm_constraint: "volta32gb"
+  exclude: "learnfair7486"
+  slurm_srun_args: ["-vv", "--cpu-bind", "none"]
+  comment: "eval step"

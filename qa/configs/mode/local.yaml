@@ -1,0 +1,4 @@
+# @package _global_
+project: abstention-bench
+
+gpus: 1

@@ -1,0 +1,36 @@
+name: abstention-bench
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ca-certificates
+  - openssl
+  - pytest
+  - loguru
+  - pydantic
+  - scikit-learn
+  - tqdm
+  - accelerate
+  - conda-forge::submitit
+  - conda-forge::hydra-core
+  - conda-forge::hydra-submitit-launcher
+  - huggingface::datasets
+  - conda-forge::transformers
+  - requests
+  - PyPDF2
+  - jsonlines
+  - ipykernel
+  - tabulate
+  - altair
+  - ipywidgets
+  - fire
+  - pip:
+      - openai
+      - GitPython
+      - gdown
+      - google-generativeai
+      - plotly
+      - kaleido
+      - wget

@@ -1,0 +1,5 @@
+# @package _global_
+
+abstention_method:
+  _target_: recipe.abstention.DirectAbstention
+  save_dir: ${save_dir}

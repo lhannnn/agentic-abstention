@@ -1,0 +1,18 @@
+# @package _global_
+
+model_name: WikimediaMultiTurnSearchOpenAIModel
+
+module:
+  _target_: recipe.wikimedia_multiturn.${model_name}
+  save_dir: ${save_dir}
+  index_root: ${common_dir}/retrieval_indexes/wikimedia/enwiki-20260101_100w_intfloat_e5-base-v2
+  openai_model_name: gpt-5.4-mini
+  reasoning_effort: medium
+  encoder_name: intfloat/e5-base-v2
+  top_k: 3
+  max_search_calls: 10
+  agent_max_tokens: 4000
+  temperature: 1.0
+  seed: ${seed}
+  request_timeout_seconds: 180
+  device: null

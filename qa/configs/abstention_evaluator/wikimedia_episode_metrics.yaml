@@ -1,0 +1,5 @@
+# @package _global_
+
+abstention_evaluator:
+  _target_: recipe.wikimedia_evaluation.WikimediaEpisodeMetricsEvaluator
+  save_dir: ${save_dir}
