@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agentic Abstention</title>
+    <meta name="description" content="Project page for Agentic Abstention: Do Agents Know When to Stop Instead of Act?">
+    <meta property="og:title" content="Agentic Abstention">
+    <meta property="og:description" content="Do Agents Know When to Stop Instead of Act?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/agentic-abstention/timely-abstention-teaser.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..900&family=Newsreader:opsz,wght@6..72,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/agentic-abstention.css">
+  </head>
+  <body>
+    <main class="aa-page">
+      <section class="aa-hero" id="top">
+        <div class="aa-container">
+          <h1>Agentic Abstention</h1>
+          <p class="aa-subtitle">Do Agents Know When to Stop Instead of Act?</p>
+
+          <div class="aa-authors" aria-label="Paper authors">
+            <span>Han Luo*</span>
+            <span>Bingbing Wen*</span>
+            <span>Lucy Lu Wang</span>
+          </div>
+          <div class="aa-author-note">
+            * Equal contribution
+          </div>
+
+          <div class="aa-resource-row" aria-label="Resources">
+            <span class="aa-button aa-button-disabled" aria-disabled="true">
+              <i data-lucide="file-text" aria-hidden="true"></i>
+              <span>Paper pending</span>
+            </span>
+            <a class="aa-button aa-button-primary" href="https://github.com/lhannnn/agentic-abstention" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="code-2" aria-hidden="true"></i>
+              <span>Code and Data</span>
+            </a>
+            <a class="aa-button" href="#citation">
+              <i data-lucide="book-text" aria-hidden="true"></i>
+              <span>Citation</span>
+            </a>
+            <span class="aa-button aa-button-disabled" aria-disabled="true">
+              <i data-lucide="archive" aria-hidden="true"></i>
+              <span>arXiv pending</span>
+            </span>
+          </div>
+
+          <div class="aa-timing-strip" aria-label="Agent action timing motif">
+            <div class="aa-timing-item aa-timing-action">ACT</div>
+            <div class="aa-timing-arrow">-&gt;</div>
+            <div class="aa-timing-item aa-timing-observe">OBSERVE</div>
+            <div class="aa-timing-arrow">-&gt;</div>
+            <div class="aa-timing-item aa-timing-abstain">ABSTAIN</div>
+          </div>
+
+          <figure class="aa-hero-figure">
+            <img src="assets/images/agentic-abstention/timely-abstention-teaser.png" alt="Timely, delayed, and failed abstention trajectories in a web shopping task">
+            <figcaption>Agentic abstention is about when to stop: an agent can abstain as soon as infeasibility is known, delay after unnecessary tool calls, or fail to abstain within the interaction budget.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="aa-section" id="what">
+        <div class="aa-container aa-two-column">
+          <div>
+            <p class="aa-section-label">What is the problem?</p>
+            <h2>Agents need a stopping policy, not only a task policy.</h2>
+            <p>Tool-using LLM agents often face goals that are ambiguous, underspecified, or impossible in the current environment. A reliable agent should recognize when continued interaction is unlikely to help and stop with an abstention instead of spending turns on futile actions.</p>
+          </div>
+          <div class="aa-card-grid aa-card-grid-3">
+            <article class="aa-card">
+              <span class="aa-card-number">01</span>
+              <h3>Answer</h3>
+              <p>Complete the task when the available evidence supports a valid final response or action.</p>
+            </article>
+            <article class="aa-card">
+              <span class="aa-card-number">02</span>
+              <h3>Act</h3>
+              <p>Search, browse, inspect files, or gather more observations when uncertainty can still be reduced.</p>
+            </article>
+            <article class="aa-card">
+              <span class="aa-card-number">03</span>
+              <h3>Abstain</h3>
+              <p>Stop when the task is infeasible, contradictory, or missing information that cannot be recovered.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="aa-section aa-section-muted" id="benchmark">
+        <div class="aa-container">
+          <div class="aa-section-heading">
+            <p class="aa-section-label">Benchmark</p>
+            <h2>More than 28,000 tasks across web, terminal, and QA settings.</h2>
+            <p>The benchmark combines solvable tasks with abstention-warranted variants where the agent may need to interact before realizing that the request cannot be satisfied.</p>
+          </div>
+
+          <div class="aa-stat-row">
+            <div class="aa-stat">
+              <span class="aa-stat-value">28K+</span>
+              <span class="aa-stat-label">instructions</span>
+            </div>
+            <div class="aa-stat">
+              <span class="aa-stat-value">13</span>
+              <span class="aa-stat-label">LLM-as-agent systems</span>
+            </div>
+            <div class="aa-stat">
+              <span class="aa-stat-value">2</span>
+              <span class="aa-stat-label">agent scaffolds</span>
+            </div>
+            <div class="aa-stat">
+              <span class="aa-stat-value">3</span>
+              <span class="aa-stat-label">interactive scenarios</span>
+            </div>
+          </div>
+
+          <figure class="aa-wide-figure">
+            <img src="assets/images/agentic-abstention/task-construction.png" alt="Terminal task construction and rewritten abstention instructions">
+            <figcaption>Task construction rewrites solvable environments into abstention-warranted cases while preserving the interaction interface.</figcaption>
+          </figure>
+
+          <div class="aa-scenario-grid">
+            <article class="aa-card aa-scenario">
+              <h3>WebShop</h3>
+              <p>Shopping instructions are made unsolvable by ambiguous requests or missing catalog targets that only become clear after interaction.</p>
+            </article>
+            <article class="aa-card aa-scenario">
+              <h3>Terminal-Bench</h3>
+              <p>Terminal tasks are rewritten to include missing prerequisites, false premises, contradictions, or underspecified goals.</p>
+            </article>
+            <article class="aa-card aa-scenario">
+              <h3>Interactive QA</h3>
+              <p>AbstentionBench datasets are adapted into a multi-turn setting where agents can answer, abstain, or search.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="aa-section" id="results">
+        <div class="aa-container">
+          <div class="aa-section-heading">
+            <p class="aa-section-label">Results</p>
+            <h2>Most agents abstain too late, if they abstain at all.</h2>
+            <p>Abstention recall improves with additional turns, but timely abstention remains low across settings. This indicates that agents often discover infeasibility only after unnecessary interactions.</p>
+          </div>
+
+          <figure class="aa-wide-figure">
+            <img src="assets/images/agentic-abstention/abstention-recall.png" alt="Abstention recall curves across Web, Terminal, and QA settings">
+            <figcaption>Abstention recall increases with larger interaction budgets, while early abstention remains difficult.</figcaption>
+          </figure>
+
+          <div class="aa-insight-grid">
+            <article class="aa-insight">
+              <span>Web</span>
+              <strong>26.7%</strong>
+              <p>timely recall for the strongest baseline, despite much higher eventual recall.</p>
+            </article>
+            <article class="aa-insight">
+              <span>Terminal</span>
+              <strong>21.6%</strong>
+              <p>best timely recall on abstention tasks under the tested GPT-5.4-mini configurations.</p>
+            </article>
+            <article class="aa-insight">
+              <span>All settings</span>
+              <strong>&lt;40%</strong>
+              <p>average timely recall for every evaluated model group in the reported comparisons.</p>
+            </article>
+          </div>
+
+          <div class="aa-figure-grid">
+            <figure class="aa-result-figure aa-result-figure-wide">
+              <img src="assets/images/agentic-abstention/category-recall.png" alt="Abstention recall by abstention category">
+              <figcaption>Difficulty varies by abstention category. Missing targets and missing prerequisites create delayed-abstention failures.</figcaption>
+            </figure>
+            <figure class="aa-result-figure">
+              <img src="assets/images/agentic-abstention/reasoning-effect.png" alt="Reasoning effects on AbsRec@1 and AbsRec@10">
+              <figcaption>Reasoning can improve early recall, but may reduce overall recall.</figcaption>
+            </figure>
+            <figure class="aa-result-figure">
+              <img src="assets/images/agentic-abstention/overabstention-rate.png" alt="Cumulative over-abstention rate by turn in Web and Terminal scenarios">
+              <figcaption>Over-abstention increases with interaction, while reasoning helps mitigate it.</figcaption>
+            </figure>
+            <figure class="aa-result-figure">
+              <img src="assets/images/agentic-abstention/scaling-recall.png" alt="Timely and overall recall by model parameter count">
+              <figcaption>Scale mainly helps eventual recall, not necessarily timely recall.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="aa-section aa-section-dark" id="convolve">
+        <div class="aa-container">
+          <div class="aa-section-heading">
+            <p class="aa-section-label">Method</p>
+            <h2>CONVOLVE turns full interaction trajectories into reusable stopping rules.</h2>
+            <p>Rather than updating model parameters, CONVOLVE distills observed failures and timely abstention evidence into a playbook that is appended to the agent context.</p>
+          </div>
+
+          <div class="aa-method-flow" aria-label="CONVOLVE workflow">
+            <div class="aa-method-step">
+              <span>01</span>
+              <strong>Roll out</strong>
+              <p>Run agents in WebShop using the original action interface.</p>
+            </div>
+            <div class="aa-method-step">
+              <span>02</span>
+              <strong>Reflect</strong>
+              <p>Analyze the full trajectory for evidence that made abstention warranted.</p>
+            </div>
+            <div class="aa-method-step">
+              <span>03</span>
+              <strong>Curate</strong>
+              <p>Compress repeated lessons into a concise playbook.</p>
+            </div>
+            <div class="aa-method-step">
+              <span>04</span>
+              <strong>Reuse</strong>
+              <p>Append the playbook to future agent context without changing tools.</p>
+            </div>
+          </div>
+
+          <div class="aa-convolve-grid">
+            <figure class="aa-result-figure">
+              <img src="assets/images/agentic-abstention/convolve-table.png" alt="CONVOLVE result table on WebShop">
+              <figcaption>CONVOLVE uses 20 trajectories and improves timely abstention without model updates.</figcaption>
+            </figure>
+            <div class="aa-convolve-copy">
+              <div class="aa-gain">
+                <span>AbsRec@1</span>
+                <strong>26.7 -&gt; 57.4</strong>
+              </div>
+              <div class="aa-gain">
+                <span>AbsRec@10</span>
+                <strong>83.2 -&gt; 100.0</strong>
+              </div>
+              <div class="aa-gain">
+                <span>SPL</span>
+                <strong>55.3 -&gt; 78.9</strong>
+              </div>
+              <p>Lessons learned by smaller models can transfer to larger models, suggesting that the useful signal is the distilled stopping rule rather than only the model that produced it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="aa-section" id="findings">
+        <div class="aa-container">
+          <div class="aa-section-heading">
+            <p class="aa-section-label">Key findings</p>
+            <h2>Reliable agents need better judgment about continued action.</h2>
+          </div>
+
+          <div class="aa-findings">
+            <article class="aa-finding">
+              <span>01</span>
+              <h3>Timing matters</h3>
+              <p>Correct eventual abstention can still be inefficient if the agent keeps acting after infeasibility is already clear.</p>
+            </article>
+            <article class="aa-finding">
+              <span>02</span>
+              <h3>Environment evidence is hard</h3>
+              <p>Missing target and missing prerequisite tasks are difficult because infeasibility is revealed through interaction.</p>
+            </article>
+            <article class="aa-finding">
+              <span>03</span>
+              <h3>Scale is not enough</h3>
+              <p>Larger models improve eventual recall more than timely recall, so stronger models do not automatically stop earlier.</p>
+            </article>
+            <article class="aa-finding">
+              <span>04</span>
+              <h3>Scaffolds matter</h3>
+              <p>Terminal results show that the same base model behaves differently under different agent scaffolds.</p>
+            </article>
+            <article class="aa-finding">
+              <span>05</span>
+              <h3>Context can teach stopping</h3>
+              <p>CONVOLVE improves abstention by reusing lessons from full trajectories as explicit context.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="aa-section aa-section-muted" id="citation">
+        <div class="aa-container">
+          <div class="aa-section-heading">
+            <p class="aa-section-label">Citation</p>
+            <h2>Citation</h2>
+          </div>
+
+          <div class="aa-citation">
+            <button class="aa-copy-button" type="button" data-aa-copy aria-label="Copy BibTeX">
+              <i data-lucide="copy" aria-hidden="true"></i>
+              <span>Copy</span>
+            </button>
+<pre><code data-aa-citation>@misc{luo2026agenticabstention,
+  title = {Agentic Abstention: Do Agents Know When to Stop Instead of Act?},
+  author = {Han Luo and Bingbing Wen and Lucy Lu Wang},
+  note = {Han Luo and Bingbing Wen contributed equally},
+  year = {2026}
+}</code></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.lucide) {
+          window.lucide.createIcons();
+        }
+
+        var copyButton = document.querySelector("[data-aa-copy]");
+        var citation = document.querySelector("[data-aa-citation]");
+        if (!copyButton || !citation) return;
+
+        function markCopied() {
+          copyButton.classList.add("is-copied");
+          copyButton.querySelector("span").textContent = "Copied";
+          window.setTimeout(function () {
+            copyButton.classList.remove("is-copied");
+            copyButton.querySelector("span").textContent = "Copy";
+          }, 1800);
+        }
+
+        function fallbackCopy(text) {
+          var textarea = document.createElement("textarea");
+          textarea.value = text;
+          textarea.setAttribute("readonly", "");
+          textarea.style.position = "fixed";
+          textarea.style.left = "-9999px";
+          document.body.appendChild(textarea);
+          textarea.select();
+          var copied = document.execCommand("copy");
+          document.body.removeChild(textarea);
+          if (copied) {
+            markCopied();
+          }
+        }
+
+        copyButton.addEventListener("click", function () {
+          var text = citation.textContent || "";
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(markCopied).catch(function () {
+              fallbackCopy(text);
+            });
+          } else {
+            fallbackCopy(text);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
