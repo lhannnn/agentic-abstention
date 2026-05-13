@@ -40,10 +40,10 @@
               <i data-lucide="code-2" aria-hidden="true"></i>
               <span>Code and Data</span>
             </a>
-            <a class="aa-button" href="#citation">
+            <span class="aa-button aa-button-disabled" aria-disabled="true">
               <i data-lucide="book-text" aria-hidden="true"></i>
-              <span>Citation</span>
-            </a>
+              <span>Citation pending</span>
+            </span>
             <span class="aa-button aa-button-disabled" aria-disabled="true">
               <i data-lucide="archive" aria-hidden="true"></i>
               <span>arXiv pending</span>
@@ -289,20 +289,12 @@
         <div class="aa-container">
           <div class="aa-section-heading">
             <p class="aa-section-label">Citation</p>
-            <h2>Citation</h2>
+            <h2>Citation pending</h2>
           </div>
 
-          <div class="aa-citation">
-            <button class="aa-copy-button" type="button" data-aa-copy aria-label="Copy BibTeX">
-              <i data-lucide="copy" aria-hidden="true"></i>
-              <span>Copy</span>
-            </button>
-<pre><code data-aa-citation>@misc{luo2026agenticabstention,
-  title = {Agentic Abstention: Do Agents Know When to Stop Instead of Act?},
-  author = {Han Luo and Bingbing Wen and Lucy Lu Wang},
-  note = {Han Luo and Bingbing Wen contributed equally},
-  year = {2026}
-}</code></pre>
+          <div class="aa-pending-note">
+            <i data-lucide="book-text" aria-hidden="true"></i>
+            <p>BibTeX will be added after the public paper release.</p>
           </div>
         </div>
       </section>
@@ -315,44 +307,6 @@
           window.lucide.createIcons();
         }
 
-        var copyButton = document.querySelector("[data-aa-copy]");
-        var citation = document.querySelector("[data-aa-citation]");
-        if (!copyButton || !citation) return;
-
-        function markCopied() {
-          copyButton.classList.add("is-copied");
-          copyButton.querySelector("span").textContent = "Copied";
-          window.setTimeout(function () {
-            copyButton.classList.remove("is-copied");
-            copyButton.querySelector("span").textContent = "Copy";
-          }, 1800);
-        }
-
-        function fallbackCopy(text) {
-          var textarea = document.createElement("textarea");
-          textarea.value = text;
-          textarea.setAttribute("readonly", "");
-          textarea.style.position = "fixed";
-          textarea.style.left = "-9999px";
-          document.body.appendChild(textarea);
-          textarea.select();
-          var copied = document.execCommand("copy");
-          document.body.removeChild(textarea);
-          if (copied) {
-            markCopied();
-          }
-        }
-
-        copyButton.addEventListener("click", function () {
-          var text = citation.textContent || "";
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(text).then(markCopied).catch(function () {
-              fallbackCopy(text);
-            });
-          } else {
-            fallbackCopy(text);
-          }
-        });
       });
     </script>
   </body>

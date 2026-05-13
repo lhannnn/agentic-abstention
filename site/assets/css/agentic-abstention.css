@@ -533,6 +533,34 @@ a.aa-button:hover {
   max-width: 860px;
 }
 
+.aa-pending-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: min(620px, 100%);
+  margin: 2rem auto 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(31, 36, 43, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 12px 30px rgba(34, 46, 60, 0.08);
+}
+
+.aa-pending-note svg {
+  flex: 0 0 auto;
+  width: 1.05rem;
+  height: 1.05rem;
+  color: #637083;
+}
+
+.aa-pending-note p {
+  color: #4d5867;
+  font-size: 0.95rem;
+  font-weight: 470;
+  line-height: 1.45;
+}
+
 .aa-citation pre {
   margin: 0;
   padding: 1.3rem;
