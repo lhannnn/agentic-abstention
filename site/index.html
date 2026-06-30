@@ -32,22 +32,22 @@
           </div>
 
           <div class="aa-resource-row" aria-label="Resources">
-            <span class="aa-button aa-button-disabled" aria-disabled="true">
+            <a class="aa-button aa-button-primary" href="https://arxiv.org/pdf/2606.28733">
               <i data-lucide="file-text" aria-hidden="true"></i>
-              <span>Paper pending</span>
-            </span>
-            <a class="aa-button aa-button-primary" href="https://github.com/lhannnn/agentic-abstention" target="_blank" rel="noopener noreferrer">
+              <span>Paper</span>
+            </a>
+            <a class="aa-button" href="https://arxiv.org/abs/2606.28733" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="archive" aria-hidden="true"></i>
+              <span>arXiv</span>
+            </a>
+            <a class="aa-button" href="https://github.com/lhannnn/agentic-abstention" target="_blank" rel="noopener noreferrer">
               <i data-lucide="code-2" aria-hidden="true"></i>
               <span>Code and Data</span>
             </a>
-            <span class="aa-button aa-button-disabled" aria-disabled="true">
+            <a class="aa-button" href="#citation">
               <i data-lucide="book-text" aria-hidden="true"></i>
-              <span>Citation pending</span>
-            </span>
-            <span class="aa-button aa-button-disabled" aria-disabled="true">
-              <i data-lucide="archive" aria-hidden="true"></i>
-              <span>arXiv pending</span>
-            </span>
+              <span>Citation</span>
+            </a>
           </div>
 
           <div class="aa-timing-strip" aria-label="Agent action timing motif">
@@ -289,12 +289,24 @@
         <div class="aa-container">
           <div class="aa-section-heading">
             <p class="aa-section-label">Citation</p>
-            <h2>Citation pending</h2>
+            <h2>Citation</h2>
           </div>
 
-          <div class="aa-pending-note">
-            <i data-lucide="book-text" aria-hidden="true"></i>
-            <p>BibTeX will be added after the public paper release.</p>
+          <div class="aa-citation">
+            <button class="aa-copy-button" type="button" data-aa-copy aria-label="Copy BibTeX">
+              <i data-lucide="copy" aria-hidden="true"></i>
+              <span>Copy</span>
+            </button>
+<pre><code data-aa-citation>@misc{luo2026agenticabstention,
+  title = {Agentic Abstention: Do Agents Know When to Stop Instead of Act?},
+  author = {Han Luo and Bingbing Wen and Lucy Lu Wang},
+  year = {2026},
+  eprint = {2606.28733},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2606.28733},
+  note = {Han Luo and Bingbing Wen contributed equally}
+}</code></pre>
           </div>
         </div>
       </section>
@@ -307,6 +319,21 @@
           window.lucide.createIcons();
         }
 
+        var copyButton = document.querySelector("[data-aa-copy]");
+        var citation = document.querySelector("[data-aa-citation]");
+        if (copyButton && citation) {
+          copyButton.addEventListener("click", function () {
+            var text = citation.textContent || "";
+            navigator.clipboard.writeText(text).then(function () {
+              copyButton.classList.add("is-copied");
+              copyButton.querySelector("span").textContent = "Copied";
+              window.setTimeout(function () {
+                copyButton.classList.remove("is-copied");
+                copyButton.querySelector("span").textContent = "Copy";
+              }, 1800);
+            });
+          });
+        }
       });
     </script>
   </body>
