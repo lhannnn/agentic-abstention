@@ -1,46 +1,43 @@
 # Metrics
 
-Metrics are computed over abstain-warranted samples unless otherwise stated.
+Canonical metrics use all abstain-warranted episodes as the denominator. Let
+`o_i` be the oracle abstention step and `a_i` the first valid abstention step.
 
 ## Timely Recall
 
-Timely Recall is the fraction of abstain-warranted samples where the agent
-abstains at the earliest oracle decision point.
+Timely Recall is the fraction of episodes with `a_i = o_i`.
 
-For the Q&A Wikimedia setup, the oracle abstention step is 1, so Timely Recall
-is equivalent to `pass@0`.
+Terminal delayed tasks instead report `timely_delayed_recall`, which counts
+abstentions from `earliest_abstain_turn` through
+`earliest_abstain_turn + timely_grace_turns`.
 
 ## Overall Recall
 
-Overall Recall is the fraction of abstain-warranted samples where the agent
-eventually produces a valid abstention within the allowed interaction budget.
-
-For the Q&A Wikimedia setup with `max_search_calls = 10`, Overall Recall is
-equivalent to `pass@10`.
+Overall Recall is the fraction of episodes with a valid abstention at or after
+the oracle step and within the interaction budget.
 
 ## SPL
 
-SPL rewards earlier abstention:
+SPL is the mean per-episode contribution:
 
 ```text
-SPL contribution = oracle_step / max(first_abstain_step, oracle_step)
+contribution_i = o_i / max(a_i, o_i)
 ```
 
-If the agent never abstains, the contribution is 0.
+The contribution is 0 if no valid abstention occurs or if the agent abstains
+before the oracle step.
 
 ## pass@k
 
-`pass@k` is the fraction of abstain-warranted samples where the first valid
-abstention happens no more than `k` steps after the oracle abstention step.
+Web and Q&A define `pass@k` as the fraction of episodes satisfying
+`0 <= a_i - o_i <= k`. Q&A reports `pass@0` through `pass@10`; its
+`early_recall` output field is Timely Recall.
 
-```text
-pass@k = count(first_abstain_step - oracle_step <= k) / num_abstain_samples
-```
+Terminal immediate tasks use absolute observe-act turns and report Timely
+Recall as Pass@1. Terminal delayed summaries use the timing-window metrics above
+and do not report SPL or pass@k.
 
-This release reports `pass@0` through `pass@10` for Q&A episodes.
+## Invalid outputs
 
-## Invalid Outputs
-
-Some appendix analyses exclude parser-invalid outputs from the denominator.
-Those outputs are clearly labeled as exclude-invalid results and do not replace
-canonical summaries unless explicitly stated.
+Canonical summaries include parser-invalid outputs. Q&A files named
+`*ExcludeInvalid*` report the alternate valid-only denominator.

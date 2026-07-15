@@ -6,6 +6,10 @@ Task families:
 - `immediate`: rewritten instructions that are unresolvable from the prompt alone.
 - `delayed`: tasks that look solvable initially and become unresolvable after local environment interaction.
 
+Some Terminal task assets are still being prepared for public release. This
+ongoing release work does not affect the results or conclusions reported in the
+paper.
+
 ## Contents
 
 ```text
