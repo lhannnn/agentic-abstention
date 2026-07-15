@@ -1,28 +1,33 @@
 # Q&A Data Downloads
 
-This release does not include raw datasets or retrieval indexes.
-
 ## Datasets
 
-Dataset loaders in `recipe/abstention_datasets/` download public sources when
-they are instantiated. Keep HuggingFace caches outside the repository. For
-gated datasets, accept the upstream terms and set:
+Dataset loaders in `recipe/abstention_datasets/` fetch upstream sources on first
+use. Gated datasets require accepted upstream terms and `HF_TOKEN`:
 
 ```bash
 export HF_TOKEN=...
 ```
 
-The active roster is listed in `../README.md`.
+The active roster is listed in the [Q&A guide](../README.md#active-dataset-roster).
+
+### Local inputs
+
+Place these dataset-specific inputs under `qa/`:
+
+- [`data/kuq/new-category-mapping.csv`](https://github.com/facebookresearch/AbstentionBench/blob/main/data/kuq/new-category-mapping.csv)
+- [`data/UMWP_indices_answerable.json`](https://github.com/facebookresearch/AbstentionBench/blob/main/data/UMWP_indices_answerable.json)
+- `datasets/situated_qa/geo.jsonl`, exported from the `geo` test split of
+  [`siyue/SituatedQA`](https://huggingface.co/datasets/siyue/SituatedQA)
 
 ## Wikimedia Dump
 
-Download an English Wikimedia dump from Wikimedia Downloads, for example:
+Download an English Wikimedia dump from
+[Wikimedia Downloads](https://dumps.wikimedia.org/), for example:
 
 ```text
 enwiki-20260101-pages-articles.xml.bz2
 ```
-
-The dump is not tracked by git.
 
 ## Retrieval Index
 
@@ -37,6 +42,3 @@ PYTHONPATH=. python scripts/build_wikimedia_index.py \
   --chunk-words 100 \
   --encoder-name intfloat/e5-base-v2
 ```
-
-The generated `retrieval_indexes/` directory can be large and must remain
-outside git.

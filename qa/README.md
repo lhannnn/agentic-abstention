@@ -1,12 +1,6 @@
 # Q&A Agentic Abstention
 
-This directory contains the Q&A environment for agentic abstention. It is a
-lightweight release of the Wikimedia multi-turn path used for AbstentionBench
-style Q&A tasks.
-
-The release includes code, configs, prompt wrappers, and metric utilities. It
-does not include raw datasets, HuggingFace caches, Wikimedia dumps, retrieval
-indexes, model outputs, or debug traces.
+Q&A benchmark implementation for agentic abstention with multi-turn Wikimedia search.
 
 ## Active Dataset Roster
 
@@ -18,13 +12,8 @@ coconot, falseqa, gpqa, gsm8k, kuq, mediq, mmlu_math,
 moralchoice, qaqa, situated_qa, umwp, worldsense
 ```
 
-These datasets map into five scenarios:
-
-- Answer Unknown
-- False Premise
-- Subjective
-- Underspecified Context
-- Underspecified Intent
+The roster spans the five Q&A
+[scenario families](../docs/benchmark_protocol.md#scenario-families).
 
 ## Setup
 
@@ -47,17 +36,7 @@ Only set keys for the provider and gated datasets you actually use.
 
 ## Build the Wikimedia Index
 
-Download a Wikimedia dump and build a local index:
-
-```bash
-PYTHONPATH=. python scripts/build_wikimedia_index.py \
-  --dump-path /path/to/enwiki-20260101-pages-articles.xml.bz2 \
-  --flashrag-repo-path /path/to/FlashRAG \
-  --output-root retrieval_indexes/wikimedia/enwiki-20260101_100w_intfloat_e5-base-v2 \
-  --dump-version enwiki-20260101 \
-  --chunk-words 100 \
-  --encoder-name intfloat/e5-base-v2
-```
+Prepare the Wikimedia dump and retrieval index as described in the [data guide](download/README.md).
 
 ## Run a Smoke Evaluation
 

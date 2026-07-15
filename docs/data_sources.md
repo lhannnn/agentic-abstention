@@ -1,49 +1,29 @@
 # Data Sources
 
-The repository does not vendor raw datasets or large indexes. Use the links and
-instructions below to reconstruct each environment.
+External data and indexes are prepared separately for each environment.
 
 ## Web
 
-The Web environment depends on the upstream WebShop codebase and raw product
-search assets. See `web/download/README.md` for the expected files and
-directory layout.
+The Web environment uses the upstream
+[WebShop](https://github.com/princeton-nlp/WebShop) codebase and product-search
+assets. See the [Web asset guide](../web/download/README.md).
 
 ## Q&A
 
-The Q&A environment uses a filtered active roster derived from AbstentionBench
-and related public datasets:
+The active roster is listed in the
+[Q&A guide](../qa/README.md#active-dataset-roster). Most loaders retrieve data
+from Hugging Face or project repositories at runtime; gated sources require
+upstream access and `HF_TOKEN`. SituatedQA and dataset-specific metadata are
+local inputs documented in the [Q&A data guide](../qa/download/README.md).
 
-- ALCUNA
-- BBQ
-- BigBench Disambiguate
-- BigBench Known Unknowns
-- CoCoNot
-- FalseQA
-- GPQA
-- GSM8K
-- KUQ
-- MediQ
-- MMLU Math
-- MoralChoice
-- QAQA
-- SituatedQA
-- UMWP
-- WorldSense
-
-Dataset loaders download from their upstream HuggingFace or project sources at
-runtime. Some sources, such as GPQA, may require accepting upstream terms and
-setting `HF_TOKEN`.
-
-The Wikimedia search environment requires:
-
-- an English Wikimedia XML dump, such as `enwiki-20260101-pages-articles.xml.bz2`,
-- FlashRAG preprocessing utilities,
-- a local dense retrieval index built with `qa/scripts/build_wikimedia_index.py`.
+Wikimedia search requires an English XML dump,
+[FlashRAG](https://github.com/RUC-NLPIR/FlashRAG), and a local dense retrieval
+index.
 
 ## Terminal
 
-The Terminal environment builds on TerminalBench and Harbor. The release tracks
-rewrite metadata, prompt templates, configs, and validation scripts, but not
-materialized task directories or job outputs. See `terminal/download/README.md`
-and `terminal/README.md`.
+The Terminal environment builds on
+[TerminalBench](https://github.com/harbor-framework/terminal-bench) and
+[Harbor](https://github.com/harbor-framework/harbor). Materialize runnable tasks
+from an upstream task cache or mirror using the tracked rewrite metadata and
+specs. See the [Terminal asset guide](../terminal/download/README.md).

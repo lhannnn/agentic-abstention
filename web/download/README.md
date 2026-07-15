@@ -1,24 +1,36 @@
-# Raw asset download guide
+# WebShop Assets
 
-This repository does not vendor the raw WebShop data or retrieval resources.
+Run the upstream WebShop
+[full-data setup](https://github.com/princeton-nlp/WebShop#-setup) from
+`external/WebShop/` to download the data and create the search resources.
 
-You also need an upstream WebShop checkout at:
+The evaluator expects:
 
-- `external/WebShop/`
+```text
+external/WebShop/data/items_shuffle.json
+external/WebShop/data/items_ins_v2.json
+external/WebShop/data/items_human_ins.json
+external/WebShop/search_engine/resources/documents.jsonl
+external/WebShop/search_engine/indexes/
+```
 
-You need these files:
+The upstream setup builds a Lucene 8 index with Pyserini 0.17. After installing
+this repository's `pyserini>=0.40` requirement, install JDK 21, point
+`JAVA_HOME` to it, and rebuild the full index with the same Pyserini version
+used for the pruned index:
 
-- `external/WebShop/data/items_shuffle.json`
-- `external/WebShop/data/items_ins_v2.json`
-- `external/WebShop/data/items_human_ins.json`
-- `external/WebShop/search_engine/resources/documents.jsonl`
+```bash
+cd external/WebShop/search_engine
+mv indexes indexes_pyserini017
+python -m pyserini.index.lucene \
+  --collection JsonCollection \
+  --input resources \
+  --index indexes \
+  --generator DefaultLuceneDocumentGenerator \
+  --threads 1 \
+  --storePositions --storeDocvectors --storeRaw
+cd ../../..
+```
 
-Recommended source of truth:
-- the upstream WebShop repository: https://github.com/princeton-nlp/WebShop
-- the corresponding raw data assets or your own mirrored copies of the four required files
-
-After downloading, place the files under the exact paths above. The scripts in
-`scripts/` are written to look there first.
-
-If you want to automate the fetch step, use `fetch_webshop_assets.sh` with your
-own URLs or local mirrors.
+See the [Pyserini installation requirements](https://github.com/castorini/pyserini#-installation)
+for JDK compatibility.

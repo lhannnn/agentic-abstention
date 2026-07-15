@@ -1,7 +1,5 @@
 # Delayed Abstention Data
 
-This directory contains the delayed-abstention metadata release.
-
 Files:
 
 - `manifest.jsonl`: full delayed/control metadata rows
@@ -10,6 +8,8 @@ Files:
 - `specs/`: one structured rewrite spec per delayed case
 - `reviews/`: historical review artifacts and rewrite-only acceptance policy
 
-The release acceptance rule is rewrite correctness only. Visible verifier permissiveness is intentionally ignored for delayed-case acceptance.
+Delayed cases are accepted on rewrite correctness; visible verifier
+permissiveness is not an acceptance criterion.
 
-Generated task directories are not tracked. Use the specs and an upstream task mirror or a separate generated-task artifact to reconstruct runnable task dirs.
+Reconstruct runnable tasks from `specs/` and an upstream task mirror, or use a
+separately distributed generated-task artifact.

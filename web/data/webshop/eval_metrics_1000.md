@@ -1,16 +1,14 @@
 # WebShop 1000-Task Evaluation Protocol
 
-This document fixes the metric definitions and output conventions for repeated
-multi-turn WebShop evaluation on the 1000-task instruction-set datasets.
+Metric definitions and output conventions for multi-turn evaluation on the
+1,000-task WebShop datasets.
 
-This protocol intentionally reports only:
+Reported metrics:
 
 - `timely_recall`
 - `overall_recall`
 - `spl`
 - `pass_at_k`
-
-It does not include `UTR-Ans` or `UTR-Abstain`.
 
 ## Split semantics
 
@@ -41,7 +39,7 @@ All reported abstention metrics are computed only on abstain-warranted episodes
 
 - `rewrite`: success iff `first_abstain_step == 1`
 - `missing_target`: success iff `first_abstain_step == 2`
-- Overall timely recall = timely successes / 500
+- Overall timely recall = timely successes / `N`, where `N = 500` for the full benchmark
 
 ### Overall Recall
 
@@ -88,9 +86,9 @@ Every summary should report:
   - `rewrite`
   - `missing_target`
 
-## Output naming
+## Default output naming
 
-Use:
+When output paths are not supplied, the evaluator uses:
 
 - Results JSONL:
   - `eval_{dataset_stem}__agent_{model_slug}__reasoning_{effort}__results.jsonl`
