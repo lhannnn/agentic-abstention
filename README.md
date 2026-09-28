@@ -3,7 +3,9 @@
 Agentic Abstention benchmarks whether interactive agents recognize when a task
 is unresolvable and abstain before taking unsupported actions.
 
-[Paper](https://arxiv.org/abs/2606.28733) · [Project page](https://lhannnn.github.io/agentic-abstention/)
+**Accepted to [NeurIPS 2026](https://neurips.cc/virtual/2026/poster/150912).**
+
+[📄 Paper](https://arxiv.org/abs/2606.28733) · [🌐 Project Page](https://lhannnn.github.io/agentic-abstention/)
 
 ## Environments
 
